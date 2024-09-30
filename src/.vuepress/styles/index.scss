@@ -1,0 +1,66 @@
+// place your custom styles here
+.highlight-red {
+    color: tomato;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+.highlight-violet {
+    color: Violet;
+    font-weight: bold;
+    font-size: x-large;
+}
+.highlight-gray {
+    color: LightGray;
+}
+.date {
+    color: Gray;
+    font-size: small
+}
+.td-blue {
+    border: 1px solid #ddd;
+    background-color:lightSteelblue;
+}
+.td-grey {
+    border: 1px solid #ddd;
+    background-color: grey;
+    color: lightsteelblue;
+}
+.underline-blue {
+    text-decoration: underline dotted skyblue 3px;
+    font-weight: bold;
+}
+.details-border {
+    border: 1px solid grey; 
+    margin-top: 10px;
+    padding: 10px;
+}
+.details-border-list {
+    border: 1px solid grey; 
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.details-border-list-end {
+    border: 1px solid grey; 
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.details-title {
+    color:royalblue;
+}
+.details-title:hover {
+    text-decoration: underline;
+}
+.image-table {
+    width: 120px;
+    border-radius: 3px;
+}
+// .img-button {
+//     float: left;
+//     border-radius: 8px;
+//     width: 35px;
+//     height: 30px;
+//     border: 1px solid gray;
+// }

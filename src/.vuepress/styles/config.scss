@@ -1,0 +1,15 @@
+// you can change config here
+$theme-color: #096dd9;
+$colors: #cf1322, #fa541c, #f39c12, #2ecc71, #25a55b, #10a5a5, #096dd9, #aa6fe9,
+  #eb2f96 !default;
+
+/* Code Block */
+// only available with shiki highlighter
+$code-color: (
+  light: #383a42,
+  dark: #abb2bf,
+) !default;
+$code-bg-color: (
+  light: #ecf4fa,
+  dark: #282c34,
+) !default;
