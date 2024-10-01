@@ -16,7 +16,7 @@ export default hopeTheme({
 
   logo: "/wiki-assets/banner/kana_icon.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "Suzy-27/wiki-nashima/",
 
   docsDir: "src",
 
@@ -38,12 +38,12 @@ export default hopeTheme({
 
   editLink: false,
 
-  lastUpdated: true,
-
-  // page meta
-  // metaLocales: {
-  //   editLink: "在 GitHub 上编辑此页",
-  // },
+  //page meta
+   metaLocales: {
+    lastUpdated: "最后更新时间",
+    contributors: "",
+    // editLink: "在 GitHub 上编辑此页",
+   },
 
   //encrypt: {
   //  config: {

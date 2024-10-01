@@ -2,6 +2,7 @@
 icon: house
 title: 据点情报
 ---
+## <div style class="text-bg-grey"> 据点情报 <i class="fa-solid fa-house" style="color: lightSteelblue"></i></div>
 
 ::: details 持有的房产
 

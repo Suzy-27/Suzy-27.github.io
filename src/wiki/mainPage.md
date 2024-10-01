@@ -54,8 +54,8 @@ next: gallery.md
     <tr>
         <td style class="td-blue">所有组织*1</td>
         <td style class="td-blue"><i class="fa-solid fa-gem"></i><br><i class="fa-solid fa-gun"></i></td>
-        <td><b>私营赌场   '23/09/29〜</b><br> 
-        <b>FEMME FATALE   '24/05/28〜</b></td>
+        <td><b>私营赌场</b> <span class="date">'23/09/29〜</span><br> 
+        <b>FEMME FATALE</b> <span class="date">'24/05/28〜</span></td>
     </tr>
     <tr>
         <td style class="td-blue">所属</td>
@@ -81,7 +81,7 @@ next: gallery.md
         <td style class="td-blue">チャンク</td>
         <td style class="td-blue"><i class="fa-solid fa-spinner fa-spin-pulse"></i></td>
         <td><b>共5次</b><details style="font-size:0.9em">
-        <summary style class="details-title">一览</summary><br>
+        <summary style class="details-title-zero">一览</summary><br>
         &emsp;利子 <span class="date">'23/10/30</span><br> 
         &emsp;みてるぞ <span class="date">'24/01/13</span><br> 
         &emsp;＜● <span class="date">'24/03/19</span><br> 
@@ -119,13 +119,13 @@ next: gallery.md
     <tr>
         <td style class="td-blue">其他角色</td>
         <td style class="td-blue"><i class="fa-solid fa-user-plus"></i></td>
-        <td>剧透注意 文月 なえ、文月 夏苗</td>
+        <td><details><summary style class="details-title-zero">剧透注意</summary><br>&emsp;文月 なえ、文月 夏苗</details></td>
     </tr>
 </table>
 
 <img src="/wiki-assets/banner/kana_CharacterBanner2.png" alt="Kana Banner">
 
-## 基本情报 
+## <div style class="text-bg-grey"> 基本情报 <i class="fa-solid fa-address-card" style="color: lightSteelblue"></i></div>
 
 ### <span style class="text-bg-blue"> ▷ 基本情报&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; </span>
 
@@ -139,14 +139,14 @@ next: gallery.md
 <ul>
     <li>介于茶色和黑色之间的发色。在帮派初期曾是短发，现在则是团子头或是麻花辫之类的长发。</li>
     <li>不常以素颜示人，经常戴着蓝色的面具，非常爱用，甚至申请将其物品化。</li>
-    <li><details><summary style class="details-title-zero">关于其戴着单眼罩的右眼</summary>
+    <li><details style class="details-newline"><summary>关于其戴着单眼罩的右眼</summary>
     <div style class="details-border">
     <ul><li>惯用眼是左眼。</li></ul><br>
     <p style class="underline-black">自从右眼戴上单眼罩后的故事</p><br>
     <ul>
     <b>'24/03/21</b> →逃亡生活中，为了隐藏真实身份，进行了警察档案伪造。<br>
     由于面部没有很大的外貌变化的话就无法变更，决定伤害右眼以制造外伤。<br>
-    虽然右眼损失的确定性还未被观测到，但是从这一天起，与右眼失去相关的言行 <details style="display:inline"><summary style class="details-title-zero">※</summary> 
+    虽然右眼损失的确定性还未被观测到，但是从这一天起，与右眼失去相关的言行 <details style class="details-inline"><summary>※</summary> 
      (枪的命中率下降，不希望对方站在自己右边，公开表示无法完全躲开、看不见从右侧驶来的车辆等）</details> 逐渐增多。<br>
     <b>'24/04/12</b> →从秘书那里收到了随时可以进行移植手术的备用眼珠。<br>
     听说只要有天才医生，就可以进行移植手术，得知了ゆちゃ姐正在寻找这位天才医生。<br>
@@ -162,7 +162,7 @@ next: gallery.md
 ### <span class="text-bg-blue"> ▷ 趣味嗜好&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; </span>
 
 - 喜欢露出较少，色调单一这类低调的服装。
-- 经常吸烟但并不是因为喜欢才吸。爱用的牌子是”GOLDMASTER_川上“ <details style="display:inline"><summary style class="details-title-zero">※</summary>（是川上烟草店1包50万元的最高级品。据说可以感受到富豪感。）</details>
+- 经常吸烟但并不是因为喜欢才吸。爱用的牌子是”GOLDMASTER_川上“ <details style class="details-newline"><summary>※</summary>（是川上烟草店1包50万元的最高级品。据说可以感受到富豪感。）</details>
 - （所使用的香水是菲拉格慕男士系列）
 
 ### <span class="text-bg-blue"> ▷ 性格&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; </span>
@@ -211,8 +211,8 @@ next: gallery.md
     <li>靠着绝不外传的连续技【真·黑闪】成为了格斗最强人。风靡一时。</li>
     <li>被其强大魅力所吸引的门徒不在少数，许多希望在格斗中成名的市民也常常登门拜师。</li>
     </ul>
-    <details>
-        <summary style class="details-title-zero">> 招式一览</summary>
+    <details style class="details-newline">
+        <summary>> 招式一览</summary>
         <div style class="details-border">
         <b>连续技【真·黑闪】</b>
         <ul>
@@ -220,7 +220,7 @@ next: gallery.md
         <li>招式可以打断强者所施放的【黑闪】并反击，只有对方同样施放【真·黑闪】时才会根据物理条件决定胜负。</li>
         <li>为了保持出拳的最高速度，必须对招式有极高的熟练度。在流派内，会将这一行为称为【磨练咒力】。</li>
         <li>出招方式为极秘事项，只有各个帮派Boss等有限的人在支付了1亿学费后才会予以传授。</li>
-        <details><summary style class="details-title-zero">> 传授者</summary><br>
+        <details style class="details-newline"><summary>> 传授者</summary><br>
             MonD(ALLIN Boss)、RB(ALLIN 干部)、ヴァン ダーマー(MOZU Boss)、菖蒲 光樹(IRiS Boss)、アルフォート ウェスカー(餡ブレラ(Anbrella) Boss) 
         </details></ul>
         <b>奇袭技【零距离滑铲】</b>
@@ -265,7 +265,7 @@ next: gallery.md
         <li>在多次使用后会升级为VIP会员。</li>
         <li>服务时间由無馬主导。结束后需要支付费用到指定ID。</li>
     </ul>
-        <details><summary style class="details-title-zero">> 选单</summary>
+        <details style class="details-newline"><summary>> 选单</summary>
         <div style class="details-border-list">
         <ul>
         <li>女性：一起以打棒球的姿势欢快互动。（无语音）</li>
@@ -290,7 +290,7 @@ next: gallery.md
         <li>融资的利率比上述利率低。</li>
         <li>对于无力偿还债务的借款人，会提供工作介绍等还款方式的建议。</li>
         </ul>
-        <details><summary style class="details-title-zero">> 债务者一览</summary>
+        <details style class="details-newline"><summary>> 债务者一览</summary>
         <div style class="details-border-list">
         <ul>
         <li>切間 てつお：某次其在赌场散财后借款，日后为高利贷常客。</li>
@@ -405,8 +405,8 @@ next: gallery.md
 <ul>
 <li>经由警察局袭击一事，确认了自己的价值观与Boss以外的组织成员有着无论如何对话都无法填埋的沟壑存在。</li>
 <li>为了自身的正义，也为了通过痛苦促进成员成长为目的，用火箭筒(RPG)爆杀了现场的所有人
-<details style="display:inline"><summary style class="details-title-zero">※</summary>（包括因误判了爆炸范围而无意中卷入的Boss在内的，参与警察局袭击的全员）</details> 后逃亡。</li>
-<details><summary style class="details-title-zero">详细的动机</summary>
+<details style class="details-inline"><summary>※</summary>（包括因误判了爆炸范围而无意中卷入的Boss在内的，参与警察局袭击的全员）</details> 后逃亡。</li>
+<details><summary style class="details-title">详细的动机</summary>
     <div style class="details-border">
     ARCANA建立了以前就感受到的与其他ALLIN成员之间的感性差异（比如，作为一个提倡”Boss First“的组织的存在方式，以及作为同样是在这个城市生活的市民的价值观差异等），再加之一直以来强调的”全员都是主人公也同时是配角“这一对街道的尊重精神并没有被成员所理解的失望，以及对这次做出这种跟自身的正义所背道而驰行为的成员们只发表了快感的感想的无奈，全部加起来的最后，在半冲动的想法的驱使下，射出了那一发火箭筒。
     </div>
@@ -420,7 +420,7 @@ next: gallery.md
 <li>从ARCANA兼ALLIN成员的月ノ島处得知了ALLIN内部模糊不清的情况后，转向了ARCANA计划。</li>
 <li>在走上了无法偏袒特定组织立场后，重回ALLIN的道路也随之消失了。</li>
 <li>经过数月后，回顾当时ALLIN的应对，认为其结果并不是自己所期望的。
-<details style="display:inline"><summary style class="details-title-zero">※</summary>（评价其采取了敷衍与消极的解决方式 “应该是没有下定决心扣动扳机吧。” “说真心的，我曾希望他们能做出决断要求我给背叛的事实做一个交代。” “我并不记得曾教导过他们这样的帮派画像。”）</details> </li>
+<details style class="details-newline"><summary>※</summary>（评价其采取了敷衍与消极的解决方式 “应该是没有下定决心扣动扳机吧。” “说真心的，我曾希望他们能做出决断要求我给背叛的事实做一个交代。” “我并不记得曾教导过他们这样的帮派画像。”）</details> </li>
 </ul>
 :::
 
@@ -429,7 +429,7 @@ next: gallery.md
 <li>在辞退了ALLIN专属私人医生职位后的如今，处在逃亡生活的自己又重回了私人医生的职位。</li>
 <li>在考虑返还执照的同时，作为不管是黑市民还是白市民都会予以治疗的中立私人医生进行活动。</li>
 <li>在取得白市民证的时候，由于有被剥夺的风险，基本很少主动介入犯罪现场。</li>
-<li>已经重回黑市民的现在，在辞去私人医生职位的师傅的嘱托下 <details style="display:inline"><summary style class="details-title-zero">※</summary> “就拜托身为师兄的你了”</details>，继续以Doctor K的身份活动中。</li>
+<li>已经重回黑市民的现在，在辞去私人医生职位的师傅的嘱托下 <details style class="details-newline"><summary>※</summary> “就拜托身为师兄的你了”</details>，继续以Doctor K的身份活动中。</li>
 </ul>
 <details>
     <summary style class="details-title">> 活动方针</summary>
@@ -504,12 +504,12 @@ next: gallery.md
         <ul>
             <li>变更SIM卡。</li>
             <li>准备全新的车辆，避免使用無馬经常使用的物品。</li>
-            <li><details><summary style class="details-title">变装</summary><br>
+            <li>变装 <details style class="details-newline"><summary>※</summary>
             → 一头上了年纪的白发，随意的装扮仿佛刚从诊所里出来，发间埋着一朵白色的花。</details></li>
             <li>更新警方档案的照片。</li>
-            <li>由于更新档案照片要求外貌的变化，故挖掉右眼并佩戴眼罩。</li>
-            <details><summary style class="details-title">注意</summary><br>
-            右眼损失的确定性还未被观测到，但自那天起，表明失去右眼的言行增多。</details>
+            <li>由于更新档案照片要求外貌的变化，故挖掉右眼并佩戴眼罩。
+            <details style class="details-newline"><summary>注意</summary> 
+            右眼损失的确定性还未被观测到，但自那天起，表明失去右眼的言行增多。</details></li>
             <li>把头发以一种独特的造型梳上去，是無馬不曾会有的发型。</li>
         </ul>
         <li>不管是黑市民还是白市民都会平等治疗，同时积极介入犯罪现场。</li>
@@ -534,14 +534,14 @@ next: gallery.md
 <ul>
     <li>退出ALLIN后，由于一个月没有逮捕记录而获得了白市民证的申请资格。</li>
     <li>为了暗地里的ARCANA计划能更顺利的推进，考虑到其中可以利用的优势 
-    <details style="display:inline"><summary style class="details-title-zero">※</summary>（可以就职3个职位，以及作为一种掩人耳目手段的可能性）</details>，顺势成为了白市民。</li>
+    <details style class="details-newline"><summary>※</summary>（可以就职3个职位，以及作为一种掩人耳目手段的可能性）</details>，顺势成为了白市民。</li>
     <li>由于平时戴着蓝色面具的样子会被视作犯罪者，在作为白市民的期间，主要以“素颜+单眼罩”的形象行动。</li>
     <li>在取得白市民证后，注册了各种许可执照，尽量避免任何会导致证件被吊销的行为。</li>
     <li>在持续了半年后，发现白市民身份没什么意义
-    <details style="display:inline"><summary style class="details-title-zero">※</summary>
+    <details style class="details-newline"><summary>※</summary>
     <ul>
         <li>即使出示证件，大多数人还是报以怀疑，而这种情况在半年后依然持续。</li>
-        <li>当在做职业介绍时，被怀疑是否在引导对方从事犯罪，甚至在介绍对方去当警察的时候，给其带来了负面影响。</li>
+        <li>当在做职业介绍时，被怀疑是否在引导对方从事犯罪，甚至在介绍对方去当警察的时候，给其带来了负面影响。&emsp;&emsp;&emsp;&emsp;&emsp;</li>
         <li>原本感兴趣的狩猎活动并不是白市民限定。</li>
     </ul></details> 遂决定归还证件</li>
 </ul>

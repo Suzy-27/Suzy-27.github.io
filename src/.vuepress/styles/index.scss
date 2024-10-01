@@ -24,11 +24,14 @@
 .td-blue {
     border: 1px solid #ddd;
     background-color:lightSteelblue;
+    color: dimgrey;
+    font-weight: bold;
 }
 .td-grey {
     border: 1px solid #ddd;
     background-color: grey;
     color: lightsteelblue;
+    font-weight: bold;
 }
 
 // dotted blue underline
@@ -51,6 +54,19 @@
     font-weight: bold;
     background-color:lightSteelblue;
     color: dimgrey;
+    padding: 3px 3px 3px 3px;
+}
+.text-bg-grey {
+    font-weight: bold;
+    background-color: rgb(71, 71, 71);
+    color:#ddd;
+    padding: 10px 10px 10px 10px;
+    border-left: orange 3px solid;
+}
+.text-bg-white {
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+    border-left: orange 3px solid;
 }
 
 // details border
@@ -88,17 +104,40 @@
 .details-title:hover {
     text-decoration: underline;
 }
-// summary with 0 margin
-.details-title-zero {
+// details in new line
+.details-newline {
+    display: inline;
+}
+.details-newline[open] {
+    display: block;
+}
+.details-newline > summary {
     display: inline-flex;
     color:royalblue;
     cursor: pointer;
     list-style-type: none;
 }
-.details-title-zero::-webkit-details-marker, .details-title-zero::marker {
+.details-newline > summary::-webkit-details-marker, .details-newline > summary::marker {
     display: none;
 }
-.details-title-zero:hover {
+.details-newline > summary:hover {
+    text-decoration: underline;
+}
+
+// details in one line
+.details-inline {
+    display: inline;
+}
+.details-inline > summary {
+    display: inline-flex;
+    color:royalblue;
+    cursor: pointer;
+    list-style-type: none;
+}
+.details-inline > summary::-webkit-details-marker, .details-inline > summary::marker {
+    display: none;
+}
+.details-inline > summary:hover {
     text-decoration: underline;
 }
 

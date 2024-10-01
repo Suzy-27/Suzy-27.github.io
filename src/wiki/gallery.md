@@ -2,7 +2,7 @@
 icon: image
 title: 画廊
 ---
-
+## <div style class="text-bg-grey"> 画廊 <i class="fa-solid fa-image" style="color: lightSteelblue"></i></div>
 ::: details Logo、贴纸
 <table>
     <tr>

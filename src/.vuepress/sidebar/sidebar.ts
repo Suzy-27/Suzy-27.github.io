@@ -23,6 +23,7 @@ export const wikiSidebar = sidebar({
           icon: "users",
           link: "/wiki/friendship/",
           prefix: "wiki/friendship",
+          collapsible: true,
           children: [
             {
               text: "自组织",
@@ -75,7 +76,10 @@ export const wikiSidebar = sidebar({
           icon: "calendar",
           prefix: "wiki/history/",
           children: [
-            "",
+            {
+              text: "年表",
+              link: "",
+            },
             {
               text: "剧情故事",
               link: "/wiki/history/episode/",
