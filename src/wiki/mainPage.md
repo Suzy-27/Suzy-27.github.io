@@ -127,7 +127,7 @@ next: gallery.md
 
 ## <div style class="text-bg-grey"> 基本情报 <i class="fa-solid fa-address-card" style="color: lightSteelblue"></i></div>
 
-### <span style class="text-bg-blue"> ▷ 基本情报&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; </span>
+### <div style class="text-bg-blue"> ▷ 基本情报 </div>
 
 - 拥有100年前从犯罪者金盆洗手成为警察的独特经历的记忆。
 - 性格友善，擅长交涉，曾担任帮派ALLIN的Underboss一职。
@@ -135,7 +135,7 @@ next: gallery.md
 - 现任赌场老板，兴办黑色产业，掌握着城市的经济要脉。
 - 目前作为秘密组织ARCANA的首领，暗中活动并掌控着城市的黑社会局势。<br>
 
-### <span style class="text-bg-blue"> ▷ 外貌&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  </span>
+### <div style class="text-bg-blue"> ▷ 外貌 </div>
 <ul>
     <li>介于茶色和黑色之间的发色。在帮派初期曾是短发，现在则是团子头或是麻花辫之类的长发。</li>
     <li>不常以素颜示人，经常戴着蓝色的面具，非常爱用，甚至申请将其物品化。</li>
@@ -159,13 +159,13 @@ next: gallery.md
     <li>脖子左侧和背部（作为参考样本）纹着ARCANA的纹身。</li>
 </ul>
 
-### <span class="text-bg-blue"> ▷ 趣味嗜好&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; </span>
+### <div class="text-bg-blue"> ▷ 趣味嗜好 </div>
 
 - 喜欢露出较少，色调单一这类低调的服装。
 - 经常吸烟但并不是因为喜欢才吸。爱用的牌子是”GOLDMASTER_川上“ <details style class="details-newline"><summary>※</summary>（是川上烟草店1包50万元的最高级品。据说可以感受到富豪感。）</details>
 - （所使用的香水是菲拉格慕男士系列）
 
-### <span class="text-bg-blue"> ▷ 性格&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; </span>
+### <div class="text-bg-blue"> ▷ 性格 </div>
 
 极度注重效率且完美主义的A型血性格&ensp; {.underline-blue}
 
@@ -192,7 +192,7 @@ next: gallery.md
 - 能敏锐地察觉对方痛苦的情绪，看到他人烦恼时，会主动上前打招呼。
 - 强烈仰慕身为旧识的MonD，即使离开了他，仍然对“MonD是这里最强的”这件事深信不疑。
 
-### <span class="text-bg-blue"> ▷ 能力&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; </span>
+### <div class="text-bg-blue"> ▷ 能力 </div>
 
 驾驶能力&ensp; {.underline-blue}
 
@@ -309,7 +309,7 @@ next: gallery.md
     </div>
 </details>
 
-### <span class="text-bg-blue"> ▷ 作为帮众的無馬&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; </span>
+### <div class="text-bg-blue"> ▷ 作为帮众的無馬 </div>
 
 与一同建立帮派的初始成员一起担任了组织中核位置的Underboss职位，日后成为了Boss最信任的手下，是实际上的ALLIN No.2。
 <details>
@@ -424,7 +424,7 @@ next: gallery.md
 </ul>
 :::
 
-### <span class="text-bg-blue"> ▷ 作为私人医生的無馬&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; </span>
+### <div class="text-bg-blue"> ▷ 作为私人医生的無馬 </div>
 <ul>
 <li>在辞退了ALLIN专属私人医生职位后的如今，处在逃亡生活的自己又重回了私人医生的职位。</li>
 <li>在考虑返还执照的同时，作为不管是黑市民还是白市民都会予以治疗的中立私人医生进行活动。</li>
@@ -530,7 +530,7 @@ next: gallery.md
     </div>
 </details>
 
-### <span class="text-bg-blue"> ▷ 作为白市民的無馬&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; </span>
+### <div class="text-bg-blue"> ▷ 作为白市民的無馬 </div>
 <ul>
     <li>退出ALLIN后，由于一个月没有逮捕记录而获得了白市民证的申请资格。</li>
     <li>为了暗地里的ARCANA计划能更顺利的推进，考虑到其中可以利用的优势 
@@ -547,7 +547,7 @@ next: gallery.md
 </ul>
 <img src="/wiki-assets/banner/kana_CharacterBanner.png" alt="Kana Banner">
 
-### <span class="text-bg-blue"> ▷ 無馬的过去&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; </span>
+### <div class="text-bg-blue"> ▷ 無馬的过去 </div>
 <details>
     <summary style class="details-title">> 关于出身</summary>
     <div style class="details-border-list">

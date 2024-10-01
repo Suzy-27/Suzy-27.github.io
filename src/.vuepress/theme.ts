@@ -12,6 +12,8 @@ export default hopeTheme({
   },
   darkmode: "toggle",
 
+  pageInfo: false,
+
   iconAssets: "fontawesome-with-brands",
 
   logo: "/wiki-assets/banner/kana_icon.png",

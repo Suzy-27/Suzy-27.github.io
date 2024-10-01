@@ -6,7 +6,7 @@ title: 交友关系
 
 兼任的情况下：自组织>所属组织>他组织，上部组织>下部组织，或按加入或就职顺序排列。 {.date}
 
-### <span style class="text-bg-blue"> ▷ 自组织&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; </span>
+### <div style class="text-bg-blue"> ▷ 自组织 </div>
 
 [無馬集团](./self/nsm-group.md)
 
@@ -14,7 +14,7 @@ title: 交友关系
 
 [FEMME FATALE](./self/femme-fatale.md)
 
-### <span style class="text-bg-blue"> ▷ 帮派&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; </span>
+### <div style class="text-bg-blue"> ▷ 帮派 </div>
 
 [ALLIN](./gang/allin.md)
 
@@ -30,13 +30,13 @@ title: 交友关系
 
 [TOPGRAR](./gang/topgear.md)
 
-### <span style class="text-bg-blue"> ▷ 黑市民&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; </span>
+### <div style class="text-bg-blue"> ▷ 黑市民 </div>
 
 [私人医生](./black/doctor.md)
 
 [其他](./black/other.md)
 
-### <span style class="text-bg-blue"> ▷ 白市民&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; </span>
+### <div style class="text-bg-blue"> ▷ 白市民 </div>
 
 [警察](./white/police.md)
 
