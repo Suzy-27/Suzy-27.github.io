@@ -16,6 +16,11 @@
     color: Gray;
     font-size: small
 }
+.inline {
+    display: inline;
+}
+
+// table background color
 .td-blue {
     border: 1px solid #ddd;
     background-color:lightSteelblue;
@@ -25,10 +30,30 @@
     background-color: grey;
     color: lightsteelblue;
 }
+
+// dotted blue underline
 .underline-blue {
     text-decoration: underline dotted skyblue 3px;
+    text-underline-offset: 6px;
     font-weight: bold;
 }
+
+// blod & underline
+.underline-black {
+    display: inline;
+    text-decoration: underline solid;
+    text-underline-offset: 3px;
+    font-weight: bold;
+}
+
+// text blue background 
+.text-bg-blue {
+    font-weight: bold;
+    background-color:lightSteelblue;
+    color: dimgrey;
+}
+
+// details border
 .details-border {
     border: 1px solid grey; 
     margin-top: 10px;
@@ -47,12 +72,68 @@
     padding-right: 10px;
     padding-top: 10px;
 }
+
+// summary
 .details-title {
+    display: inline-flex;
     color:royalblue;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    cursor: pointer;
+    list-style-type: none;
+}
+.details-title::-webkit-details-marker, .details-title::marker {
+    display: none;
 }
 .details-title:hover {
     text-decoration: underline;
 }
+// summary with 0 margin
+.details-title-zero {
+    display: inline-flex;
+    color:royalblue;
+    cursor: pointer;
+    list-style-type: none;
+}
+.details-title-zero::-webkit-details-marker, .details-title-zero::marker {
+    display: none;
+}
+.details-title-zero:hover {
+    text-decoration: underline;
+}
+
+// rotated details
+.details-rotate {
+    // position:absolute;
+     margin-left: 1.2em;
+}
+.details-rotate > summary {
+    list-style-type: none;
+    cursor: pointer;
+}
+.details-rotate > summary::-webkit-details-marker {
+    display: none;
+}
+.details-rotate > summary::before {
+    content: "+ 详细";
+    padding-left: 7px;
+    padding-right: 8px;
+    padding-bottom: 3px;
+    border: 1px solid;
+}
+.details-rotate[open] > summary {
+    transform: rotate(90deg) translateY(-100%);
+    transform-origin: top left;
+}
+.details-rotate[open] > summary::before {
+    content: " - ";
+    padding-left: 10px;
+    padding-right: 9px;
+}
+
+// summary solid button 
+
+// image in the table 
 .image-table {
     width: 120px;
     border-radius: 3px;

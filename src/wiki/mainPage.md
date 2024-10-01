@@ -21,7 +21,7 @@ next: gallery.md
     <tr>
         <td style class="td-blue">名字</td>
         <td style class="td-blue"><i class="fa-solid fa-user"></i></td>
-        <td><spam style="font-size:0.6em">な し ま</spam><br>無馬 かな<br> Nashima Kana</td>
+        <td><span style="font-size:0.6em">な し ま</span><br>無馬 かな<br> Nashima Kana</td>
     </tr>
     <tr>
         <td style class="td-blue">出身地</td>
@@ -41,15 +41,15 @@ next: gallery.md
     <tr>
         <td style class="td-blue">职业</td>
         <td style class="td-blue"><i class="fa-solid fa-stethoscope"></i></td>
-        <td><b>私人医生</b><spam class="date">'24/03/19～(复职)</spam><br> <details style="font-size:0.9em">
-        <summary style class="details-title">过去的职业</summary><p>
-        &emsp;出租车公司菖光会 <spam class="date">司机&emsp;'23/08/02〜'23/08/27</spam><br> 
-        &emsp;帮派ALLIN <spam class="date">UB&emsp;'23/08/16〜'24/03/19</spam><br> 
-        &emsp;咖啡店Père Noël <spam class="date">店员&emsp;'23/08/23〜'23/09/15</spam><br> 
-        &emsp;私人医生 <spam class="date">ALLIN专属&emsp;'23/08/27〜'23/09/29</spam><br> 
-        &emsp;民间佣兵公司ACADEMY <spam class="date">理事长&emsp;'24/05/25〜'24/08/03</spam><br> 
-        &emsp;武器商FEMME FATALE <spam class="date">代表&emsp;'24/05/28〜'24/08/30</spam><br> 
-        &emsp;民营赌博场所赌场 <spam class="date">经理&emsp;'23/09/29〜'24/09/05</spam></p></details></td>
+        <td><b>私人医生</b><span class="date">'24/03/19～(复职)</span><br> <details style="font-size:0.9em">
+        <summary style class="details-title">过去的职业</summary><br>
+        &emsp;出租车公司菖光会 <span class="date">司机&emsp;'23/08/02〜'23/08/27</span><br> 
+        &emsp;帮派ALLIN <span class="date">UB&emsp;'23/08/16〜'24/03/19</span><br> 
+        &emsp;咖啡店Père Noël <span class="date">店员&emsp;'23/08/23〜'23/09/15</span><br> 
+        &emsp;私人医生 <span class="date">ALLIN专属&emsp;'23/08/27〜'23/09/29</span><br> 
+        &emsp;民间佣兵公司ACADEMY <span class="date">理事长&emsp;'24/05/25〜'24/08/03</span><br> 
+        &emsp;武器商FEMME FATALE <span class="date">代表&emsp;'24/05/28〜'24/08/30</span><br> 
+        &emsp;民营赌博场所赌场 <span class="date">经理&emsp;'23/09/29〜'24/09/05</span></details></td>
     </tr>
     <tr>
         <td style class="td-blue">所有组织*1</td>
@@ -81,20 +81,20 @@ next: gallery.md
         <td style class="td-blue">チャンク</td>
         <td style class="td-blue"><i class="fa-solid fa-spinner fa-spin-pulse"></i></td>
         <td><b>共5次</b><details style="font-size:0.9em">
-        <summary style class="details-title">一览</summary><p>
-        &emsp;利子 <spam class="date">'23/10/30</spam><br> 
-        &emsp;みてるぞ <spam class="date">'24/01/13</spam><br> 
-        &emsp;＜● <spam class="date">'24/03/19</spam><br> 
-        &emsp;え？ <spam class="date">'24/05/07</spam><br> 
-        &emsp;やりたいな... <spam class="date">'24/09/08</spam></p></details></td>
+        <summary style class="details-title">一览</summary><br>
+        &emsp;利子 <span class="date">'23/10/30</span><br> 
+        &emsp;みてるぞ <span class="date">'24/01/13</span><br> 
+        &emsp;＜● <span class="date">'24/03/19</span><br> 
+        &emsp;え？ <span class="date">'24/05/07</span><br> 
+        &emsp;やりたいな... <span class="date">'24/09/08</span></details></td>
     </tr>
     <tr>
         <td style class="td-blue">手机铃声</td>
         <td style class="td-blue"><i class="fa-solid fa-music"></i></td>
         <td>【if】<details style="font-size:0.9em">
-        <summary style class="details-title">过去的铃声</summary><p>
+        <summary style class="details-title">过去的铃声</summary><br>
         &emsp;【Trick】<br> 
-        &emsp;【ラヴィットパラダイス】</p></details></td>
+        &emsp;【ラヴィットパラダイス】</details></td>
     </tr>
     <tr>
         <td style class="td-grey">玩家（PL）</td>
@@ -127,7 +127,7 @@ next: gallery.md
 
 ## 基本情报 
 
-<h3> ▷ 基本情报 </h3>
+### <span style class="text-bg-blue"> ▷ 基本情报&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; </span>
 
 - 拥有100年前从犯罪者金盆洗手成为警察的独特经历的记忆。
 - 性格友善，擅长交涉，曾担任帮派ALLIN的Underboss一职。
@@ -135,39 +135,39 @@ next: gallery.md
 - 现任赌场老板，兴办黑色产业，掌握着城市的经济要脉。
 - 目前作为秘密组织ARCANA的首领，暗中活动并掌控着城市的黑社会局势。<br>
 
-<h3> ▷ 外貌 </h3>
+### <span style class="text-bg-blue"> ▷ 外貌&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  </span>
 <ul>
     <li>介于茶色和黑色之间的发色。在帮派初期曾是短发，现在则是团子头或是麻花辫之类的长发。</li>
     <li>不常以素颜示人，经常戴着蓝色的面具，非常爱用，甚至申请将其物品化。</li>
-    <li><details><summary style class="details-title">关于其戴着单眼罩的右眼</summary>
-    <div style class="details-border-list-end">
-    <ul><li>惯用眼是左眼。</li></ul>
-    <p>
-    <b><u>自从右眼戴上单眼罩后的故事</u></b><br>
-    &ensp;'24/03/21 →逃亡生活中，为了隐藏真实身份，进行了警察档案伪造。<br>
-    &ensp;由于面部没有很大的外貌变化的话就无法变更，决定伤害右眼以制造外伤。<br>
-    &ensp;虽然右眼损失的确定性还未被观测到，但是从这一天起，与右眼失去相关的言行逐渐增多。<br>
-    &ensp;(枪的命中率下降，不希望对方站在自己右边，公开表示无法完全躲开、看不见从右侧驶来的车辆等）<br>
-    &ensp;'24/04/12 →从秘书那里收到了随时可以进行移植手术的备用眼珠。<br>
-    &ensp;听说只要有天才医生，就可以进行移植手术，得知了ゆちゃ姐正在寻找这位天才医生。<br>
-    &ensp;'24/05/08 →LASIK手术完成。<br>
-    &ensp;'24/05/12 →观测到其右眼的存在。 “怎么理解就交给你们了”<br>
-    &ensp;'24/05/17 →在卫星外对于 “你装了义眼吗？”的询问，给出了一个含糊的肯定回答。
-    </p></div></details></li>
+    <li><details><summary style class="details-title-zero">关于其戴着单眼罩的右眼</summary>
+    <div style class="details-border">
+    <ul><li>惯用眼是左眼。</li></ul><br>
+    <p style class="underline-black">自从右眼戴上单眼罩后的故事</p><br>
+    <ul>
+    <b>'24/03/21</b> →逃亡生活中，为了隐藏真实身份，进行了警察档案伪造。<br>
+    由于面部没有很大的外貌变化的话就无法变更，决定伤害右眼以制造外伤。<br>
+    虽然右眼损失的确定性还未被观测到，但是从这一天起，与右眼失去相关的言行 <details style="display:inline"><summary style class="details-title-zero">※</summary> 
+     (枪的命中率下降，不希望对方站在自己右边，公开表示无法完全躲开、看不见从右侧驶来的车辆等）</details> 逐渐增多。<br>
+    <b>'24/04/12</b> →从秘书那里收到了随时可以进行移植手术的备用眼珠。<br>
+    听说只要有天才医生，就可以进行移植手术，得知了ゆちゃ姐正在寻找这位天才医生。<br>
+    <b>'24/05/08</b> →LASIK手术完成。<br>
+    <b>'24/05/12</b> →观测到其右眼的存在。 “怎么理解就交给你们了”<br>
+    <b>'24/05/17</b> →在卫星外对于 “你装了义眼吗？”的询问，给出了一个含糊的肯定回答。
+    </ul>
+    </div></details></li>
     <li>涂着黑色的指甲油，对男性用口红表示有兴趣，有着时髦的一面。</li>
     <li>脖子左侧和背部（作为参考样本）纹着ARCANA的纹身。</li>
 </ul>
 
-<h3> ▷ 趣味嗜好 </h3>
+### <span class="text-bg-blue"> ▷ 趣味嗜好&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; </span>
 
 - 喜欢露出较少，色调单一这类低调的服装。
-- 经常吸烟但并不是因为喜欢才吸。爱用的牌子是”GOLDMASTER_川上“
-（是川上烟草店1包50万元的最高级品。据说可以感受到富豪感。）
+- 经常吸烟但并不是因为喜欢才吸。爱用的牌子是”GOLDMASTER_川上“ <details style="display:inline"><summary style class="details-title-zero">※</summary>（是川上烟草店1包50万元的最高级品。据说可以感受到富豪感。）</details>
 - （所使用的香水是菲拉格慕男士系列）
 
-<h3> ▷ 性格 </h3>
+### <span class="text-bg-blue"> ▷ 性格&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; </span>
 
-极度注重效率且完美主义的A型血性格 {.underline-blue}
+极度注重效率且完美主义的A型血性格&ensp; {.underline-blue}
 
 - 只能跟同等级的A型血性格的人共享仓库。
 - 具备多任务处理能力。一边开车一边操作手机是家常便饭。可以做到多个事业并行进行。 
@@ -175,44 +175,44 @@ next: gallery.md
 - 讨厌整理垃圾物品，觉得这是浪费时间的行为，必须要把归为垃圾的物品摆得乱七八糟才会消气。
 - 专心开车是少有的行为。为了追求驾驶路线的效率而冒险，所以经常发生事故。
 
-冷酷且利己主义 {.underline-blue}
+冷酷且利己主义&ensp; {.underline-blue}
 - 很少表露感情，基本不会流泪或者是表现出寂寞的样子。
 - 认为正确与否与情感上的喜好是两回事。
 - 不穿的衣服或者是不用的物品会立即处理掉，不管是不是由他人所赠与的。
 - 房间非常简洁且不会布置装饰用的家具，只会放置最低限度必要的物品。
 - 不习惯接受别人的恩惠，对来自他人的祝贺或者礼物会感到不自在。
 
-坚持自己信念的性格 {.underline-blue}
+坚持自己信念的性格&ensp; {.underline-blue}
 - 看重恩情和义理，做事讲道理。
 - 遇到无法接受的事情，或者是跟自己有关的人受到伤害时，会立即与造成原因的组织进行直接交涉。
 - 对他人转述的意见仅作为参考，判断依据仅限于直接从本人口中得出的意见。
 
-非常会照看他人，很重视与他人的交往和联系 {.underline-blue}
+非常会照看他人，很重视与他人的交往和联系&ensp; {.underline-blue}
 - 经常倾听别人的烦恼，如果对方展示诚意，他也会给予同等程度的尊重。
 - 能敏锐地察觉对方痛苦的情绪，看到他人烦恼时，会主动上前打招呼。
 - 强烈仰慕身为旧识的MonD，即使离开了他，仍然对“MonD是这里最强的”这件事深信不疑。
 
-<h3> ▷ 能力 </h3>
+### <span class="text-bg-blue"> ▷ 能力&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; </span>
 
-驾驶能力 {.underline-blue}
+驾驶能力&ensp; {.underline-blue}
 
-<ul>拥有高超的驾驶技术，不仅在赛车中表现出色，在追逐中也展现了令人惊艳的技巧。
-在驾驶机会减少的同时实行了技术更新，因此目前正在学习手动（ST）驾驶。</ul>
+拥有高超的驾驶技术，不仅在赛车中表现出色，在追逐中也展现了令人惊艳的技巧。
+在驾驶机会减少的同时实行了技术更新，因此目前正在学习手动（ST）驾驶。
 
-战斗能力 {.underline-blue}
+战斗能力&ensp; {.underline-blue}
 
-<ul>非常擅长使用枪械，在大型犯罪活动和枪击战中经常有亮眼的表现。<br>
-会教授与无心人的战斗技巧和战术。
+非常擅长使用枪械，在大型犯罪活动和枪击战中经常有亮眼的表现。<br>
+会教授与无心人的战斗技巧和战术。 {.inline}
 <details>
-    <summary style class="details-title">無馬流格斗术</summary>
+    <summary style class="details-title">> 無馬流格斗术</summary>
     <div style class="details-border">
     以高难度的技巧为武器，注重于能否看破对手，先行出招的格斗流派。
     <ul>
     <li>靠着绝不外传的连续技【真·黑闪】成为了格斗最强人。风靡一时。</li>
     <li>被其强大魅力所吸引的门徒不在少数，许多希望在格斗中成名的市民也常常登门拜师。</li>
-    <li>
+    </ul>
     <details>
-        <summary style class="details-title">招式一览</summary>
+        <summary style class="details-title-zero">> 招式一览</summary>
         <div style class="details-border">
         <b>连续技【真·黑闪】</b>
         <ul>
@@ -220,9 +220,9 @@ next: gallery.md
         <li>招式可以打断强者所施放的【黑闪】并反击，只有对方同样施放【真·黑闪】时才会根据物理条件决定胜负。</li>
         <li>为了保持出拳的最高速度，必须对招式有极高的熟练度。在流派内，会将这一行为称为【磨练咒力】。</li>
         <li>出招方式为极秘事项，只有各个帮派Boss等有限的人在支付了1亿学费后才会予以传授。</li>
-        <li><details><summary style class="details-title">传授者</summary>
+        <details><summary style class="details-title-zero">> 传授者</summary><br>
             MonD(ALLIN Boss)、RB(ALLIN 干部)、ヴァン ダーマー(MOZU Boss)、菖蒲 光樹(IRiS Boss)、アルフォート ウェスカー(餡ブレラ(Anbrella) Boss) 
-        </details></li></ul>
+        </details></ul>
         <b>奇袭技【零距离滑铲】</b>
         <ul><li>可以让原本需要助跑一段距离才能发动的滑铲在零距离的情况下发动的招式。常用于闪避和突然袭击。</li></ul>
         <b>反击技【不义游戏】</b>
@@ -235,28 +235,27 @@ next: gallery.md
         <li>出拳或是滑铲后瞬间消失的招式。</li>
         <li>瞬间发动，没有人能捕捉到其身影。（只是睡了而已)</li>
         </ul>
-    </div></details></li></ul>
+    </div></details>
     </div>
 </details>
-</ul>
 
-外交能力 {.underline-blue}
+外交能力&ensp; {.underline-blue}
 
-<ul>头脑灵活，擅长交涉，很有远见。
+头脑灵活，擅长交涉，很有远见。 {.inline}
 <li>自身也被视为谈判的筹码，具备将自己的生命视为“消耗品”的强大意志。</li>
-</ul>
 
-许可证书 {.underline-blue}
 
-<ul>医疗执照、~~枪支执照~~、 ~~白市民证（返还）~~、~~各类驾驶执照~~
-<details><summary style class="details-title">过去取得的驾驶执照</summary>
-（标准机动车、摩托车、轻便摩托车、出租车、大型和特殊车辆、船舶、直升机、赛车、飞机和公共汽车）</details></ul>
+许可证书&ensp; {.underline-blue}
 
-经营手腕 {.underline-blue}
+医疗执照、~~枪支执照~~、 ~~白市民证（返还）~~、~~各类驾驶执照~~ {.inline}
+<details><summary style class="details-title">> 过去取得的驾驶执照</summary><br>
+标准机动车、摩托车、轻便摩托车、出租车、大型和特殊车辆、船舶、直升机、赛车、飞机和公共汽车</details>
 
-<ul>很擅长从0到1的创业，起家了许多事业。
+经营手腕&ensp; {.underline-blue}
+
+很擅长从0到1的创业，起家了许多事业。 {.inline}
 <details>
-    <summary style class="details-title">接客服务【Kana Special】</summary>
+    <summary style class="details-title">> 接客服务【Kana Special】</summary>
     <div style class="details-border">
     给客人带来治愈的接客服务。
     <ul>
@@ -265,20 +264,22 @@ next: gallery.md
         <li>服务内容会基于性别以及是否在卫星内而有所不同。</li>
         <li>在多次使用后会升级为VIP会员。</li>
         <li>服务时间由無馬主导。结束后需要支付费用到指定ID。</li>
-        <li><details><summary style class="details-title">选单</summary>
-        <div style class="details-border"><ul>
+    </ul>
+        <details><summary style class="details-title-zero">> 选单</summary>
+        <div style class="details-border-list">
+        <ul>
         <li>女性：一起以打棒球的姿势欢快互动。（无语音）</li>
         <li>男性：短暂的肢体接触。（无语音）</li>
         <li>VIP①300万元起步：享受公主抱和婴儿般的服务</li>
         <li>VIP②100万元起步：可以抱着，并哄哄宝宝Kana</li>
         <li>极上（第四次之后可选）：服务时间将由你决定</li>
-        </ul></div></details></li>
-    </ul>
+        </ul>
+        </div></details>
     </div>
 </details>
 
 <details>
-    <summary style class="details-title">金融业务【暗金無島君】</summary>
+    <summary style class="details-title">> 金融业务【暗金無島君】</summary>
     <div style class="details-border">
     面向没有钱的人的高利贷业务。
     <ul>
@@ -288,8 +289,10 @@ next: gallery.md
         <li>为了赌博而贷款的居多，但也提供用于赌博以外的融资服务。</li>
         <li>融资的利率比上述利率低。</li>
         <li>对于无力偿还债务的借款人，会提供工作介绍等还款方式的建议。</li>
-        <li><details><summary style class="details-title">债务者一览</summary>
-        <div style class="details-border"><ul>
+        </ul>
+        <details><summary style class="details-title-zero">> 债务者一览</summary>
+        <div style class="details-border-list">
+        <ul>
         <li>切間 てつお：某次其在赌场散财后借款，日后为高利贷常客。</li>
         <li>ネケ ニマス：以融资名义借款。由于是新手，无力偿还债务，最后被介绍去摘花。</li>
         <li>山本 龍也：在赌场借款，向なの借钱后偿还债务。</li>
@@ -301,17 +304,16 @@ next: gallery.md
         <li>'24/2/18）エスターク：在与MonDチンチロ中落败欠下了5亿的债务，需要5亿元以及完成毕业论文来偿还债务。</li>
         <li>'24/2/18）エスターク：在与MonDチンチロ中落败欠下了5亿的债务，需要5亿元以及完成毕业论文来偿还债务。</li>
         <li>'24/6/8）酒槻 すん：以30% 的利率贷出了1亿，并之后与其进行チンチロ。然而sun贪心不足，在第二次チンチロ输给了無馬的2ゾロ，总计欠款3.9 亿。</li>
-        </ul></div></details></li>
-    </ul>
+        </ul>
+        </div></details>
     </div>
 </details>
-</ul>
 
-<h3> ▷ 作为帮众的無馬 </h3>
+### <span class="text-bg-blue"> ▷ 作为帮众的無馬&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; </span>
 
 与一同建立帮派的初始成员一起担任了组织中核位置的Underboss职位，日后成为了Boss最信任的手下，是实际上的ALLIN No.2。
 <details>
-    <summary style class="details-title">发端</summary>
+    <summary style class="details-title">> 发端</summary>
     <div style class="details-border-list">
     <ul>
         <li>从加入了友人RB所属的薬乃 紅一伙开始了这一切。</li>
@@ -323,7 +325,7 @@ next: gallery.md
 </details>
 
 <details>
-    <summary style class="details-title">对Boss【MonD】的忠诚</summary>
+    <summary style class="details-title">> 对Boss【MonD】的忠诚</summary>
     <div style class="details-border-list">
     <ul>
         <li>Boss至上主义。公开表明不管Boss选择什么道路都将跟随其后。</li>
@@ -335,7 +337,7 @@ next: gallery.md
 </details>
 
 <details>
-    <summary style class="details-title">活动倾向</summary>
+    <summary style class="details-title">> 活动倾向</summary>
     <div style class="details-border-list">
     <ul>
         <li>担心自己的A型血完美主义会无意识强求他人配合自己，所以总是一个人行动。</li>
@@ -346,15 +348,15 @@ next: gallery.md
 </details>
 
 <details>
-    <summary style class="details-title">在组织的职务</summary>
+    <summary style class="details-title">> 在组织的职务</summary>
     <div style class="details-border-list-end">
-    <b><u>内政 · 外交</u></b>
+    <p style class="underline-black">内政 · 外交</p><br>
     <ul>
         <li>帮派成立初期负责物资管理 · 整理 · 调度，同时还一手担任交涉和外交等职务。</li>
         <li>随着初期UB成员长期休眠的次数增多，开始主动担任协调者的角色。</li>
         <li>随着组织规模的扩大，物资相关事务逐渐交接给后续的成员，转而负责外交应对和下属的咨询。</li>
     </ul>
-    <b><u>战斗</u></b>
+    <p style class="underline-black">战斗</p><br>
     <ul>
         <li>随着组织规模的扩大，物资相关事务逐渐交接给后续的成员，转而负责外交应对和下属的咨询。</li>
         <li>由于只需要很少的交流就可以和Boss配合的很好，所以会在与Boss相近的位置战斗。</li>
@@ -364,7 +366,7 @@ next: gallery.md
 </details>
 
 <details>
-    <summary style class="details-title">主要功绩</summary>
+    <summary style class="details-title">> 主要功绩</summary>
     <div style class="details-border-list">
     <ul>
         <li>在还是ALLIN专属私人医生的时候，经常应对组织内部每天随意的胡闹。就职私人医生时在名义上退出了帮派，直到偿还完退会费为止，均需要无偿救助ALLIN。</li>
@@ -374,44 +376,64 @@ next: gallery.md
     </div>
 </details>
 
-与组织脱节 {.underline-blue}
+与组织脱节&ensp; {.underline-blue}
 ::: details
-<b><u>'23年10月中旬   发现方向性上的错位。</u></b>
-- 在担任了Boss代理后，开始感觉自己的帮派画像，组织意识等等与其他成员截然不同。
+<b><u style="text-underline-offset: 3px;">'23年10月中旬   发现方向性上的错位。</u></b>
+<ul>
+<li>在担任了Boss代理后，开始感觉自己的帮派画像，组织意识等等与其他成员截然不同。</li>
+</ul>
 
-<b><u>'23年10月下旬    开始考虑离开组织。</u></b>
-- 方向上的错位感加重，且同时牛排案件几度交叠而来，导致身心俱疲。
-- 尽管有要退出组织的想法，但仍然在来自各方的挽留话语中继续履行着代理责任。
+<b><u style="text-underline-offset: 3px;">'23年10月下旬    开始考虑离开组织。</u></b>
+<ul>
+<li>方向上的错位感加重，且同时牛排案件几度交叠而来，导致身心俱疲。</li>
+<li>尽管有要退出组织的想法，但仍然在来自各方的挽留话语中继续履行着代理责任。</li>
+</ul>
 
-<b><u>'23年10月31日    别动队设立。</u></b>
-- 被Boss问及对现在的组织的想法时，坦言道：“我对现在的组织感觉不到一点魅力，是对Boss的敬爱让我继续留在这里。”
-- 因为组织里没有能代替無馬的人，为了留在组织的同时创造一个便于继续活动的环境，接受了成立别动队的提案。
-- 次日，私兵部队ARCANA正式成立。
+<b><u style="text-underline-offset: 3px;">'23年10月31日    别动队设立。</u></b>
+<ul>
+<li>被Boss问及对现在的组织的想法时，坦言道：“我对现在的组织感觉不到一点魅力，是对Boss的敬爱让我继续留在这里。”</li>
+<li>因为组织里没有能代替無馬的人，为了留在组织的同时创造一个便于继续活动的环境，接受了成立别动队的提案。</li>
+<li>次日，私兵部队ARCANA正式成立。</li>
+</ul>
 
-<b><u>'24年3月10日    引继UB · 育成后继者。</u></b>
-- 引继已经成为自身行动枷锁的UB职务给部下，同时以促进成员成长为目的，开始着手培养后继者。
+<b><u style="text-underline-offset: 3px;">'24年3月10日    引继UB · 育成后继者。</u></b>
+<ul>
+<li>引继已经成为自身行动枷锁的UB职务给部下，同时以促进成员成长为目的，开始着手培养后继者。</li>
+</ul>
 
-<b><u>'24年3月19日    乖离与退出。</u></b>
-- 经由警察局袭击一事，确认了自己的价值观与Boss以外的组织成员有着无论如何对话都无法填埋的沟壑存在。
-- 为了自身的正义，也为了通过痛苦促进成员成长为目的，用火箭筒(RPG)爆杀了现场的所有人（※ 包括因误判了爆炸范围而无意中卷入的Boss在内的，参与警察局袭击的全员）后逃亡。
-- 之后与Boss的MonD进行了一对一的会面和对话。
-- 在将谈话内容带回的Boss的方针下，没有被迫做出任何交代的自己，过了一段将近一个月的逃亡生活。
+<b><u style="text-underline-offset: 3px;">'24年3月19日    乖离与退出。</u></b>
+<ul>
+<li>经由警察局袭击一事，确认了自己的价值观与Boss以外的组织成员有着无论如何对话都无法填埋的沟壑存在。</li>
+<li>为了自身的正义，也为了通过痛苦促进成员成长为目的，用火箭筒(RPG)爆杀了现场的所有人
+<details style="display:inline"><summary style class="details-title-zero">※</summary>（包括因误判了爆炸范围而无意中卷入的Boss在内的，参与警察局袭击的全员）</details> 后逃亡。</li>
+<details><summary style class="details-title-zero">详细的动机</summary>
+    <div style class="details-border">
+    ARCANA建立了以前就感受到的与其他ALLIN成员之间的感性差异（比如，作为一个提倡”Boss First“的组织的存在方式，以及作为同样是在这个城市生活的市民的价值观差异等），再加之一直以来强调的”全员都是主人公也同时是配角“这一对街道的尊重精神并没有被成员所理解的失望，以及对这次做出这种跟自身的正义所背道而驰行为的成员们只发表了快感的感想的无奈，全部加起来的最后，在半冲动的想法的驱使下，射出了那一发火箭筒。
+    </div>
+</details>
+<li>之后与Boss的MonD进行了一对一的会面和对话。</li>
+<li>在将谈话内容带回的Boss的方针下，没有被迫做出任何交代的自己，过了一段将近一个月的逃亡生活。</li>
+</ul>
 
-<b><u>'24年4月3日    诀别。</u></b>
-- 从ARCANA兼ALLIN成员的月ノ島处得知了ALLIN内部模糊不清的情况后，转向了ARCANA计划。
-- 在走上了无法偏袒特定组织立场后，重回ALLIN的道路也随之消失了。
-- 经过数月后，回顾当时ALLIN的应对，认为其结果并不是自己所期望的。
+<b><u style="text-underline-offset: 3px;">'24年4月3日    诀别。</u></b>
+<ul>
+<li>从ARCANA兼ALLIN成员的月ノ島处得知了ALLIN内部模糊不清的情况后，转向了ARCANA计划。</li>
+<li>在走上了无法偏袒特定组织立场后，重回ALLIN的道路也随之消失了。</li>
+<li>经过数月后，回顾当时ALLIN的应对，认为其结果并不是自己所期望的。
+<details style="display:inline"><summary style class="details-title-zero">※</summary>（评价其采取了敷衍与消极的解决方式 “应该是没有下定决心扣动扳机吧。” “说真心的，我曾希望他们能做出决断要求我给背叛的事实做一个交代。” “我并不记得曾教导过他们这样的帮派画像。”）</details> </li>
+</ul>
 :::
 
-<h3> ▷ 作为私人医生的無馬 </h3>
+### <span class="text-bg-blue"> ▷ 作为私人医生的無馬&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; </span>
 <ul>
 <li>在辞退了ALLIN专属私人医生职位后的如今，处在逃亡生活的自己又重回了私人医生的职位。</li>
 <li>在考虑返还执照的同时，作为不管是黑市民还是白市民都会予以治疗的中立私人医生进行活动。</li>
 <li>在取得白市民证的时候，由于有被剥夺的风险，基本很少主动介入犯罪现场。</li>
-<li>已经重回黑市民的现在，在辞去私人医生职位的师傅的嘱托下（“就拜托身为师兄的你了”），继续以Doctor K的身份活动中。</li>
+<li>已经重回黑市民的现在，在辞去私人医生职位的师傅的嘱托下 <details style="display:inline"><summary style class="details-title-zero">※</summary> “就拜托身为师兄的你了”</details>，继续以Doctor K的身份活动中。</li>
+</ul>
 <details>
-    <summary style class="details-title">活动方针</summary>
-    <div style class="details-border">
+    <summary style class="details-title">> 活动方针</summary>
+    <div style class="details-border-list-end">
     与市长的承诺以及从师傅那里继承的意志作为核心理念。
     <ul>
         <li>无论如何都仅作为个人进行活动。</li>
@@ -424,10 +446,10 @@ next: gallery.md
 </details>
 
 <details>
-    <summary style class="details-title">活动外表</summary>
-    <div style class="details-border">
-    作为专属私人医生的习惯保留至今，上半身穿着白色的衣服。
-    <p><b><u>写真一览</u></b></p>
+    <summary style class="details-title">> 活动外表</summary>
+    <div style class="details-border-list-end">
+    作为专属私人医生的习惯保留至今，上半身穿着白色的衣服。<br>
+    <p style class="underline-black">写真一览</p>
     <table>
     <tr>
         <td><img src="/wiki-assets/clothes/doctor/dr1.png" style class="image-table"></td>
@@ -445,11 +467,11 @@ next: gallery.md
     </tr>
     </table>
     </div>
-</details>
+</details><br>
 
-<b><u>◇ 黑医生【Doctor K】</u></b>
+<p style="display:inline;"><b><u style="text-underline-offset: 3px;">◇ 黑医生【Doctor K】</u></b></p>
 <details>
-    <summary style class="details-title">详细</summary>
+    <summary style class="details-title">> 详细</summary>
     <div style class="details-border">
     ALLIN专属医生时代的名义。
     <ul>
@@ -469,9 +491,9 @@ next: gallery.md
     </div>
 </details>
 
-<b><u>◇ 中立私人医生【Doctor BONGORE】</u></b>
+<p style="display:inline;"><b><u style="text-underline-offset: 3px;">◇ 中立私人医生【Doctor BONGORE】</u></b></p>
 <details>
-    <summary style class="details-title">详细</summary>
+    <summary style class="details-title">> 详细</summary>
     <div style class="details-border">
     逃亡生活中作为生计复职时的名义。
     <ul>
@@ -482,11 +504,11 @@ next: gallery.md
         <ul>
             <li>变更SIM卡。</li>
             <li>准备全新的车辆，避免使用無馬经常使用的物品。</li>
-            <li><details><summary style class="details-title">变装</summary>
+            <li><details><summary style class="details-title">变装</summary><br>
             → 一头上了年纪的白发，随意的装扮仿佛刚从诊所里出来，发间埋着一朵白色的花。</details></li>
             <li>更新警方档案的照片。</li>
             <li>由于更新档案照片要求外貌的变化，故挖掉右眼并佩戴眼罩。</li>
-            <details><summary style class="details-title">注意</summary>
+            <details><summary style class="details-title">注意</summary><br>
             右眼损失的确定性还未被观测到，但自那天起，表明失去右眼的言行增多。</details>
             <li>把头发以一种独特的造型梳上去，是無馬不曾会有的发型。</li>
         </ul>
@@ -507,27 +529,27 @@ next: gallery.md
     </ul>
     </div>
 </details>
-</ul>
 
-<h3> ▷ 作为白市民的無馬 </h3>
+### <span class="text-bg-blue"> ▷ 作为白市民的無馬&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; </span>
 <ul>
     <li>退出ALLIN后，由于一个月没有逮捕记录而获得了白市民证的申请资格。</li>
-    <li>为了暗地里的ARCANA计划能更顺利的推进，考虑到其中可以利用的优势（可以就职3个职位，以及作为一种掩人耳目手段的可能性），顺势成为了白市民。</li>
+    <li>为了暗地里的ARCANA计划能更顺利的推进，考虑到其中可以利用的优势 
+    <details style="display:inline"><summary style class="details-title-zero">※</summary>（可以就职3个职位，以及作为一种掩人耳目手段的可能性）</details>，顺势成为了白市民。</li>
     <li>由于平时戴着蓝色面具的样子会被视作犯罪者，在作为白市民的期间，主要以“素颜+单眼罩”的形象行动。</li>
     <li>在取得白市民证后，注册了各种许可执照，尽量避免任何会导致证件被吊销的行为。</li>
-    <li>在持续了半年后，发现白市民身份没什么意义了，遂决定归还证件
-    <details><summary style class="details-title">详细原因</summary>
+    <li>在持续了半年后，发现白市民身份没什么意义
+    <details style="display:inline"><summary style class="details-title-zero">※</summary>
     <ul>
         <li>即使出示证件，大多数人还是报以怀疑，而这种情况在半年后依然持续。</li>
         <li>当在做职业介绍时，被怀疑是否在引导对方从事犯罪，甚至在介绍对方去当警察的时候，给其带来了负面影响。</li>
         <li>原本感兴趣的狩猎活动并不是白市民限定。</li>
-    </ul></details></li>
+    </ul></details> 遂决定归还证件</li>
 </ul>
 <img src="/wiki-assets/banner/kana_CharacterBanner.png" alt="Kana Banner">
 
-<h3> ▷ 無馬的过去 </h3>
+### <span class="text-bg-blue"> ▷ 無馬的过去&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; </span>
 <details>
-    <summary style class="details-title">关于出身</summary>
+    <summary style class="details-title">> 关于出身</summary>
     <div style class="details-border-list">
     <ul>
         <li>出身于日本的警察世家。</li>
@@ -539,7 +561,7 @@ next: gallery.md
 </details>
 
 <details>
-    <summary style class="details-title">关于家人</summary>
+    <summary style class="details-title">> 关于家人</summary>
     <div style class="details-border-list">
     <ul>
         <li>没有父母，兄弟姐妹，亲戚之类的存在。MonD是交往最长久的友人。</li>
@@ -549,7 +571,7 @@ next: gallery.md
 </details>
 
 <details>
-    <summary style class="details-title">关于生日</summary>
+    <summary style class="details-title">> 关于生日</summary>
     <div style class="details-border-list">
     <ul>
         <li>从某个时刻开始，便不再被祝贺，长久如此，已经不记得自己的生日了。</li>
@@ -561,7 +583,7 @@ next: gallery.md
 </details>
 
 <details>
-    <summary style class="details-title">来洛圣都的理由</summary>
+    <summary style class="details-title">> 来洛圣都的理由</summary>
     <div style class="details-border-list">
     <ul>
         <li>搬来洛圣都的原因是听说这里犯罪猖獗，治安很差（更容易赚钱）。</li>
@@ -570,9 +592,9 @@ next: gallery.md
 </details>
 
 ---
-◆ 幕后故事，RP外 {.underline-blue}
+◆ 幕后故事，RP外&ensp; {.underline-blue}
 <details>
-    <summary style class="details-title">名字的由来</summary>
+    <summary style class="details-title">> 名字的由来</summary>
     <div style class="details-border-list">
     <ul>
         <li>由来于在某动画登场，10秒就能哭出来的天才童星女主角。</li>
@@ -582,7 +604,7 @@ next: gallery.md
 </details>
 
 <details>
-    <summary style class="details-title">BGM</summary>
+    <summary style class="details-title">> BGM</summary>
     <div style class="details-border-list">
     <ul>
         <li>玩赌场游戏时的 BGM</li>

@@ -20,7 +20,7 @@ highlights:
       - title: <u>文档使用说明</u>
         icon: triangle-exclamation
         details: 关于wiki文档的使用说明，请提前确认内容
-        link: ./wiki/
+        link: ./get-started.md
     
   - header: wiki文档地址
     description: 本 wiki 旨在为新入坑叶哥的 STGR 直播但日语苦手的观众提供对無馬 かな这个角色一个了解的途径。如有条件，建议直接查看原wiki。
