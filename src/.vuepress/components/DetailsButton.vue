@@ -12,7 +12,7 @@
       <div v-if="computedIsCollapsed" style="margin-left: 5px">{{ label }}</div>
       
       <!-- Collapsible content -->
-      <div :class="['collapsed-content', { 'div-scrollable': isScrollable }, { 'div-visible': !computedIsCollapsed }]">
+      <div :class="['collapsed-content', { 'div-scrollable': isScrollable }, { 'div-invisible': computedIsCollapsed }]">
         <slot></slot>
       </div>
     </div>
@@ -31,7 +31,7 @@
       },
       isCollapsed: {
         type: Boolean,
-        default: false,
+        default: true,
       },
       margin: {
         type: String,
@@ -41,7 +41,7 @@
   
     data() {
       return {
-        collapsed: true,
+        collapsed: this.isCollapsed || (typeof localStorage !== 'undefined' && localStorage.getItem('collapsibleState') === 'collapsed'),
       };
     },
   
@@ -98,7 +98,7 @@
   .btn:hover .btn-with-border {
     background-color: var(--vp-c-control-hover);
   }
-  .div-visible {
+  .div-invisible {
     display: none;
   }
   .collapsed-content {
