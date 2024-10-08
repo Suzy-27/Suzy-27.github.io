@@ -7,22 +7,23 @@ export const wikiSidebar = sidebar({
     {
       text: "無馬 かな",
       icon: "book",
-      link: "/wiki/mainPage.md",
+      link: "/wiki/",
+      prefix: "/wiki/",
       children: [
         {
           text: "基本情报",
-          link: "/wiki/mainPage.md#基本情报",
+          link: "README.md#基本情报",
           icon: "address-card",
         },
-        "/wiki/gallery.md",
-        "/wiki/clothes.md",
-        "/wiki/vehicle.md",
-        "/wiki/location.md",
+        "gallery.md",
+        "clothes.md",
+        "vehicle.md",
+        "location.md",
         {
           text: "交友关系",
           icon: "users",
-          link: "/wiki/friendship/",
-          prefix: "wiki/friendship",
+          link: "friendship/",
+          prefix: "friendship",
           collapsible: true,
           children: [
             {
@@ -70,20 +71,20 @@ export const wikiSidebar = sidebar({
             },
           ]
         },
-        "/wiki/organzation.md",
+        "organization.md",
         {
           text: "历史",
           icon: "calendar",
-          prefix: "wiki/history/",
+          prefix: "history/",
           children: [
             {
               text: "年表",
-              link: "",
+              link: "README.md",
             },
             {
               text: "剧情故事",
-              link: "/wiki/history/episode/",
-              prefix: "episode/past/",
+              link: "episode/",
+              prefix: "episode/",
               collapsible: true,
               children: [
                 {
@@ -91,11 +92,11 @@ export const wikiSidebar = sidebar({
                   prefix: "y2023/",
                   collapsible: true,
                   children: [
-                    "p03-08.md",
-                    "p03-09.md",
-                    "p03-10.md",
-                    "p03-11.md",
-                    "p03-12.md",
+                    "p08.md",
+                    "p09.md",
+                    "p10.md",
+                    "p11.md",
+                    "p12.md",
                   ]
                 },
                 {
@@ -103,14 +104,15 @@ export const wikiSidebar = sidebar({
                   prefix: "y2024/",
                   collapsible: true,
                   children: [
-                    "p04-01.md",
-                    "p04-02.md",
-                    "p04-03.md",
-                    "p04-04.md",
-                    "p04-05.md",
-                    "p04-06.md",
-                    "p04-07.md",
-                    "p04-08.md",
+                    "p01.md",
+                    "p02.md",
+                    "p03.md",
+                    "p04.md",
+                    "p05.md",
+                    "p06.md",
+                    "p07.md",
+                    "p08.md",
+                    "p09.md",
                   ]
                 }
               ]

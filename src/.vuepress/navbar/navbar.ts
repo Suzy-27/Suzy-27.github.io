@@ -7,6 +7,6 @@ export const wikiNavbar = navbar([
   },
   {
     text: "wiki文档",
-    link: "/wiki/mainPage.md",
+    link: "/wiki/",
   }
 ]);

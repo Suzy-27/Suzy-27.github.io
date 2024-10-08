@@ -33,7 +33,7 @@ highlights:
       - title: wiki文档
         icon: book
         details: 请在阅读过wiki使用说明的<b>注意事项</b>的前提下再阅读本文档
-        link: ./wiki/mainPage.md
+        link: ./wiki/
       - title: 原wiki地址
         icon: link
         link: https://w.atwiki.jp/streamergta5/pages/522.html

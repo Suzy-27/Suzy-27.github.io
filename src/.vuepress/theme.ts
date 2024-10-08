@@ -3,16 +3,13 @@ import { hopeTheme } from "vuepress-theme-hope";
 import { wikiNavbar } from "./navbar/index.js";
 import { wikiSidebar } from "./sidebar/index.js";
 
-export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
 
+export default hopeTheme({
   author: {
     name: "芷依",
     url: "https://space.bilibili.com/5384565?spm_id_from=333.1007.0.0",
   },
   darkmode: "toggle",
-
-  pageInfo: false,
 
   iconAssets: "fontawesome-with-brands",
 
@@ -40,6 +37,10 @@ export default hopeTheme({
 
   editLink: false,
 
+  lastUpdated: false,
+
+  contributors: false,
+
   //page meta
    metaLocales: {
     lastUpdated: "最后更新时间",
@@ -54,10 +55,12 @@ export default hopeTheme({
   //  },
   //},
 
+  // hotReload: true,
+
   plugins: {
+    // git: true,
     readingTime: false,
-    // Note: This is for testing ONLY!
-    // You MUST generate and use your own comment service in production.
+    
     // comment: {
     //   provider: "Giscus",
     //   repo: "Suzy-27/Comments",
@@ -72,15 +75,18 @@ export default hopeTheme({
     // },
 
     components: {
-      components: ["Badge", "VPCard"],
+      components: ["Badge"],
     },
 
     // These features are enabled for demo, only preserve features you need here
-    // markdownImage: {
-    //   figure: true,
-    //   lazyload: true,
-    //   size: true,
-    // },
+    markdownImage: false,
+    photoSwipe: false,
+    //  markdownImage: {
+    //    figure: true,
+    //    lazyload: true,
+    //    size: true,
+    //    mark: true,
+    //  },
 
     // markdownMath: {
     //   // install katex before enabling it
@@ -210,4 +216,5 @@ export default hopeTheme({
     //   plugins: ["highlight", "math", "search", "notes", "zoom"],
     // },
   },
-});
+}, { custom: true }
+);

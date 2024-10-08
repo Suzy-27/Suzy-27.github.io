@@ -1,45 +1,49 @@
 ---
 icon: users
 title: 交友关系
+head:
+    - - style
+      - type: text/css
+      - .vp-page-title h1 { display:none; }
 ---
-## <div style class="text-bg-grey"> 交友关系 <i class="fa-solid fa-users" style="color: lightSteelblue"></i></div>
+## <div class="text-bg-grey"> 交友关系 <i class="fa-solid fa-users" style="color: lightSteelblue"></i></div>
 
 兼任的情况下：自组织>所属组织>他组织，上部组织>下部组织，或按加入或就职顺序排列。 {.date}
 
-### <div style class="text-bg-blue"> ▷ 自组织 </div>
+### <div class="text-bg-blue"> ▷ 自组织 </div>
 
-[無馬集团](./self/nsm-group.md)
+<p> <a class="route-link" href="/wiki/friendship/self/nsm-group.html">無馬集团</a></p>
 
-[ARCANA](./self/arcana.md)
+<p> <a class="route-link" href="/wiki/friendship/self/arcana.html">ARCANA</a></p>
 
-[FEMME FATALE](./self/femme-fatale.md)
+<p> <a class="route-link" href="/wiki/friendship/self/femme-fatale.html">FEMME FATALE</a></p>
 
-### <div style class="text-bg-blue"> ▷ 帮派 </div>
+### <div class="text-bg-blue"> ▷ 帮派 </div>
 
-[ALLIN](./gang/allin.md)
+<p> <a class="route-link" href="/wiki/friendship/gang/allin.html">ALLIN</a></p>
 
-[Anbrella](./gang/anbrella.md)
+<p> <a class="route-link" href="/wiki/friendship/gang/anbrella.html">Anbrella</a></p>
 
-[GBC](./gang/gbc.md)
+<p> <a class="route-link" href="/wiki/friendship/gang/gbc.html">GBC</a></p>
 
-[MOZU](./gang/mozu.md)
+<p> <a class="route-link" href="/wiki/friendship/gang/mozu.html">MOZU</a></p>
 
-[NO LIMIT](./gang/nolimit.md)
+<p> <a class="route-link" href="/wiki/friendship/gang/nolimit.html">NO LIMIT</a></p>
 
-[868](./gang/868.md)
+<p> <a class="route-link" href="/wiki/friendship/gang/868.html">868</a></p>
 
-[TOPGRAR](./gang/topgear.md)
+<p> <a class="route-link" href="/wiki/friendship/gang/topgear.html">TOPGRAR</a></p>
 
-### <div style class="text-bg-blue"> ▷ 黑市民 </div>
+### <div class="text-bg-blue"> ▷ 黑市民 </div>
 
-[私人医生](./black/doctor.md)
+<p> <a class="route-link" href="/wiki/friendship/black/doctor.html">私人医生</a></p>
 
-[其他](./black/other.md)
+<p> <a class="route-link" href="/wiki/friendship/black/other.html">其他</a></p>
 
-### <div style class="text-bg-blue"> ▷ 白市民 </div>
+### <div class="text-bg-blue"> ▷ 白市民 </div>
 
-[警察](./white/police.md)
+<p> <a class="route-link" href="/wiki/friendship/white/police.html">警察</a></p>
 
-[急救队](./white/aid.md)
+<p> <a class="route-link" href="/wiki/friendship/white/aid.html">急救队</a></p>
 
-[其他](./white/other.md)
+<p> <a class="route-link" href="/wiki/friendship/white/other.html">其他</a></p>

@@ -1,0 +1,32 @@
+/* disable the scrollbar of the table */
+.table-hidden {
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin-bottom: 5px;
+}
+.table-hidden td {
+    padding: 8px 5px 8px 5px;
+    vertical-align: top;
+    font-size: 0.9em;
+    min-width: 40px;
+    line-height: 150%;
+    border: 1px solid var(--table-border);
+}
+.table-hidden th {
+    background-color: var(--tabel-bg-header);
+    padding: 5px;
+    text-align: left;
+    font-size: 0.9em;
+}
+.table-hidden::-webkit-scrollbar {
+    display: none;
+}
+.checkbox-table {
+    overflow-x:visible;
+    white-space: nowrap;
+    width: 100%;
+}
+.img-vehicle {
+    width: 100px;
+    border-radius: 5px;
+}

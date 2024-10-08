@@ -1,3 +1,4 @@
 ---
-title: 自组织
+breadcrumbExclude: true
 ---
+# 自组织

@@ -1,7 +1,7 @@
 ---
 icon: triangle-exclamation
 prev: false
-next: ./wiki/mainPage.md
+next: ./wiki/
 comment: false
 ---
 

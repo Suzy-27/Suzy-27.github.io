@@ -1,62 +1,96 @@
 // place your custom styles here
+// red highlight text
 .highlight-red {
     color: tomato;
     font-weight: bold;
     font-size: 1.25em;
 }
+// violet highlight text
 .highlight-violet {
     color: Violet;
     font-weight: bold;
     font-size: x-large;
 }
-.highlight-gray {
-    color: LightGray;
+
+h2 {
+    border: none;
 }
+
+//--- markdown tabs -------------------
+.vp-tabs {
+    max-width: 330px;
+}
+//--- page title div ------------------
+.vp-page-title {
+    margin-bottom: 20px;
+}
+
+//--- date formatting ------------------
 .date {
-    color: Gray;
-    font-size: small
+    color: var(--vp-c-text-mute);
+    font-size: smaller
 }
 .inline {
     display: inline;
 }
+// in vehicle margin
+.vehicle-margin-top {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
 
-// table background color
+// blue background color table in the main page
 .td-blue {
     border: 1px solid #ddd;
-    background-color:lightSteelblue;
-    color: dimgrey;
+    background-color: var(--main-c-blue);
+    color: var(--main-c-grey);
     font-weight: bold;
+    text-align: center;
 }
+// grey background color table in the main page
 .td-grey {
     border: 1px solid #ddd;
-    background-color: grey;
-    color: lightsteelblue;
+    background-color: var(--main-c-grey);
+    color: var(--main-c-blue);
     font-weight: bold;
+    text-align: center;
+}
+td {
+    line-height: 150%;
+    padding: 7px;
 }
 
 // dotted blue underline
 .underline-blue {
-    text-decoration: underline dotted skyblue 3px;
-    text-underline-offset: 6px;
+    border-bottom: dotted var(--main-c-blue) 0.2em;
     font-weight: bold;
 }
-
+.underline-margin {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 // blod & underline
 .underline-black {
-    display: inline;
     text-decoration: underline solid;
     text-underline-offset: 3px;
     font-weight: bold;
 }
+.top-margin {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
 
-// text blue background 
+// h3 blue background 
 .text-bg-blue {
     font-weight: bold;
-    width:50%;
-    background-color:lightSteelblue;
-    color: dimgrey;
+    width: 100%;
+    max-width: 350px;
+    background-color: var(--main-c-blue);
+    color: var(--main-c-grey);
     padding: 3px 3px 3px 3px;
+    margin: 0 0 15px 0;
 }
+// h2 grey background 
 .text-bg-grey {
     font-weight: bold;
     background-color: rgb(71, 71, 71);
@@ -64,120 +98,161 @@
     padding: 10px 10px 10px 10px;
     border-left: orange 3px solid;
 }
+// h3 white background 
 .text-bg-white {
     font-weight: bold;
     padding: 10px 10px 10px 10px;
     border-left: orange 3px solid;
+    border-bottom: var(--vp-c-border) 1px solid;
 }
 
-// details border
-.details-border {
-    border: 1px solid grey; 
-    margin-top: 10px;
+//--- collapsed text border ------------------
+.collapsed-border {
+    border: 1px solid var(--vp-c-border); 
+    padding: 10px;
+    margin: 10px 0 10px 0;
+}
+ul {
+    margin: 0;
+}
+
+//--- details & summary ----------------
+.details {
+    max-width: fit-content;
+}
+summary::-webkit-details-marker, summary::marker {
+    display: none;
+}
+summary {
+    list-style-type: none;
+}
+
+//--- table ----------------------
+table {
+    table-layout:fixed;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 0 10px 0;
+    padding: 0%;
+}
+tfoot {
+    color: var(--vp-c-text-mute);
+    font-size: small;
+    margin: 0%;
+    padding: 0%;
+}
+
+// small font table
+.table-small-font {
+    font-size: 0.9em;
+}
+.table-small-font td {
+    white-space: nowrap;
     padding: 10px;
 }
-.details-border-list {
-    border: 1px solid grey; 
-    margin-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-.details-border-list-end {
-    border: 1px solid grey; 
-    margin-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
+
+::-webkit-scrollbar {
+    height: .5em;
+    color: var(--table-bg-header)
 }
 
-// summary
-.details-title {
-    display: inline-flex;
-    color:royalblue;
-    margin-top: 3px;
-    margin-bottom: 3px;
-    cursor: pointer;
-    list-style-type: none;
-}
-.details-title::-webkit-details-marker, .details-title::marker {
-    display: none;
-}
-.details-title:hover {
-    text-decoration: underline;
-}
-// details in new line
-.details-newline {
-    display: inline;
-}
-.details-newline[open] {
-    display: block;
-}
-.details-newline > summary {
-    display: inline-flex;
-    color:royalblue;
-    cursor: pointer;
-    list-style-type: none;
-}
-.details-newline > summary::-webkit-details-marker, .details-newline > summary::marker {
-    display: none;
-}
-.details-newline > summary:hover {
-    text-decoration: underline;
-}
-
-// details in one line
-.details-inline {
-    display: inline;
-}
-.details-inline > summary {
-    display: inline-flex;
-    color:royalblue;
-    cursor: pointer;
-    list-style-type: none;
-}
-.details-inline > summary::-webkit-details-marker, .details-inline > summary::marker {
-    display: none;
-}
-.details-inline > summary:hover {
-    text-decoration: underline;
-}
-
-// rotated details
-.details-rotate {
-    // position:absolute;
-     margin-left: 1.2em;
-}
-.details-rotate > summary {
-    list-style-type: none;
-    cursor: pointer;
-}
-.details-rotate > summary::-webkit-details-marker {
-    display: none;
-}
-.details-rotate > summary::before {
-    content: "+ 详细";
-    padding-left: 7px;
-    padding-right: 8px;
-    padding-bottom: 3px;
-    border: 1px solid;
-}
-.details-rotate[open] > summary {
-    transform: rotate(90deg) translateY(-100%);
-    transform-origin: top left;
-}
-.details-rotate[open] > summary::before {
-    content: " - ";
-    padding-left: 10px;
-    padding-right: 9px;
-}
-
-// summary solid button 
-
-// image in the table 
-.image-table {
-    width: 120px;
+.clothes-img {
+    width: 133px;
+    height: 300px;
     border-radius: 3px;
 }
+
+//--- break line margin in location.md & vehicle ----------
+.margin-top {
+    margin-top: 1.8em;
+}
+.margin-top-bot {
+    margin-top: 1.8em;
+    margin-bottom: 1.8em;
+}
+
+//--- return link in the bottom of page ---------
+.return-link {
+    display: inline;
+    background-color: var(--vp-c-bg);
+    border-radius: 0.5rem;
+    display: flex;
+    font-size: 1em;
+    max-width: fit-content;
+    height: 2rem;
+    margin: 0;
+    padding: 10px 10px 0px 10px;
+    color: var(--vp-c-text);
+}
+.return-link:hover {
+    background-color: var(--vp-c-control-hover);
+}
+
+//--- list style ---------------------------------
+ul {
+    list-style: square;
+}
+.list-double-space {
+    margin-bottom: 0;
+}
+.list-double-space li {
+    margin-bottom: 10px;
+}
+.inner {
+    margin-top: 10px;
+}
+
+.footnote-adjust {
+    margin-top: calc(0.5rem - var(--navbar-height));
+    padding-top: calc(1rem + var(--navbar-height));
+}
+
+.img-icon {
+    width: 15px;
+    border-radius: 3px;
+}
+
+//--- history css ------------------------
+.history-header {
+    font-weight: bold;
+    padding: 3px 0 3px 10px;
+    width: 100%;
+    max-width: 500px;
+}
+.header-highlight1 {
+    background-color: #f7f7f7;
+    color: rgb(60 60 67);
+}
+.header-highlight2 {
+    background-color: #dbdbdb;
+    color: rgb(60 60 67);
+}
+.header-highlight3 {
+    background-color: #b6b6b6;
+    color: rgb(60 60 67);
+}
+.header-highlight4 {
+    background-color: #777777;
+    color: rgb(235 235 245 / 86%);
+}
+.header-highlight5 {
+    background-color: #4e4e4e;
+    color: rgb(235 235 245 / 86%);
+}
+
+
+// highlight styles
+// .highlight {
+//     background-color: grey;
+//     transition: background-color 0.5s ease-out;
+// }
+//   /* Fade-out effect back to transparent */
+// .fade-out {
+//     background-color: transparent; /* Adjust based on your original background */
+//     transition: background-color 0.5s ease-out;
+// }
+
+// image in the table 
 // .img-button {
 //     float: left;
 //     border-radius: 8px;

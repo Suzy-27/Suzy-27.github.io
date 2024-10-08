@@ -1,24 +1,40 @@
 ---
 icon: house
 title: 据点情报
+head:
+    - - style
+      - type: text/css
+      - .vp-page-title h1 { display:none; }
 ---
-## <div style class="text-bg-grey"> 据点情报 <i class="fa-solid fa-house" style="color: lightSteelblue"></i></div>
+## <div class="text-bg-grey"> 据点情报 <i class="fa-solid fa-house" style="color: lightSteelblue"></i></div>
 
-::: details 持有的房产
+<DetailsButton label="持有的房产" :isScrollable="true" margin="15px 0 15px 0">
+  <CheckableLocationTable :data="ownedLocationData" tableId="owned"/>
+</DetailsButton>
 
-:::
-::: details ARCANA关联
+<DetailsButton label="ARCANA关联" :isScrollable="true" margin="15px 0 15px 0">
+  <CheckableLocationTable :data="arcanaLocationData" tableId="arcana"/>
+</DetailsButton>
 
-:::
-::: details 藏车车库
+<DetailsButton label="藏匿车库" :isScrollable="true" margin="15px 0 15px 0">
+  <CheckableLocationTable :data="hideoutLocationData" tableId="hideout"/>
+</DetailsButton>
 
-:::
-::: details 其他/休息地
+<DetailsButton label="其他" :isScrollable="true">
+  <CheckableLocationTable :data="otherLocationData" tableId="other"/>
+</DetailsButton>
 
-:::
----
-<br>
+--- {.margin-top-bot}
 
-::: details 过去房产
+<DetailsButton label="过去房产" :isScrollable="true">
+  <CheckableLocationTable :data="pastLocationData" tableId="past">
+    <template #footer>
+      ⋇ 虽未经证实，但没有使用预定，因此归类为过去房产
+    </template>
+  </CheckableLocationTable>
+</DetailsButton>
 
-:::
+<script setup>
+  import CheckableLocationTable from "@CheckableLocationTable";
+  import { ownedLocationData, arcanaLocationData, hideoutLocationData, otherLocationData, pastLocationData } from "@LocationData";
+</script>
