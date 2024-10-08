@@ -1,91 +1,112 @@
 <template>
-<div class="details-button" :style="{ margin: margin }">
-  <div>
-    <div class="btn" @click="toggleDiv">
-        <div class="btn-with-border">
-            {{ isCollapsed ? '+' : '-' }}
+    <div class="details-button" :style="{ margin: margin }">
+      <div>
+        <div class="btn" @click="toggleDiv">
+          <div class="btn-with-border">
+              {{ computedIsCollapsed ? '+' : '-' }}
+          </div>
         </div>
-    </div>
-  </div>
-
-  <!-- label render if content is collapsed -->
-  <div v-if="isCollapsed" style="margin-left: 5px">{{ label }}</div>
+      </div>
   
-  <!-- using slot tag to insert html content -->
-  <div :class="['collapsed-content', { 'div-scrollable' : isScrollabel }, { 'div-visible' : isCollapsed }]">
-    <slot></slot>
-  </div>
-</div>
-</template>
-
-<script>
-export default {
+      <!-- Label rendering when content is collapsed -->
+      <div v-if="computedIsCollapsed" style="margin-left: 5px">{{ label }}</div>
+      
+      <!-- Collapsible content -->
+      <div :class="['collapsed-content', { 'div-scrollable': isScrollable }, { 'div-visible': !computedIsCollapsed }]">
+        <slot></slot>
+      </div>
+    </div>
+  </template>
+  
+  <script>
+  export default {
     props: {
-        label: {
-            type: String,
-            default: '',
-        },
-        isScrollable: {
-            type: Boolean,
-            default: false,
-        },
-        isCollapsed: {
-            type: Boolean,
-            default: false,
-        },
-        margin: {
-            type: String,
-            default: '0px',
-        }
+      label: {
+        type: String,
+        default: '',
+      },
+      isScrollable: {
+        type: Boolean,
+        default: false,
+      },
+      isCollapsed: {
+        type: Boolean,
+        default: false,
+      },
+      margin: {
+        type: String,
+        default: '0px',
+      },
     },
-
+  
     data() {
-        return {
-            isCollapsed: localStorage.getItem('collapsibleState') === 'collapsed' || true,
-            isScrollabel: this.isScrollable,
-        };
+      return {
+        collapsed: true,
+      };
     },
-    methods: {
-        toggleDiv() {
-            this.isCollapsed = !this.isCollapsed;
-              // Store the state in local storage
-            localStorage.setItem(
-                'collapsibleState', this.isCollapsed ? 'collapsed' : 'expanded'
-            );
+  
+    computed: {
+      computedIsCollapsed: {
+        get() {
+          return this.collapsed;
         },
+        set(value) {
+          this.collapsed = value;
+          if (typeof localStorage !== 'undefined') {
+            localStorage.setItem('collapsibleState', value ? 'collapsed' : 'expanded');
+          }
+        },
+      },
     },
-};
-</script>
-<style lang="scss" scoped>
-.details-button {
+  
+    created() {
+      if (typeof localStorage !== 'undefined') {
+        const savedState = localStorage.getItem('collapsibleState');
+        this.collapsed = savedState ? savedState === 'collapsed' : this.isCollapsed;
+      } else {
+        this.collapsed = this.isCollapsed;
+      }
+    },
+  
+    methods: {
+      toggleDiv() {
+        this.computedIsCollapsed = !this.computedIsCollapsed;
+      },
+    },
+  };
+  </script>
+  
+  <style lang="scss" scoped>
+  .details-button {
     display: flex;
-}
-.btn {
+  }
+  .btn {
     cursor: pointer;
     width: 100%;
     height: 100%;
     font-size: 1em;
     color: var(--vp-c-text);
     display: block;
-}
-.btn-with-border {
+  }
+  .btn-with-border {
     width: 1.5em;
     height: 1.5em;
     border: 1px solid var(--vp-c-text);
     display: block;
     text-align: center;
-}
-.btn:hover .btn-with-border {
+  }
+  .btn:hover .btn-with-border {
     background-color: var(--vp-c-control-hover);
-}
-.div-visible {
+  }
+  .div-visible {
     display: none;
-}
-.collapsed-content {
+  }
+  .collapsed-content {
     margin-left: 5px;
-}
-.div-scrollable {
+  }
+  .div-scrollable {
     width: 100%;
     overflow-x: auto;
-}
-</style>
+  }
+  </style>
+  
