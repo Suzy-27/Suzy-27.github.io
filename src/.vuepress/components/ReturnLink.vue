@@ -1,43 +1,66 @@
 <template>
-  <div class="return-link">
-    ↩️返回 {{ text }}
-  <div>
+  <div v-if="isFriendshipPage" class="return-padding">
+    <a class="return-link" href="/wiki/friendship/">
+      <div class="return-head">
+       ↩️返回&ensp; <span class="return-text">交友关系</span>
+      </div>
+    </a>
+  </div>
+  <div v-if="isEpisodePage" class="return-padding">
+    <a class="return-link" href="/wiki/history/episode/">
+      <div class="return-head">
+       ↩️返回&ensp; <span class="return-text">剧情故事</span>
+     </div>
+    </a>
+  </div>
 </template>
 
 <script>
 export default {
-  props: {
-    text: {
-      type: String,
-      default: '',
-    }
-  },
   computed: {
     isFriendshipPage() {
-      return this.$route.path === "/wiki/friendship/"
+      const path= this.$route.path;
+      return path.includes("/wiki/friendship/") && path !== "/wiki/friendship/"
+    },
+    isEpisodePage() {
+      const path= this.$route.path;
+      return path.includes("/wiki/history/episode/") && path !== "/wiki/history/episode/"
     }
-    
   },
 }
 </script>
 
 <style lang="scss" scoped>
 .return-link {
-    display: inline;
+    display: block;
     background-color: var(--vp-c-bg);
     border-radius: 0.5rem;
-    display: flex;
     font-size: 1em;
-    max-width: fit-content;
-    height: 2rem;
-    margin: 0 0 0 1.2em;
-    padding: 10px 10px 0px 10px;
-    color: var(--vp-c-text);
+    width: fit-content;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
 }
 .return-link:hover {
     background-color: var(--vp-c-control-hover);
 }
-.route-link:hover {
-  text-decoration: underline;
+.return-head {
+  color: var(--vp-c-text)
+}
+.return-link:hover .return-head {
+    color: var(--vp-c-accent-hover);
+}
+.return-text {
+  color: var(--vp-c-accent);
+}
+
+
+.return-padding {
+  padding-inline: 2rem;
+}
+@media (max-width: 959px) {
+  .return-padding {
+        padding-inline: 1rem;
+    }
 }
 </style>

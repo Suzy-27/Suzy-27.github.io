@@ -5,7 +5,7 @@
     margin-bottom: 5px;
 }
 .table-hidden td {
-    padding: 8px 5px 8px 5px;
+    padding: 7px;
     vertical-align: top;
     font-size: 0.9em;
     min-width: 40px;
@@ -26,7 +26,11 @@
     white-space: nowrap;
     width: 100%;
 }
-.img-vehicle {
-    width: 100px;
+.img-vehicle img {
+    width: 80px;
+    height: 45px;
     border-radius: 5px;
+}
+.font-style-bold {
+    font-weight: bold;
 }

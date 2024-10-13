@@ -8,26 +8,31 @@ head:
 ---
 ## <div class="text-bg-grey"> 画廊 <i class="fa-solid fa-image" style="color: lightSteelblue"></i></div>
 ::: details Logo、贴纸
-<table>
+<table class="gallery-table">
     <tbody>
     <tr>
-        <td><img style="width:200px;border-radius: 5px;" src="/wiki-assets/gallery/logo/logo_CasinoOwner.png"></td>
-        <td><img style="width:200px;border-radius: 5px;" src="/wiki-assets/gallery/logo/logo_Nashima.png"></td>
+        <td><img loading="lazy" style="width:200px;border-radius: 5px;" src="/wiki-assets/gallery/logo/logo_CasinoOwner.png"></td>
+        <td><img loading="lazy" style="width:200px;border-radius: 5px;" src="/wiki-assets/gallery/logo/logo_Casino.png"></td>
+        <td><img loading="lazy" style="width:200px;border-radius: 5px;" src="/wiki-assets/gallery/logo/logo_Nashima.png"></td>
     </tr>
     <tr style="vertical-align:top">
         <td>赌场老板Logo<br>
-        <span sytle class="date">'24/05/29～</span></td>
+            被显示在無馬府邸的屏幕上<br>
+        <span class="date">'24/05/29～</span></td>
+        <td>赌场Logo<br>
+            Casino01：黑，Casino02：白<br>
+        <span class="date">'23/10/17～</span></td>
         <td>Nashima贴纸<br>
         Nashima01：黑，Nashima02：白<br>
-        <span sytle class="date">'23/10/11～</span></td>
+        <span class="date">'23/10/11～</span></td>
     </tr>
     </tbody>
 </table>
 
 :::
 ::: details TwiX画像
-<table>
-    <thead style="font-size:small">
+<table class="gallery-table">
+    <thead style="font-size:small;">
     <tr>
         <th>'24/03/04 04:41</th>
         <th>'24/02/19 02:54</th>
@@ -37,10 +42,10 @@ head:
     </thead>
     <tbody>
     <tr>
-        <td><img style="height:200px;border-radius: 5px;" src="/wiki-assets/gallery/twiX/kana_twix_ 24-03-04.png"></td>
-        <td><img style="height:200px;border-radius: 5px;" src="/wiki-assets/gallery/twiX/kana_twix_24-02-19.png"></td>
-        <td><img style="height:200px;border-radius: 5px;" src="/wiki-assets/gallery/twiX/kana_twix_24-01-25.png"></td>
-        <td><img style="height:200px;border-radius: 5px;" src="/wiki-assets/gallery/twiX/kana_twix_01.jpg"></td>
+        <td><img loading="lazy" style="height:200px;border-radius: 5px;" src="/wiki-assets/gallery/twiX/kana_twix_ 24-03-04.png"></td>
+        <td><img loading="lazy" style="height:200px;border-radius: 5px;" src="/wiki-assets/gallery/twiX/kana_twix_24-02-19.png"></td>
+        <td><img loading="lazy" style="height:200px;border-radius: 5px;" src="/wiki-assets/gallery/twiX/kana_twix_24-01-25.png"></td>
+        <td><img loading="lazy" style="height:200px;border-radius: 5px;" src="/wiki-assets/gallery/twiX/kana_twix_01.jpg"></td>
     </tr>
     <tr>
         <td></td>
@@ -55,26 +60,26 @@ head:
 
 :::
 ::: details 周边产品
-<table class="table-small-font">
+<table class="gallery-table">
     <thead>
     <tr>
-        <th><a href="#" title="Abelia">DIAMOND COCKTAIL</a></th>
+        <th><a href="#" title="Abelia 赌场酒吧">DIAMOND COCKTAIL</a></th>
         <th><Anchor href="nene">NASHINUI</Anchor></th>
         <th>NASIMA CHOCO</th>
-        <th><a href="#" title="KoKo七番屋">NASSI</a></th>
-        <th><a href="#" title="Abelia">NASHIMA COCKTAIL</a></th>
+        <th><a href="#" title="KoKo七番屋 咖喱店">NASSI</a></th>
+        <th><a href="#" title="Abelia 赌场酒吧">NASHIMA COCKTAIL</a></th>
     </tr>
     </thead>
-    <tbody>
+    <tbody style="font-size:0.9em">
     <tr>
-        <td><img style="height:250px;border-radius: 5px;" src="/wiki-assets/gallery/goods/Diamond_Cocktail.png"></td>
-        <td><img style="height:250px;border-radius: 5px;" src="/wiki-assets/gallery/goods/Nashinui.png"></td>
-        <td><img style="height:200px;border-radius: 5px;" src="/wiki-assets/gallery/goods/Nasimachoco.png"></td>
-        <td><img style="height:250px;border-radius: 5px;" src="/wiki-assets/gallery/goods/Nassi.png"></td>
-        <td><img style="height:250px;border-radius: 5px;" src="/wiki-assets/gallery/goods/Nashima_Cocktail.png"></td>
+        <td><img loading="lazy" style="height:250px;border-radius: 5px;" src="/wiki-assets/gallery/goods/Diamond_Cocktail.png"></td>
+        <td><img loading="lazy" style="height:250px;border-radius: 5px;" src="/wiki-assets/gallery/goods/Nashinui.png"></td>
+        <td><img loading="lazy" style="height:200px;border-radius: 5px;" src="/wiki-assets/gallery/goods/Nasimachoco.png"></td>
+        <td><img loading="lazy" style="height:250px;border-radius: 5px;" src="/wiki-assets/gallery/goods/Nassi.png"></td>
+        <td><img loading="lazy" style="height:250px;border-radius: 5px;" src="/wiki-assets/gallery/goods/Nashima_Cocktail.png"></td>
     </tr>
     <tr style="vertical-align:top">
-        <td>赌场酒吧<a href="#">Abelia</a>的商品。<br>
+        <td>赌场酒吧<a href="#" title="Abelia 赌场酒吧">Abelia</a>的商品。<br>
         表情会随时间变化的鸡尾酒。最<br>
         初的表情是呈现在以無馬为印<br>
         象的蓝色和面具柄图的巧克力。</td>
@@ -84,11 +89,11 @@ head:
         <td>以赌场老板为原型设计的<br>
         情人节回赠用巧克力。<br>
         考虑周到的<Anchor href="nene">秘书</Anchor>专门准备的</td>
-        <td>咖喱店<a href="#">KoKo七番屋</a>的商品<br>
+        <td>咖喱店<a href="#" title="KoKo七番屋 咖喱店">KoKo七番屋</a>的商品<br>
         装饰着切成無馬面具模样的<br>
         梨的冰沙饮品。<Anchor href="mac">マックさん</Anchor><br>
         一句话促成。</td>
-        <td>赌场酒吧<a href="#">Abelia</a>的商品。<br>
+        <td>赌场酒吧<a href="#" title="Abelia 赌场酒吧">Abelia</a>的商品。<br>
         由酒保<Anchor href="toba">鳥羽</Anchor>制作的赌场<br>
         员工原创鸡尾酒。其简<br>
         单的设计很受喜欢</td>

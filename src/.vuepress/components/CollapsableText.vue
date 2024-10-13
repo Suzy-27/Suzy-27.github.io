@@ -1,23 +1,25 @@
 <template>
-    <div 
-      :class="[{ 'inline-style' : isInline }, { 'small-font' : isSmallFont }]" 
+    <span 
+      :class="[{ 'small-font' : isSmallFont }]" 
       :style="{ margin: margin }">
-      <div 
+      <span 
         v-html="label" 
-        :class="['collapsed-label', { 'inline-style' : isInline || $slots.addon }]"
+        class="collapsed-label"
         @click="toggleDiv">
-      </div>
-      <div v-if="$slots.addon" style="display:inline">
+      </span>
+      <span v-show="$slots.addon">
         <slot name="addon"></slot>
-      </div>
-      <div v-if="!computedIsCollapsed" :class="['collapsed-content', { 'inline-style' : isInline }]">
+      </span>
+      <span v-show="!computedIsCollapsed" class="collapsed-content">
           <slot></slot>
-      </div>
-    </div>
+      </span>
+    </span>
   </template>
   
   <script>
-  export default {
+import { defineComponent } from 'vue';
+  export default defineComponent ({
+    name: 'CollapsableText',
       props: {
           label: {
               type: String,
@@ -26,10 +28,6 @@
           isCollapsed: {
               type: Boolean,
               default: true,
-          },
-          isInline: {
-              type: Boolean,
-              default: false,
           },
           isSmallFont: {
               type: Boolean,
@@ -43,7 +41,8 @@
       
       data() {
           return {
-              collapsed: this.isCollapsed || (typeof localStorage !== 'undefined' && localStorage.getItem('collapsibleState') === 'collapsed'),
+              collapsed: this.isCollapsed 
+              // || (typeof localStorage !== 'undefined' && localStorage.getItem('collapsibleTextState') === 'collapsed'),
           };
       },
   
@@ -54,11 +53,11 @@
               },
               set(value) {
                   this.collapsed = value;
-                  if (typeof localStorage !== 'undefined') {
-                      localStorage.setItem(
-                          'collapsibleState', this.collapsed ? 'collapsed' : 'expanded'
-                      );
-                  }
+                //   if (typeof localStorage !== 'undefined') {
+                //       localStorage.setItem(
+                //           'collapsibleTextState', this.collapsed ? 'collapsed' : 'expanded'
+                //       );
+                //   }
               }
           }
       },
@@ -68,7 +67,7 @@
               this.computedIsCollapsed = !this.computedIsCollapsed;
           },
       },
-  }
+  });
   </script>
   
   <style lang="scss" scoped>

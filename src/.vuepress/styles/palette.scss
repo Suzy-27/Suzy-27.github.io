@@ -1,6 +1,6 @@
 // you can change colors here
 $sidebar-width: 13rem;
-$sidebar-mobile-width: 12rem;
+$sidebar-mobile-width: 15rem;
 $content-width: 1200px;
 
 $main-c-blue: rgba(164,196,226,255);
@@ -17,3 +17,7 @@ $footnote-c-link: (
     light: #054f9f,
     dark: #0a7af2,
 );
+$sidebar-c-bg-custom: (
+    light: rgba(164,196,226,255),
+    dark: rgb(47, 105, 163),
+)

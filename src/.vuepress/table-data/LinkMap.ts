@@ -368,6 +368,171 @@ export interface LinkData {
       link: "/wiki/organization.html#academy",
       title: "原为ARCANA下部组织的佣兵公司。担任理事长一职。",
     },
+    mozu: {
+      link: "/wiki/friendship/gang/mozu.html",
+      title: "MOZU"
+    },
+    gbc: {
+      link: "/wiki/friendship/gang/gbc.html",
+      title: "GBC"
+    },
+    anbrella: {
+      link: "/wiki/friendship/gang/anbrella.html",
+      title: "Anbrella（餡ブレラ）"
+    },
+    nolimit: {
+      link: "/wiki/friendship/gang/nolimit.html",
+      title: "No Limit"
+    },
+    yaroya: {
+      link: "/wiki/friendship/gang/868.html",
+      title: "868"
+    },
+    topgear: {
+      link: "/wiki/friendship/gang/topgear.html",
+      title: "TOPGEAR"
+    },
+    lwgp: {
+      link: "#",
+      title: "LWGP"
+    },
+    iris: {
+      link: "#",
+      title: "IRiS"
+    },
+    concellge: {
+      link: "/wiki/friendship/gang/concellge.html",
+      title: "Concellge"
+    },
+    polic: {
+      link: "/wiki/friendship/white/polic.html",
+      title: "洛圣都警察"
+    },
+    aid: {
+      link: "/wiki/friendship/white/aid.html",
+      title: "洛圣都急救队"
+    },
+    // people
+    bigsuzuki: {
+      link: "#",
+      title: "BIG SUZUKI 改装店B.A.D社长"
+    },
+    ruu: {
+      link: "#",
+      title: "ルウ ギャラクティカ（Ruu Gyarakutika）一般车销售员兼车行PYC的店长"
+    },
+    agemono: {
+      link: "#",
+      title: "揚物 ころも（Agemono Koromo）饮食店奇肉屋店员兼车行BMC的机械师"
+    },
+    nanba: {
+      link: "#",
+      title: "難波 ハル（Nanba Haru）原PY（已拆除）机械师"
+    },
+    kawaue: {
+      link: "#",
+      title: "川上（Kawaue）经典车销售员兼车行A2的机械师"
+    },
+    chenmayo: {
+      link: "#",
+      title: "チェン マヨ（Chen Mayo）车行A2的机械师"
+    },
+    yabushita: {
+      link: "#",
+      title: "ヤブ下 安理（Yabushita Anri）武器店FEMME FETALE经营者兼车行A2的机械师"
+    },
+    sauta: {
+      link: "#",
+      title: "星唄 サウ汰（Hoshiuda Sauta）车行BMC的机械师"
+    },
+    pakichi: {
+      link: "#",
+      title: "パキ ち（Paki Chi）一般车销售员兼车行PYC的机械师"
+    },
+    kentsu: {
+      link: "#",
+      title: "飯田 けんつ（Iida Kentsu）原车行9055的机械师，帮派TOPGEAR的Boss"
+    },
+    saitou: {
+      link: "#",
+      title: "斎藤 まさのり（Saitou Masanori）高级车销售员兼车行JTS的机械师"
+    },
+    tette: {
+      link: "#",
+      title: "なんば てって（Nanba Tette）原PY（已拆除）机械师"
+    },
+    tenouji: {
+      link: "#",
+      title: "天王寺 京司郎（Tenouji Kyoshirou）高级车销售员兼车行JTS的机械师"
+    },
+    oniwano: {
+      link: "#",
+      title: "御庭野 えんちょう（Oniwano Enchou）车行PYC的机械师"
+    },
+    torino: {
+      link: "#",
+      title: "鳥野 ぎん（Torino Gin）飞机销售员兼急救队队员"
+    },
+    naruse: {
+      link: "#",
+      title: "成瀬 力二（Naruse Rikiji）飞机销售员兼警察"
+    },
+    inochida: {
+      link: "#",
+      title: "命田 守（Inochida Mamoru）船舶销售员兼急救队队长"
+    },
+    fudeko: {
+      link: "#",
+      title: "くまの ふでこ（Kumano Fudeko）飞机销售员兼BMC机械师"
+    },
+    neke: {
+      link: "#",
+      title: "ネケ ニマス（Neke Nimasu）原车行PY的店员，帮派GBC成员"
+    },
+    monapi: {
+      link: "#",
+      title: "小豆 最中（Azuki Monaka）车行JTS的店员"
+    },
+    ozawa: {
+      link: "#",
+      title: "オザワ ハヤマサ（Ozawa Hayamasa）原帮派IRiS成员，解散后加入Anbrella"
+    },
+    marii: {
+      link: "#",
+      title: "まりー あんとあー（Marii Antoaa）"
+    },
+    naofi: {
+      link: "#",
+      title: "半沢 直ふぃ（Hanzawa Naofi）原帮派IRiS UB，解散后加入No Limit"
+    },
+    bushi: {
+      link: "#",
+      title: "ジャーク 武士（Jyaaku Bushi）原车行PY的社长"
+    },
+    usagisan: {
+      link: "#",
+      title: "山田 パルコ（Yamada Paruko）车行BMC的店员，正在以Usagisan的艺名活动中"
+    },
+    roozu: {
+      link: "#",
+      title: "猪原 ローズ（Ibara Roozu）警察"
+    },
+    arisaka: {
+      link: "#",
+      title: "有坂 誉（Arisaka Homare）帮派Anbrella成员"
+    },
+    hesutiya: {
+      link: "#",
+      title: "ヘスティア ゴデス（Hesutiya Godesu）急救队队员"
+    },
+    mera: {
+      link: "#",
+      title: "雪菱 メラ（Yukihishi Mera）原Academy学生，Academy解散后加入TOPGEAR"
+    },
+    amachika: {
+      link: "#",
+      title: "天近 くるみ（Amachika Kurumi）魔女咖啡店主，很擅长装修"
+    },
     // external links
     chunk_5: {
       link: "https://www.bilibili.com/video/BV1we48ejEZ1/?share_source=copy_web&vd_source=873a132450be0298a3ee2f43e24dd93e",

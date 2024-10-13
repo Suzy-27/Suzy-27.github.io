@@ -24,6 +24,10 @@ h2 {
 .vp-page-title {
     margin-bottom: 20px;
 }
+//--- outlook options in the mobile nav screen ---------------
+.vp-outlook-wrapper .vp-color-mode {
+    display: none;
+}
 
 //--- date formatting ------------------
 .date {
@@ -33,6 +37,7 @@ h2 {
 .inline {
     display: inline;
 }
+
 // in vehicle margin
 .vehicle-margin-top {
     margin-top: 20px;
@@ -55,10 +60,6 @@ h2 {
     font-weight: bold;
     text-align: center;
 }
-td {
-    line-height: 150%;
-    padding: 7px;
-}
 
 // dotted blue underline
 .underline-blue {
@@ -66,7 +67,7 @@ td {
     font-weight: bold;
 }
 .underline-margin {
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom: 15px;
 }
 // blod & underline
@@ -88,7 +89,7 @@ td {
     background-color: var(--main-c-blue);
     color: var(--main-c-grey);
     padding: 3px 3px 3px 3px;
-    margin: 0 0 15px 0;
+    margin-bottom: 20px;
 }
 // h2 grey background 
 .text-bg-grey {
@@ -110,21 +111,12 @@ td {
 .collapsed-border {
     border: 1px solid var(--vp-c-border); 
     padding: 10px;
-    margin: 10px 0 10px 0;
-}
-ul {
-    margin: 0;
+    margin: 10px 0 0 0;
 }
 
-//--- details & summary ----------------
+//--- details ----------------
 .details {
     max-width: fit-content;
-}
-summary::-webkit-details-marker, summary::marker {
-    display: none;
-}
-summary {
-    list-style-type: none;
 }
 
 //--- table ----------------------
@@ -132,34 +124,30 @@ table {
     table-layout:fixed;
     border-collapse: collapse;
     width: 100%;
-    margin: 0 0 10px 0;
+    margin: 0 ;
     padding: 0%;
+    white-space: nowrap;
 }
 tfoot {
     color: var(--vp-c-text-mute);
     font-size: small;
-    margin: 0%;
-    padding: 0%;
 }
-
-// small font table
-.table-small-font {
-    font-size: 0.9em;
+td {
+    padding: 5px
 }
-.table-small-font td {
-    white-space: nowrap;
-    padding: 10px;
+.gallery-table td {
+    padding: 8px;
+}
+.top-table {
+    margin-bottom: 10px;
+}
+.top-table td {
+    padding: 8px 5px 8px 5px;
 }
 
 ::-webkit-scrollbar {
     height: .5em;
     color: var(--table-bg-header)
-}
-
-.clothes-img {
-    width: 133px;
-    height: 300px;
-    border-radius: 3px;
 }
 
 //--- break line margin in location.md & vehicle ----------
@@ -171,35 +159,51 @@ tfoot {
     margin-bottom: 1.8em;
 }
 
-//--- return link in the bottom of page ---------
-.return-link {
-    display: inline;
-    background-color: var(--vp-c-bg);
-    border-radius: 0.5rem;
-    display: flex;
-    font-size: 1em;
-    max-width: fit-content;
-    height: 2rem;
-    margin: 0;
-    padding: 10px 10px 0px 10px;
+//--- style in friendship.md --------------------
+.link-friendship {
     color: var(--vp-c-text);
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: large;
 }
-.return-link:hover {
-    background-color: var(--vp-c-control-hover);
+.link-friendship:hover {
+    color: var(--vp-c-accent-hover);
+}
+.div-friendship {
+    padding-block: 10px;
+    padding-inline-start: 0.5rem;
+    border-radius: 5px;
+}
+.div-friendship:hover {
+    background-color: var(--vp-c-control);
 }
 
-//--- list style ---------------------------------
+//--- sidebar style -----------------------------
+.vp-sidebar-title {
+    padding-block: 2px;
+}
+.vp-sidebar-link {
+    padding-block: 5px;
+}
+.vp-nav-item a {
+    font-weight: bold;
+}
+
+//--- friendship/ list style ---------------------------------
 ul {
     list-style: square;
-}
-.list-double-space {
-    margin-bottom: 0;
+    margin: 0;
 }
 .list-double-space li {
     margin-bottom: 10px;
 }
-.inner {
+.list-double-space ul li {
     margin-top: 10px;
+}
+
+ol li {
+    margin-block: 10px;
 }
 
 .footnote-adjust {
@@ -240,6 +244,11 @@ ul {
     color: rgb(235 235 245 / 86%);
 }
 
+.clothes-img {
+    width: 130px;
+    height: 300px;
+    border-radius: 3px;
+}
 
 // highlight styles
 // .highlight {

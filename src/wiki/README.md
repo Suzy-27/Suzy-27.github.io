@@ -6,18 +6,18 @@ next: gallery.md
 
 ::: tabs#img
 @tab 1
-<img src="/wiki-assets/top/top1.png">
+<img loading="lazy" src="/wiki-assets/top/top1.png">
 @tab 2
-<img src="/wiki-assets/top/top2.png">
+<img loading="lazy" src="/wiki-assets/top/top2.png">
 @tab 3
-<img src="/wiki-assets/top/top3.png">
+<img loading="lazy" src="/wiki-assets/top/top3.png">
 @tab 4
-<img src="/wiki-assets/top/top4.png">
+<img loading="lazy" src="/wiki-assets/top/top4.png">
 @tab 5
-<img src="/wiki-assets/top/top5.png" width=320px depth=700px>
+<img loading="lazy" src="/wiki-assets/top/top5.png" width=320px depth=700px>
 :::
 
-<table style="white-space: nowrap;">
+<table class="top-table">
   <tbody>
     <tr>
       <td class="td-blue">名字</td>
@@ -25,10 +25,13 @@ next: gallery.md
         <i class="fa-solid fa-user"></i>
       </td>
       <td>
-        <div style="font-size:0.6em;">
-          な し ま
-        </div>
-        無馬 かな<br> 
+        <ruby>
+          <rb>無馬</rb>
+          <rp>(</rp>
+          <rt>なしま</rt>
+          <rp>)</rp>
+        </ruby>
+         かな<br> 
         Nashima Kana
       </td>
     </tr>
@@ -60,7 +63,7 @@ next: gallery.md
       </td>
       <td>
         <Anchor href="doctor"><b>私人医生</b></Anchor><span class="date"> '24/03/19～(复职)</span><br>
-        <CollapsableText label="过去的职业" :isSmallFont="true">
+        <CollapsableText label="过去的职业" :isSmallFont="true"><br>
           &emsp;出租车公司<Anchor href="taxi">菖光会</Anchor>
           <span class="date">
             司机&emsp;'23/08/02〜'23/08/27
@@ -151,7 +154,7 @@ next: gallery.md
       </td>
       <td>
         <b>共5次 </b>
-        <CollapsableText label="一览" :isSmallFont="true" :isInline="true">
+        <CollapsableText label="一览" :isSmallFont="true">
           <br>
           &emsp;利子<span class="date"> '23/10/30</span><br> 
           &emsp;みてるぞ<span class="date"> '24/01/13</span><br> 
@@ -168,7 +171,7 @@ next: gallery.md
       </td>
       <td>
         【<Anchor href="ring_1">if</Anchor>】<br>
-        <CollapsableText label="过去的铃声" :isSmallFont="true">
+        <CollapsableText label="过去的铃声" :isSmallFont="true"><br>
           &emsp;【<Anchor href="ring_2">Trick</Anchor>】<br> 
           &emsp;【ラヴィットパラダイス】
         </CollapsableText>
@@ -188,7 +191,7 @@ next: gallery.md
       </td>
       <td>
         <Anchor href="twitter">
-         <img :src="$isDarkmode ? '/assets/icon/icon-x-white.jpg' : '/assets/icon/icon-x-black.jpg'" class="img-icon">
+         <img loading="lazy" :src="$isDarkmode ? '/assets/icon/icon-x-white.jpg' : '/assets/icon/icon-x-black.jpg'" class="img-icon">
           <span style="color:var(--vp-c-text)">
             X (旧<span style="color:#1da1f2">Twitter</span>)@Kanae_2434
           </span>
@@ -201,7 +204,7 @@ next: gallery.md
         <i class="fa-solid fa-gamepad"></i>
       </td>
       <td>
-        <img src="/assets/icon/icon-twitch.png" class="img-icon">
+        <img loading="lazy" src="/assets/icon/icon-twitch.png" class="img-icon">
         <Anchor href="twitch">
           <span style="color:#9146ff">
             Twitch (kanae_2434)
@@ -222,7 +225,7 @@ next: gallery.md
         <i class="fa-solid fa-user-plus"></i>
       </td>
       <td>
-        <CollapsableText label="剧透注意">
+        <CollapsableText label="剧透注意"><br>
           &emsp;文月 なえ、文月 夏苗
         </CollapsableText>
       </td>
@@ -230,7 +233,7 @@ next: gallery.md
   </tbody>
 </table>
 
-<img src="/wiki-assets/banner/kana_CharacterBanner2.png" alt="Kana Banner" style="width:250px">
+<img loading="lazy" src="/wiki-assets/banner/kana_CharacterBanner2.png" alt="Kana Banner" style="width:250px">
 
 ## <div class="text-bg-grey"> 基本情报 <i class="fa-solid fa-address-card" style="color: lightSteelblue"></i></div>
 
@@ -254,8 +257,11 @@ next: gallery.md
           <ul>
             <b>'24/03/21</b> →逃亡生活中，为了隐藏真实身份，进行了警察档案伪造。<br>
             由于面部没有很大的外貌变化的话就无法变更，决定伤害右眼以制造外伤。<br>
-            虽然右眼损失的确定性还未被观测到，但是从这一天起，与右眼失去相关的言行 <CollapsableText label="※" :isInline="true"> 
-            <br>（枪的命中率下降，不希望对方站在自己右边，公开表示无法完全躲开、看不见从右侧驶来的车辆等）</CollapsableText> 逐渐增多。<br>
+            虽然右眼损失的确定性还未被观测到，但是从这一天起，与右眼失去相关的言行
+            <CollapsableText label="※"> <br>
+              （枪的命中率下降，不希望对方站在自己右边，公开表示无法完全躲开、看不见从右侧驶来的车辆等）
+            </CollapsableText>
+            逐渐增多。<br>
             <b>'24/04/12</b> →从<Anchor href="nene">秘书</Anchor>那里收到了随时可以进行移植手术的备用眼珠。<br>
             听说只要有天才医生，就可以进行移植手术，得知了<Anchor href="yucha">ゆちゃ姐</Anchor>正在寻找这位天才医生。<br>
             <b>'24/05/08</b> →LASIK手术完成。<br>
@@ -266,14 +272,21 @@ next: gallery.md
       </CollapsableText>
     </li>
     <li>涂着黑色的指甲油，对男性用口红表示有兴趣，有着时髦的一面。</li>
-    <li>脖子左侧和背部（作为参考样本）纹着<Anchor href="arcana">ARCANA</Anchor>的纹身。</li>
+    <li>脖子左侧和背部<span class="date">(作为参考样本)</span>纹着<Anchor href="arcana">ARCANA</Anchor>的纹身。</li>
 </ul>
 
 ### <div class="text-bg-blue"> ▷ 趣味嗜好 </div>
 
-- 喜欢露出较少，色调单一这类低调的服装。
-- 经常吸烟但并不是因为喜欢才吸。爱用的牌子是”GOLDMASTER_川上“ <CollapsableText label="※" :isInline="true"><br>（是<a href="#">川上烟草店</a>1包50万元的最高级品。据说可以感受到富豪感。）</CollapsableText>
-- （所使用的香水是菲拉格慕男士系列）
+<ul>
+  <li>喜欢露出较少，色调单一这类低调的服装。</li>
+  <li>
+    经常吸烟但并不是因为喜欢才吸。爱用的牌子是”GOLDMASTER_川上“
+  <CollapsableText label="※"><br>
+    （是<a href="#" title="香烟店，店里专门卖各种烟草制品。店主为川 上">川上烟草店</a>1包50万元的最高级品。据说可以感受到富豪感。）
+  </CollapsableText>
+  </li>
+  <li>（所使用的香水是菲拉格慕男士系列）</li>
+</ul>
 
 ### <div class="text-bg-blue"> ▷ 性格 </div>
 
@@ -337,7 +350,7 @@ next: gallery.md
 <div>非常擅长使用枪械，在大型犯罪活动和枪击战中经常有亮眼的表现。<br>
 会教授与无心人的战斗技巧和战术。</div>
 
-<CollapsableText label="> 無馬流格斗术" margin="10px 0 20px 0">
+<CollapsableText label="> 無馬流格斗术">
   <div class="collapsed-border">
     以高难度的技巧为武器，注重于能否看破对手，先行出招的格斗流派。
     <ul>
@@ -352,8 +365,8 @@ next: gallery.md
           <li>招式可以打断强者所施放的【黑闪】并反击，只有对方同样施放【真·黑闪】时才会根据物理条件决定胜负。</li>
           <li>为了保持出拳的最高速度，必须对招式有极高的熟练度。在流派内，会将这一行为称为【磨练咒力】。</li>
           <li>出招方式为极秘事项，只有各个帮派Boss等有限的人在支付了1亿学费后才会予以传授。</li>
-          <CollapsableText label="> 传授者">
-            <Anchor href="mond">MonD</Anchor>(<Anchor href="allin">ALLIN</Anchor> Boss)、<Anchor href="rb">RB</Anchor>(<Anchor href="allin">ALLIN</Anchor> 干部)、<Anchor href="van">ヴァン ダーマー</Anchor>(<a href="#">MOZU</a> Boss)、菖蒲 光樹(<a href="#">IRiS</a> Boss)、<Anchor href="wesker">アルフォート ウェスカー</Anchor>(<a href="#">Anbrella</a> Boss) 
+          <CollapsableText label="> 传授者"><br>
+            <Anchor href="mond">MonD</Anchor>(<Anchor href="allin">ALLIN</Anchor> Boss)、<Anchor href="rb">RB</Anchor>(<Anchor href="allin">ALLIN</Anchor> 干部)、<Anchor href="van">ヴァン ダーマー</Anchor>(<Anchor href="mozu">MOZU</Anchor> Boss)、菖蒲 光樹(<Anchor href="iris">IRiS</Anchor> Boss)、<Anchor href="wesker">アルフォート ウェスカー</Anchor>(<Anchor href="anbrella">Anbrella</Anchor> Boss) 
           </CollapsableText>
         </ul>
         <b>奇袭技【零距离滑铲】</b>
@@ -395,7 +408,7 @@ next: gallery.md
   <span style="text-decoration:line-through;">枪支执照</span>、<span style="text-decoration:line-through;">白市民证（返还）</span>、<span style="text-decoration:line-through;">各类驾驶执照</span>
 </div>
 
-<CollapsableText label="> 过去取得的驾驶执照">
+<CollapsableText label="> 过去取得的驾驶执照"><br>
 标准机动车、摩托车、轻便摩托车、出租车、大型和特殊车辆、船舶、直升机、赛车、飞机和公共汽车</CollapsableText>
 
 <div class="underline-margin">
@@ -405,96 +418,100 @@ next: gallery.md
 </div>
 <div>很擅长从0到1的创业，起家了许多事业。 </div>
 
-<CollapsableText label="> 接客服务【Kana Special】" margin="8px 0 0 0">
-    <div class="collapsed-border">
-    给客人带来治愈的接客服务。
-    <ul>
-        <li>在刚来洛圣都的时候作为生计手段而展开营业。</li>
-        <li>参考了猫咖店员的特别服务（Special）。</li>
-        <li>服务内容会基于性别以及是否在卫星内而有所不同。</li>
-        <li>在多次使用后会升级为VIP会员。</li>
-        <li>服务时间由無馬主导。结束后需要支付费用到指定ID。</li>
-    </ul>
-        <CollapsableText label="> 选单">
+<div style="margin-top:10px;">
+  <CollapsableText label="> 接客服务【Kana Special】">
+      <div class="collapsed-border">
+      给客人带来治愈的接客服务。
+      <ul>
+          <li>在刚来洛圣都的时候作为生计手段而展开营业。</li>
+          <li>参考了猫咖店员的特别服务（Special）。</li>
+          <li>服务内容会基于性别以及是否在卫星内而有所不同。</li>
+          <li>在多次使用后会升级为VIP会员。</li>
+          <li>服务时间由無馬主导。结束后需要支付费用到指定ID。</li>
+      </ul>
+          <CollapsableText label="> 选单">
+            <div class="collapsed-border">
+              <ul>
+                <li>女性：一起以打棒球的姿势欢快互动。（无语音）</li>
+                <li>男性：短暂的肢体接触。（无语音）</li>
+                <li>VIP①300万元起步：享受公主抱和婴儿般的服务</li>
+                <li>VIP②100万元起步：可以抱着，并哄哄宝宝Kana</li>
+                <li>极上（第四次之后可选）：服务时间将由你决定</li>
+              </ul>
+            </div>
+          </CollapsableText>
+      </div>
+  </CollapsableText>
+</div>
+<div style="margin-top:10px;">
+  <CollapsableText label="> 金融业务【暗金無島君】">
+      <template #addon>
+        <span id="footnote-5" class="footnote-adjust">
+          <a href="#footnote-5-ref" title="原文闇金ナシジマくん，原型为暗金丑岛君 (闇金ウシジマくん)。">
+            <sup>[4]</sup>
+          </a>
+        </span><br>
+      </template>
+      <div class="collapsed-border">
+        面向没有钱的人的高利贷业务。
+        <ul>
+          <li>以向身无分文的赌场客户放贷起家。</li>
+          <li>利率为 50%/天，逾期3天后加收150%（最多）。</li>
+          <li>据说听完说明后仍旧要借钱的人络绎不绝。</li>
+          <li>为了赌博而贷款的居多，但也提供用于赌博以外的融资服务。</li>
+          <li>融资的利率比上述利率低。</li>
+          <li>对于无力偿还债务的借款人，会提供工作介绍等还款方式的建议。</li>
+        </ul>
+        <CollapsableText label="> 债务者一览">
           <div class="collapsed-border">
             <ul>
-              <li>女性：一起以打棒球的姿势欢快互动。（无语音）</li>
-              <li>男性：短暂的肢体接触。（无语音）</li>
-              <li>VIP①300万元起步：享受公主抱和婴儿般的服务</li>
-              <li>VIP②100万元起步：可以抱着，并哄哄宝宝Kana</li>
-              <li>极上（第四次之后可选）：服务时间将由你决定</li>
+              <li>
+                <Anchor href="tetsuo">切間 てつお</Anchor>：某次其在赌场散财后借款，日后为高利贷常客。
+              </li>
+              <li>
+                <a href="#">ネケ ニマス</a>：以融资名义借款。由于是新手，无力偿还债务，最后被介绍去摘花。
+              </li>
+              <li>
+                <Anchor href="yamamoto">山本 龍也</Anchor>：在赌场借款，向<Anchor href="usako">なの</Anchor>借钱后偿还债务。
+              </li>
+              <li>
+                <Anchor href="esu">エスターク</Anchor>：Blackjack（二十一点）胜利后偿还欠款。
+              </li>
+              <li>
+                <Anchor href="amakusa">天草 蒼</Anchor>：请求融资其购入Rumpo Custom，在对方提出以三次摘花打工来偿还后同意出资。
+              </li>
+              <li>
+                <a href="#">荒川 拓也</a>：经由ヴァンダーマー介绍而来的顾客。
+              </li>
+              <li>
+                <Anchor href="raian">柳田 ライアン</Anchor>：在没有黑闪为前提的格斗战中，如果柳田获胜将无息贷款1亿，而如果無馬获胜则按高利贷利息贷款。
+              </li>
+              <li>
+                <a href="#">オザワ ハヤマサ</a>：总共欠下了 5 亿的债务。
+              </li>
+              <li>
+                '24/2/18）<Anchor href="esu">エスターク</Anchor>：在与<Anchor href="mond">MonD</Anchor>チンチロ中落败欠下了5亿的债务，需要5亿元以及完成毕业论文来偿还债务。
+              </li>
+              <li>
+                '24/5/28）<Anchor href="esu">エスターク</Anchor>：无息帮其偿还了10亿的债务。
+              </li>
+              <li>
+                '24/6/8）<a href="#">酒槻 すん</a>：以30% 的利率贷出了1亿，并之后与其进行チンチロ。然而sun贪心不足，在第二次チンチロ输给了無馬的2ゾロ，总计欠款3.9 亿。
+              </li>
             </ul>
           </div>
         </CollapsableText>
-    </div>
-</CollapsableText>
-
-<CollapsableText label="> 金融业务【暗金無島君】" margin="8px 0 0 0">
-    <template #addon>
-      <span id="footnote-5" class="footnote-adjust">
-        <a href="#footnote-5-ref" title="原文闇金ナシジマくん，原型为暗金丑岛君 (闇金ウシジマくん)。">
-          <sup>[4]</sup>
-        </a>
-      </span><br>
-    </template>
-    <div class="collapsed-border">
-      面向没有钱的人的高利贷业务。
-      <ul>
-        <li>以向身无分文的赌场客户放贷起家。</li>
-        <li>利率为 50%/天，逾期3天后加收150%（最多）。</li>
-        <li>据说听完说明后仍旧要借钱的人络绎不绝。</li>
-        <li>为了赌博而贷款的居多，但也提供用于赌博以外的融资服务。</li>
-        <li>融资的利率比上述利率低。</li>
-        <li>对于无力偿还债务的借款人，会提供工作介绍等还款方式的建议。</li>
-      </ul>
-      <CollapsableText label="> 债务者一览">
-        <div class="collapsed-border">
-          <ul>
-            <li>
-              <Anchor href="tetsuo">切間 てつお</Anchor>：某次其在赌场散财后借款，日后为高利贷常客。
-            </li>
-            <li>
-              <a href="#">ネケ ニマス</a>：以融资名义借款。由于是新手，无力偿还债务，最后被介绍去摘花。
-            </li>
-            <li>
-              <Anchor href="yamamoto">山本 龍也</Anchor>：在赌场借款，向<Anchor href="usako">なの</Anchor>借钱后偿还债务。
-            </li>
-            <li>
-              <Anchor href="esu">エスターク</Anchor>：Blackjack（二十一点）胜利后偿还欠款。
-            </li>
-            <li>
-              <Anchor href="amakusa">天草 蒼</Anchor>：请求融资其购入Rumpo Custom，在对方提出以三次摘花打工来偿还后同意出资。
-            </li>
-            <li>
-              <a href="#">荒川 拓也</a>：经由ヴァンダーマー介绍而来的顾客。
-            </li>
-            <li>
-              <Anchor href="raian">柳田 ライアン</Anchor>：在没有黑闪为前提的格斗战中，如果柳田获胜将无息贷款1亿，而如果無馬获胜则按高利贷利息贷款。
-            </li>
-            <li>
-              <a href="#">オザワ ハヤマサ</a>：总共欠下了 5 亿的债务。
-            </li>
-            <li>
-              '24/2/18）<Anchor href="esu">エスターク</Anchor>：在与<Anchor href="mond">MonD</Anchor>チンチロ中落败欠下了5亿的债务，需要5亿元以及完成毕业论文来偿还债务。
-            </li>
-            <li>
-              '24/5/28）<Anchor href="esu">エスターク</Anchor>：无息帮其偿还了10亿的债务。
-            </li>
-            <li>
-              '24/6/8）<a href="#">酒槻 すん</a>：以30% 的利率贷出了1亿，并之后与其进行チンチロ。然而sun贪心不足，在第二次チンチロ输给了無馬的2ゾロ，总计欠款3.9 亿。
-            </li>
-          </ul>
-        </div>
-      </CollapsableText>
-    </div>
-</CollapsableText>
+      </div>
+  </CollapsableText>
+</div>
 
 ### <div class="text-bg-blue"> ▷ 作为帮众的無馬 </div>
 
 <div style="margin:15px 0 15px 0">
 与一同建立帮派的初始成员一起担任了组织中核位置的Underboss职位，日后成为了Boss最信任的手下，是实际上的ALLIN No.2。
 </div>
-<CollapsableText label="> 发端" margin="5px 0 0 0">
+<div style="margin-top:5px;">
+<CollapsableText label="> 发端">
     <div class="collapsed-border">
     <ul>
         <li>从加入了友人<Anchor href="rb">RB</Anchor>所属的<Anchor href="beni">薬乃 紅</Anchor>一伙开始了这一切。</li>
@@ -504,8 +521,9 @@ next: gallery.md
     </ul>
     </div>
 </CollapsableText>
-
-<CollapsableText label="> 对Boss【MonD】的忠诚" margin="5px 0 0 0">
+</div>
+<div style="margin-top:5px;">
+<CollapsableText label="> 对Boss【MonD】的忠诚">
     <div class="collapsed-border">
     <ul>
         <li>Boss至上主义。公开表明不管Boss选择什么道路都将跟随其后。</li>
@@ -515,8 +533,9 @@ next: gallery.md
     </ul>
     </div>
 </CollapsableText>
-
-<CollapsableText label="> 活动倾向" margin="5px 0 0 0">
+</div>
+<div style="margin-top:5px;">
+<CollapsableText label="> 活动倾向">
     <div class="collapsed-border">
     <ul>
         <li>担心自己的A型血完美主义会无意识强求他人配合自己，所以总是一个人行动。</li>
@@ -525,8 +544,9 @@ next: gallery.md
     </ul>
     </div>
 </CollapsableText>
-
-<CollapsableText label="> 在组织的职务" margin="5px 0 0 0">
+</div>
+<div style="margin-top:5px;">
+<CollapsableText label="> 在组织的职务">
     <div class="collapsed-border">
     <p class="underline-black">内政 · 外交</p><br>
     <ul>
@@ -542,8 +562,9 @@ next: gallery.md
     </ul>
     </div>
 </CollapsableText>
-
-<CollapsableText label="> 主要功绩" margin="5px 0 0 0">
+</div>
+<div style="margin-top:5px;">
+<CollapsableText label="> 主要功绩">
     <div class="collapsed-border">
     <ul>
         <li>在还是ALLIN专属私人医生的时候，经常应对组织内部每天随意的胡闹。就职<Anchor href="doctor">私人医生</Anchor>时在名义上退出了帮派，直到偿还完退会费为止，均需要无偿救助ALLIN。</li>
@@ -552,6 +573,7 @@ next: gallery.md
     </ul>
     </div>
 </CollapsableText>
+</div>
 
 <div class="underline-margin">
   <span class="underline-blue">
@@ -585,7 +607,7 @@ next: gallery.md
       <li>经由警察局袭击一事，确认了自己的价值观与Boss以外的组织成员有着无论如何对话都无法填埋的沟壑存在。</li>
       <li>
         为了自身的正义，也为了通过痛苦促进成员成长为目的，用火箭筒(RPG)爆杀了现场的所有人
-        <CollapsableText label="※" :isInline="true"><br>（包括因误判了爆炸范围而无意中卷入的Boss在内的，参与警察局袭击的全员）</CollapsableText> 
+        <CollapsableText label="※"><br>（包括因误判了爆炸范围而无意中卷入的Boss在内的，参与警察局袭击的全员）</CollapsableText> 
         后逃亡。
       </li>
       <CollapsableText label="→ 详细的动机">
@@ -602,7 +624,7 @@ next: gallery.md
       <li>在走上了无法偏袒特定组织立场后，重回<Anchor href="allin">ALLIN</Anchor>的道路也随之消失了。</li>
       <li>
         经过数月后，回顾当时ALLIN的应对，认为其结果并不是自己所期望的。
-        <CollapsableText label="※" :isInline="true">
+        <CollapsableText label="※">
           <br>（评价其采取了敷衍与消极的解决方式 “应该是没有下定决心扣动扳机吧。” “说真心的，我曾希望他们能做出决断要求我给背叛的事实做一个交代。” “我并不记得曾教导过他们这样的帮派画像。”）
         </CollapsableText> 
       </li>
@@ -617,51 +639,53 @@ next: gallery.md
   <li>在取得白市民证的时候，由于有被剥夺的风险，基本很少主动介入犯罪现场。</li>
   <li>
     已经重回黑市民的现在，在辞去私人医生职位的<Anchor href="sosu">师傅</Anchor>的嘱托下
-      <CollapsableText label="※" :isInline="true">
+      <CollapsableText label="※">
         <br>“就拜托身为师兄的你了”<br>
       </CollapsableText> 
     继续以<a href="#-作为私人医生的無馬" title="無馬 かな（Nashima Kana）">Doctor K</a>的身份活动中。
   </li>
 </ul>
-<CollapsableText label="> 活动方针" margin="10px 0 0 0">
-  <div class="collapsed-border">
-    与市长的承诺以及从<Anchor href="sosu">师傅</Anchor>那里继承的意志作为核心理念。
-    <ul>
-      <li>无论如何都仅作为个人进行活动。</li>
-      <li>无论如何都仅作为个人进行活动。</li>
-      <li>不参与价格协定，但仍以相对统一的方式设定不损害工会利益的价格。</li>
-      <li>与现有工会的关系仅限于信息共享，但会积极响应来自对方的合作请求。</li>
-      <li>介入现场时，做好如果妨碍了帮派或者警察的话会被开枪击中的觉悟在行动。</li>
-    </ul>
-  </div>
-</CollapsableText>
-
-<CollapsableText label="> 活动外表" margin="0 0 20px 0">
-  <div class="collapsed-border">
-    作为专属私人医生的习惯保留至今，上半身穿着白色的衣服。<br>
-    <p class="underline-black">写真一览</p>
-    <table class="table-small-font">
-      <tbody>
-        <tr>
-          <td><img src="/wiki-assets/clothes/doctor/dr1.png" class="clothes-img"></td>
-          <td><img src="/wiki-assets/clothes/doctor/dr2.png" class="clothes-img"></td>
-          <td><img src="/wiki-assets/clothes/doctor/dr3.png" class="clothes-img"></td>
-          <td><img src="/wiki-assets/clothes/doctor/dr4.png" class="clothes-img"></td>
-          <td><img src="/wiki-assets/clothes/doctor/dr5.png" class="clothes-img"></td>
-        </tr>
-        <tr style="text-align: center">
-          <td><b>Doctor K</b></td>
-          <td><b>Doctor BONGORE</b></td>
-          <td><b>私人医生無馬</b></td>
-          <td><b>白市民时</b></td>
-          <td><b>黑市民时</b></td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</CollapsableText>
-
-<div style="margin:5px 0 5px 0">
+<div style="margin-top:10px;">
+  <CollapsableText label="> 活动方针">
+    <div class="collapsed-border">
+      与市长的承诺以及从<Anchor href="sosu">师傅</Anchor>那里继承的意志作为核心理念。
+      <ul>
+        <li>无论如何都仅作为个人进行活动。</li>
+        <li>无论如何都仅作为个人进行活动。</li>
+        <li>不参与价格协定，但仍以相对统一的方式设定不损害工会利益的价格。</li>
+        <li>与现有工会的关系仅限于信息共享，但会积极响应来自对方的合作请求。</li>
+        <li>介入现场时，做好如果妨碍了帮派或者警察的话会被开枪击中的觉悟在行动。</li>
+      </ul>
+    </div>
+  </CollapsableText>
+</div>
+<div style="margin-top:5px;">
+  <CollapsableText label="> 活动外表">
+    <div class="collapsed-border">
+      作为专属私人医生的习惯保留至今，上半身穿着白色的衣服。<br>
+      <p class="underline-black">写真一览</p>
+      <table class="table-small-font">
+        <tbody>
+          <tr>
+            <td><img loading="lazy" src="/wiki-assets/clothes/doctor/dr1.png" class="clothes-img"></td>
+            <td><img loading="lazy" src="/wiki-assets/clothes/doctor/dr2.png" class="clothes-img"></td>
+            <td><img loading="lazy" src="/wiki-assets/clothes/doctor/dr3.png" class="clothes-img"></td>
+            <td><img loading="lazy" src="/wiki-assets/clothes/doctor/dr4.png" class="clothes-img"></td>
+            <td><img loading="lazy" src="/wiki-assets/clothes/doctor/dr5.png" class="clothes-img"></td>
+          </tr>
+          <tr style="text-align: center">
+            <td><b>Doctor K</b></td>
+            <td><b>Doctor BONGORE</b></td>
+            <td><b>私人医生無馬</b></td>
+            <td><b>白市民时</b></td>
+            <td><b>黑市民时</b></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </CollapsableText>
+</div>
+<div style="margin:20px 0 5px 0">
   <span class="underline-blue">
     ◇ 黑医生【Doctor K】
   </span>
@@ -706,13 +730,13 @@ next: gallery.md
         <li>准备全新的车辆，避免使用無馬经常使用的物品。</li>
         <li>
           变装 
-          <CollapsableText label="※" :isInline="true">
+          <CollapsableText label="※">
             <br>→ 一头上了年纪的白发，随意的装扮仿佛刚从诊所里出来，发间埋着一朵白色的花。
           </CollapsableText>
           </li>
         <li>更新警方档案的照片。</li>
         <li>由于更新档案照片要求外貌的变化，故挖掉右眼并佩戴眼罩。
-          <CollapsableText label="注意" :isInline="true">
+          <CollapsableText label="注意">
             <br>右眼损失的确定性还未被观测到，但自那天起，表明失去右眼的言行增多。
           </CollapsableText>
         </li>
@@ -741,12 +765,12 @@ next: gallery.md
   <li>退出<Anchor href="allin">ALLIN</Anchor>后，由于一个月没有逮捕记录而获得了白市民证的申请资格。</li>
   <li>
     为了暗地里的<Anchor href="arcana">ARCANA</Anchor>计划能更顺利的推进，考虑到其中可以利用的优势 
-    <CollapsableText label="※" :isInline="true">（可以就职3个职位，以及作为一种掩人耳目手段的可能性）</CollapsableText>，顺势成为了白市民。
+    <CollapsableText label="※">（可以就职3个职位，以及作为一种掩人耳目手段的可能性）</CollapsableText>，顺势成为了白市民。
   </li>
   <li>由于平时戴着蓝色面具的样子会被视作犯罪者，在作为白市民的期间，主要以<span style="text-decoration:underline;">“素颜+单眼罩”</span>的形象行动。</li>
   <li>在取得白市民证后，注册了各种许可执照，尽量避免任何会导致证件被吊销的行为。</li>
   <li>在持续了半年后，发现白市民身份没什么意义
-    <CollapsableText label="※" :isInline="true">
+    <CollapsableText label="※">
       <ul>
         <li>即使出示证件，大多数人还是报以怀疑，而这种情况在半年后依然持续。</li>
         <li>当在做职业介绍时，被怀疑是否在引导对方从事犯罪，甚至在介绍对方去当警察的时候，给其带来了负面影响。</li>
@@ -756,50 +780,58 @@ next: gallery.md
      遂决定归还证件
   </li>
 </ul>
-<img src="/wiki-assets/banner/kana_CharacterBanner.png" alt="Kana Banner" style="margin-top:10px;width:250px">
+<img loading="lazy" src="/wiki-assets/banner/kana_CharacterBanner.png" alt="Kana Banner" style="margin-top:10px;width:250px">
 
 ### <div class="text-bg-blue"> ▷ 無馬的过去 </div>
-<CollapsableText label="> 关于出身" margin="10px 0 10px 0">
-  <div class="collapsed-border">
-    <ul>
-      <li>出身于日本的平民窟。</li>
-      <li>在搬到洛圣都之前过着贫困的生活。</li>
-      <li>没有被父母养大的记忆。“与其说是被某人养活，不如说是被环境养活。”</li>
-      <li>没有能够称作亲人的人的如今，<Anchor href="mond">MonD</Anchor>是交往最长久的友人。</li>
-      <li>有亲手杀害家人或是重要之人的记忆。</li>
-    </ul>
-  </div>
-</CollapsableText>
+<div style="margin-top:10px;">
+  <CollapsableText label="> 关于出身">
+    <div class="collapsed-border">
+      <ul>
+        <li>出身于日本的平民窟。</li>
+        <li>在搬到洛圣都之前过着贫困的生活。</li>
+        <li>没有被父母养大的记忆。“与其说是被某人养活，不如说是被环境养活。”</li>
+        <li>没有能够称作亲人的人的如今，<Anchor href="mond">MonD</Anchor>是交往最长久的友人。</li>
+        <li>有亲手杀害家人或是重要之人的记忆。</li>
+      </ul>
+    </div>
+  </CollapsableText>
+</div>
 
-<CollapsableText label="> 关于家人 · 家庭" margin="10px 0 10px 0">
-  <div class="collapsed-border">
-  <div style="font-style: italic;margin-bottom:15px;">关于自己的家庭，只记得还能想起的事情</div>
-    <ul>
-      <li>记得自己生于警察世家，但是并不清楚父母的职业。</li>
-      <li>没有上过学的记忆，有出身于一般富裕的家庭的自觉。</li>
-      <li>关于家人和兄弟姐妹，只有一些模糊的感觉 <CollapsableText label="※" :isInline="true"><br>从生物学上来讲，至少父母是存在的<br></CollapsableText> 仅此而已。”用话语很难描述“</li>
-    </ul>
-  </div>
-</CollapsableText>
+<div style="margin-top:10px;">
+  <CollapsableText label="> 关于家人 · 家庭">
+    <div class="collapsed-border">
+    <div style="font-style: italic;margin-bottom:15px;">关于自己的家庭，只记得还能想起的事情</div>
+      <ul>
+        <li>记得自己生于警察世家，但是并不清楚父母的职业。</li>
+        <li>没有上过学的记忆，有出身于一般富裕的家庭的自觉。</li>
+        <li>关于家人和兄弟姐妹，只有一些模糊的感觉 <CollapsableText label="※"><br>从生物学上来讲，至少父母是存在的<br></CollapsableText> 仅此而已。”用话语很难描述“</li>
+      </ul>
+    </div>
+  </CollapsableText>
+</div>
 
-<CollapsableText label="> 关于生日" margin="10px 0 10px 0">
-  <div class="collapsed-border">
-    <ul>
-      <li>从某个时刻开始，便不再被祝贺，长久如此，已经不记得自己的生日了。</li>
-      <li>白市民证的BOD一栏虽然写着2023年7月7号，但由于对不上年龄，应该是伪证</li>
-      → 据本人所说应该是在登记入国手续的时候，随便选了一个读起来顺口的日子填了上去。
-      <li>“有时候不被祝贺的生日更好。”“不喜欢生日或被庆祝。”</li>
-    </ul>
-  </div>
-</CollapsableText>
+<div style="margin-top:10px;">
+  <CollapsableText label="> 关于生日">
+    <div class="collapsed-border">
+      <ul>
+        <li>从某个时刻开始，便不再被祝贺，长久如此，已经不记得自己的生日了。</li>
+        <li>白市民证的BOD一栏虽然写着2023年7月7号，但由于对不上年龄，应该是伪证</li>
+        → 据本人所说应该是在登记入国手续的时候，随便选了一个读起来顺口的日子填了上去。
+        <li>“有时候不被祝贺的生日更好。”“不喜欢生日或被庆祝。”</li>
+      </ul>
+    </div>
+  </CollapsableText>
+</div>
 
-<CollapsableText label="> 来洛圣都的理由" margin="10px 0 0 0">
-  <div class="collapsed-border">
-    <ul>
-      <li>搬来洛圣都的原因是听说这里犯罪猖獗，治安很差（更容易赚钱）。</li>
-    </ul>
-  </div>
-</CollapsableText>
+<div style="margin-top:10px;">
+  <CollapsableText label="> 来洛圣都的理由">
+    <div class="collapsed-border">
+      <ul>
+        <li>搬来洛圣都的原因是听说这里犯罪猖獗，治安很差（更容易赚钱）。</li>
+      </ul>
+    </div>
+  </CollapsableText>
+</div>
 
 --- {.margin-top-bot}
 
@@ -808,20 +840,24 @@ next: gallery.md
     ◆ 幕后故事，RP外
   </span>
 </div>
-<CollapsableText label="> 名字的由来">
-  <div class="collapsed-border">
-    <ul>
-      <li>由来于在某动画登场，10秒就能哭出来的天才童星女主角。</li>
-      <li>早期还用汉字写名字，但由于念错的人太多了就以平假名表示了。</li>
-    </ul>
-  </div>
-</CollapsableText>
+<div style="margin-top:5px;">
+  <CollapsableText label="> 名字的由来">
+    <div class="collapsed-border">
+      <ul>
+        <li>由来于在某动画登场，10秒就能哭出来的天才童星女主角。</li>
+        <li>早期还用汉字写名字，但由于念错的人太多了就以平假名表示了。</li>
+      </ul>
+    </div>
+  </CollapsableText>
+</div>
 
-<CollapsableText label="> BGM" margin="5px 0 0 0">
-  <div class="collapsed-border">
-    <ul>
-      <li>玩赌场游戏时的 BGM</li>
-      <li>ARCANA BGM</li>
-    </ul>
-  </div>
-</CollapsableText>
+<div style="margin-top:5px;">
+  <CollapsableText label="> BGM">
+    <div class="collapsed-border">
+      <ul>
+        <li>玩赌场游戏时的 BGM</li>
+        <li>ARCANA BGM</li>
+      </ul>
+    </div>
+  </CollapsableText>
+</div>

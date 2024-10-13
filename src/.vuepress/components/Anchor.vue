@@ -3,6 +3,7 @@
        :title="anchor.title" 
        class="link" 
        :target="isExternalLink ? '_blank' : '_self'"
+       :aria-disabled="isRealLink"
     >
       <slot></slot>
     </a>
@@ -40,6 +41,9 @@
       // Check if the link is external by looking for http/https at the start of the URL
       return /^(http|https):\/\//.test(this.anchor.link);
       },
+      isRealLink(): boolean {
+        return this.link === "#";
+      }
     },
     methods: {
     setHighlightTarget() {

@@ -21,6 +21,8 @@ export default hopeTheme({
 
   // navbar
   navbar: wikiNavbar,
+  navbarLayout: { start: ["Brand"], center: ["Links"], end: ["Outlook", "Language", "Repo", "Search"] },
+  navbarTitle: "無馬 かな",
 
   // sidebar
   sidebar: wikiSidebar,

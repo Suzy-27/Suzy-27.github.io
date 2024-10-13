@@ -9,7 +9,7 @@
         </span>
       </a>
     </p>
-    <p><b><i class="fa-solid fa-quote-left"></i>&ensp;译者の考察</b></p>
+    <p><b><i class="fa-solid fa-quote-left"></i>&ensp;译者有话讲</b></p>
     <p id="footnote-2-ref" class="footnote-link">
       <a href="#footnote-2" title="チャンク">
         <span class="footnote-number">[1]</span>

@@ -41,7 +41,8 @@
   
     data() {
       return {
-        collapsed: this.isCollapsed || (typeof localStorage !== 'undefined' && localStorage.getItem('collapsibleState') === 'collapsed'),
+        collapsed: this.isCollapsed 
+        // || (typeof localStorage !== 'undefined' && localStorage.getItem('collapsibleButtonState') === 'collapsed'),
       };
     },
   
@@ -52,21 +53,21 @@
         },
         set(value) {
           this.collapsed = value;
-          if (typeof localStorage !== 'undefined') {
-            localStorage.setItem('collapsibleState', value ? 'collapsed' : 'expanded');
-          }
+          // if (typeof localStorage !== 'undefined') {
+          //   localStorage.setItem('collapsibleButtonState', value ? 'collapsed' : 'expanded');
+          // }
         },
       },
     },
   
-    created() {
-      if (typeof localStorage !== 'undefined') {
-        const savedState = localStorage.getItem('collapsibleState');
-        this.collapsed = savedState ? savedState === 'collapsed' : this.isCollapsed;
-      } else {
-        this.collapsed = this.isCollapsed;
-      }
-    },
+    // created() {
+    //   if (typeof localStorage !== 'undefined') {
+    //     const savedState = localStorage.getItem('collapsibleButtonState');
+    //     this.collapsed = savedState ? savedState === 'collapsed' : this.isCollapsed;
+    //   } else {
+    //     this.collapsed = this.isCollapsed;
+    //   }
+    // },
   
     methods: {
       toggleDiv() {
@@ -84,18 +85,18 @@
     cursor: pointer;
     width: 100%;
     height: 100%;
-    font-size: 1em;
     color: var(--vp-c-text);
     display: block;
   }
   .btn-with-border {
     width: 1.5em;
     height: 1.5em;
+    font-size: 1em;
     border: 1px solid var(--vp-c-text);
     display: block;
     text-align: center;
   }
-  .btn:hover .btn-with-border {
+  .btn:hover {
     background-color: var(--vp-c-control-hover);
   }
   .div-invisible {

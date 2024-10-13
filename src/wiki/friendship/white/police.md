@@ -69,6 +69,4 @@ head:
 
 ---
 
-<div class="return-link">
-    <a class="route-link" href="/wiki/friendship/"><b>↩️返回&ensp;交友关系</b></a>
-</div>
+

@@ -1,0 +1,27 @@
+// small font table
+.horizontal-table {
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+.horizontal-table td {
+    white-space: nowrap;
+    vertical-align: top;
+    font-size: 0.9em;
+    line-height: 150%;
+    border: 1px solid var(--table-border);
+    min-width: 40px;
+    padding: 8px;
+}
+.title-row div {
+    text-align:center;
+    font-weight: bold;
+}
+.date-row div {
+    color: var(--vp-c-text-mute);
+    font-size: small;
+}
+.clothes-img img {
+    width: 130px;
+    height: 300px;
+    border-radius: 3px;
+}
