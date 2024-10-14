@@ -1,7 +1,7 @@
 <template>
     <div class="details-button" :style="{ margin: margin }">
       <div>
-        <div class="btn" @click="toggleDiv">
+        <div :class="['btn', {'div-accent-bg': !computedIsCollapsed}]" @click="toggleDiv">
           <div class="btn-with-border">
               {{ computedIsCollapsed ? '+' : '-' }}
           </div>
@@ -108,6 +108,11 @@
   .div-scrollable {
     width: 100%;
     overflow-x: auto;
+  }
+  @media (max-width: 719px) {
+    .div-accent-bg {
+      background-color: var(--vp-c-control-hover);
+    }
   }
   </style>
   

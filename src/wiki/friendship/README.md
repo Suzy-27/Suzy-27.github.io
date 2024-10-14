@@ -47,3 +47,5 @@ head:
 <div class="div-friendship"><a class="link-friendship" href="/wiki/friendship/white/aid.html">急救队</a></div>
 
 <div class="div-friendship"><a class="link-friendship" href="/wiki/friendship/white/other.html">其他</a></div>
+
+<br>

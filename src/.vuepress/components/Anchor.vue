@@ -42,7 +42,7 @@
       return /^(http|https):\/\//.test(this.anchor.link);
       },
       isRealLink(): boolean {
-        return this.link === "#";
+        return this.anchor.link === "#";
       }
     },
     methods: {

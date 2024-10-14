@@ -28,9 +28,13 @@ export default defineUserConfig({
         __dirname,
         "./components/ReturnLink.vue",
       ),
-      "@theme-hope/modules/outlook/components/OutlookButton": path.resolve(
+      "@theme-hope/modules/navbar/components/NavScreen": path.resolve(
         __dirname,
-        "./components/NavComponent.vue",
+        "./components/NavScreen.vue",
+      ),
+      "@theme-hope/modules/navbar/components/RepoLink": path.resolve(
+        __dirname,
+        "./components/RepoLink.vue",
       ),
       // Components
       "@DataTable": path.resolve(

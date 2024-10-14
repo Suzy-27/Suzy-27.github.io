@@ -4,18 +4,7 @@ next: gallery.md
 ---
 # 無馬 かな
 
-::: tabs#img
-@tab 1
-<img loading="lazy" src="/wiki-assets/top/top1.png">
-@tab 2
-<img loading="lazy" src="/wiki-assets/top/top2.png">
-@tab 3
-<img loading="lazy" src="/wiki-assets/top/top3.png">
-@tab 4
-<img loading="lazy" src="/wiki-assets/top/top4.png">
-@tab 5
-<img loading="lazy" src="/wiki-assets/top/top5.png" width=320px depth=700px>
-:::
+<ImageSlider />
 
 <table class="top-table">
   <tbody>
@@ -54,7 +43,7 @@ next: gallery.md
       <td class="td-blue">
         <i class="fa-solid fa-plane-arrival"></i>
       </td>
-      <td>2023年8月1日（已过去 1 年零 54 天）</td>
+      <td>2023年8月1日（已过去1年74天）</td>
     </tr>
     <tr>
       <td class="td-blue">职业</td>
@@ -237,7 +226,7 @@ next: gallery.md
 
 ## <div class="text-bg-grey"> 基本情报 <i class="fa-solid fa-address-card" style="color: lightSteelblue"></i></div>
 
-### <div class="text-bg-blue"> ▷ 基本情报 </div>
+### <div class="text-bg-blue" style="margin-bottom:20px;"> ▷ 基本情报 </div>
 
 - 拥有100年前从犯罪者金盆洗手成为警察的独特经历的记忆。
 - 性格友善，擅长交涉，曾担任帮派<Anchor href="allin">ALLIN</Anchor>的Underboss一职。
@@ -245,7 +234,7 @@ next: gallery.md
 - 现任赌场老板，兴办黑色产业，掌握着城市的经济要脉。
 - 目前作为秘密组织<Anchor href="arcana">ARCANA</Anchor>的首领，暗中活动并掌控着城市的黑社会局势。<br>
 
-### <div class="text-bg-blue"> ▷ 外貌 </div>
+### <div class="text-bg-blue" style="margin-bottom:20px;"> ▷ 外貌 </div>
 <ul>
     <li>介于茶色和黑色之间的发色。在帮派初期曾是短发，现在则是团子头或是麻花辫之类的长发。</li>
     <li>不常以素颜示人，经常戴着蓝色的面具，非常爱用，甚至申请将其物品化。</li>
@@ -254,7 +243,7 @@ next: gallery.md
         <div class="collapsed-border">
           <ul><li>惯用眼是左眼。</li></ul>
           <p class="underline-black top-margin">自从右眼戴上单眼罩后的故事</p>
-          <ul>
+          <ul style="padding-inline-start:10px">
             <b>'24/03/21</b> →逃亡生活中，为了隐藏真实身份，进行了警察档案伪造。<br>
             由于面部没有很大的外貌变化的话就无法变更，决定伤害右眼以制造外伤。<br>
             虽然右眼损失的确定性还未被观测到，但是从这一天起，与右眼失去相关的言行
@@ -275,7 +264,7 @@ next: gallery.md
     <li>脖子左侧和背部<span class="date">(作为参考样本)</span>纹着<Anchor href="arcana">ARCANA</Anchor>的纹身。</li>
 </ul>
 
-### <div class="text-bg-blue"> ▷ 趣味嗜好 </div>
+### <div class="text-bg-blue" style="margin-bottom:20px;"> ▷ 趣味嗜好 </div>
 
 <ul>
   <li>喜欢露出较少，色调单一这类低调的服装。</li>
@@ -288,7 +277,7 @@ next: gallery.md
   <li>（所使用的香水是菲拉格慕男士系列）</li>
 </ul>
 
-### <div class="text-bg-blue"> ▷ 性格 </div>
+### <div class="text-bg-blue" style="margin-bottom:20px;"> ▷ 性格 </div>
 
 <div class="underline-margin">
   <span class="underline-blue">
@@ -333,7 +322,7 @@ next: gallery.md
 - 能敏锐地察觉对方痛苦的情绪，看到他人烦恼时，会主动上前打招呼。
 - 强烈仰慕身为旧识的<Anchor href="mond">MonD</Anchor>，即使离开了他，仍然对“MonD是这里最强的”这件事深信不疑。
 
-### <div class="text-bg-blue"> ▷ 能力 </div>
+### <div class="text-bg-blue" style="margin-bottom:20px;"> ▷ 能力 </div>
 <div class="underline-margin">
   <span class="underline-blue">
     驾驶能力
@@ -350,43 +339,45 @@ next: gallery.md
 <div>非常擅长使用枪械，在大型犯罪活动和枪击战中经常有亮眼的表现。<br>
 会教授与无心人的战斗技巧和战术。</div>
 
-<CollapsableText label="> 無馬流格斗术">
-  <div class="collapsed-border">
-    以高难度的技巧为武器，注重于能否看破对手，先行出招的格斗流派。
-    <ul>
-      <li>靠着绝不外传的连续技【真·黑闪】成为了格斗最强人。风靡一时。</li>
-      <li>被其强大魅力所吸引的门徒不在少数，许多希望在格斗中成名的市民也常常登门拜师。</li>
-    </ul>
-    <CollapsableText label="> 招式一览">
-      <div class="collapsed-border">
-        <b>连续技【真·黑闪】</b>
-        <ul>
-          <li>在思考应对其他帮派的连续技的攻击的反击对策时，偶然诞生的新连续技，并将其命名为【黑闪】。</li>
-          <li>招式可以打断强者所施放的【黑闪】并反击，只有对方同样施放【真·黑闪】时才会根据物理条件决定胜负。</li>
-          <li>为了保持出拳的最高速度，必须对招式有极高的熟练度。在流派内，会将这一行为称为【磨练咒力】。</li>
-          <li>出招方式为极秘事项，只有各个帮派Boss等有限的人在支付了1亿学费后才会予以传授。</li>
-          <CollapsableText label="> 传授者"><br>
-            <Anchor href="mond">MonD</Anchor>(<Anchor href="allin">ALLIN</Anchor> Boss)、<Anchor href="rb">RB</Anchor>(<Anchor href="allin">ALLIN</Anchor> 干部)、<Anchor href="van">ヴァン ダーマー</Anchor>(<Anchor href="mozu">MOZU</Anchor> Boss)、菖蒲 光樹(<Anchor href="iris">IRiS</Anchor> Boss)、<Anchor href="wesker">アルフォート ウェスカー</Anchor>(<Anchor href="anbrella">Anbrella</Anchor> Boss) 
-          </CollapsableText>
-        </ul>
-        <b>奇袭技【零距离滑铲】</b>
-        <ul>
-          <li>可以让原本需要助跑一段距离才能发动的滑铲在零距离的情况下发动的招式。常用于闪避和突然袭击。</li>
-        </ul>
-        <b>反击技【不义游戏】</b><span id="footnote-3" class="footnote-adjust"><a href="#footnote-3-ref" title="原文ブギウギ，大概率出自咒术回战。"><sup>[2]</sup></a></span>
-        <ul>
-          <li>仅在与对手的位置关系满足特定条件时才能发动的反击技。</li>
-          <li>发动率并非100%，但是可以故意接下对方招式后立即反击夺回先手优势。</li>
-        </ul>
-        <b>梗招式【幽灵子弹】</b><span id="footnote-4" class="footnote-adjust"><a href="#footnote-4-ref" title="原文ファントムバレット，不靠谱考察可能出自刀剑神域。"><sup>[3]</sup></a></span>
-        <ul>
-          <li>出拳或是滑铲后瞬间消失的招式。</li>
-          <li>瞬间发动，没有人能捕捉到其身影。（只是睡了而已)</li>
-        </ul>
-      </div>
-    </CollapsableText>
-  </div>
-</CollapsableText>
+<div style="margin-top:10px;">
+  <CollapsableText label="> 無馬流格斗术">
+    <div class="collapsed-border">
+      以高难度的技巧为武器，注重于能否看破对手，先行出招的格斗流派。
+      <ul>
+        <li>靠着绝不外传的连续技【真·黑闪】成为了格斗最强人。风靡一时。</li>
+        <li>被其强大魅力所吸引的门徒不在少数，许多希望在格斗中成名的市民也常常登门拜师。</li>
+      </ul>
+      <CollapsableText label="> 招式一览">
+        <div class="collapsed-border">
+          <b>连续技【真·黑闪】</b>
+          <ul>
+            <li>在思考应对其他帮派的连续技的攻击的反击对策时，偶然诞生的新连续技，并将其命名为【黑闪】。</li>
+            <li>招式可以打断强者所施放的【黑闪】并反击，只有对方同样施放【真·黑闪】时才会根据物理条件决定胜负。</li>
+            <li>为了保持出拳的最高速度，必须对招式有极高的熟练度。在流派内，会将这一行为称为【磨练咒力】。</li>
+            <li>出招方式为极秘事项，只有各个帮派Boss等有限的人在支付了1亿学费后才会予以传授。</li>
+            <CollapsableText label="> 传授者"><br>
+              <Anchor href="mond">MonD</Anchor>(<Anchor href="allin">ALLIN</Anchor> Boss)、<Anchor href="rb">RB</Anchor>(<Anchor href="allin">ALLIN</Anchor> 干部)、<Anchor href="van">ヴァン ダーマー</Anchor>(<Anchor href="mozu">MOZU</Anchor> Boss)、菖蒲 光樹(<Anchor href="iris">IRiS</Anchor> Boss)、<Anchor href="wesker">アルフォート ウェスカー</Anchor>(<Anchor href="anbrella">Anbrella</Anchor> Boss) 
+            </CollapsableText>
+          </ul>
+          <b>奇袭技【零距离滑铲】</b>
+          <ul>
+            <li>可以让原本需要助跑一段距离才能发动的滑铲在零距离的情况下发动的招式。常用于闪避和突然袭击。</li>
+          </ul>
+          <b>反击技【不义游戏】</b><span id="footnote-3" class="footnote-adjust"><a href="#footnote-3-ref" title="原文ブギウギ，大概率出自咒术回战。"><sup>[2]</sup></a></span>
+          <ul>
+            <li>仅在与对手的位置关系满足特定条件时才能发动的反击技。</li>
+            <li>发动率并非100%，但是可以故意接下对方招式后立即反击夺回先手优势。</li>
+          </ul>
+          <b>梗招式【幽灵子弹】</b><span id="footnote-4" class="footnote-adjust"><a href="#footnote-4-ref" title="原文ファントムバレット，不靠谱考察可能出自刀剑神域。"><sup>[3]</sup></a></span>
+          <ul>
+            <li>出拳或是滑铲后瞬间消失的招式。</li>
+            <li>瞬间发动，没有人能捕捉到其身影。（只是睡了而已)</li>
+          </ul>
+        </div>
+      </CollapsableText>
+    </div>
+  </CollapsableText>
+</div>
 
 <div class="underline-margin">
   <span class="underline-blue">
@@ -469,7 +460,7 @@ next: gallery.md
                 <Anchor href="tetsuo">切間 てつお</Anchor>：某次其在赌场散财后借款，日后为高利贷常客。
               </li>
               <li>
-                <a href="#">ネケ ニマス</a>：以融资名义借款。由于是新手，无力偿还债务，最后被介绍去摘花。
+                <Anchor href="neke">ネケ ニマス</Anchor>：以融资名义借款。由于是新手，无力偿还债务，最后被介绍去摘花。
               </li>
               <li>
                 <Anchor href="yamamoto">山本 龍也</Anchor>：在赌场借款，向<Anchor href="usako">なの</Anchor>借钱后偿还债务。
@@ -481,13 +472,13 @@ next: gallery.md
                 <Anchor href="amakusa">天草 蒼</Anchor>：请求融资其购入Rumpo Custom，在对方提出以三次摘花打工来偿还后同意出资。
               </li>
               <li>
-                <a href="#">荒川 拓也</a>：经由ヴァンダーマー介绍而来的顾客。
+                <a>荒川 拓也</a>：经由ヴァンダーマー介绍而来的顾客。
               </li>
               <li>
                 <Anchor href="raian">柳田 ライアン</Anchor>：在没有黑闪为前提的格斗战中，如果柳田获胜将无息贷款1亿，而如果無馬获胜则按高利贷利息贷款。
               </li>
               <li>
-                <a href="#">オザワ ハヤマサ</a>：总共欠下了 5 亿的债务。
+                <Anchor href="ozawa">オザワ ハヤマサ</Anchor>：总共欠下了 5 亿的债务。
               </li>
               <li>
                 '24/2/18）<Anchor href="esu">エスターク</Anchor>：在与<Anchor href="mond">MonD</Anchor>チンチロ中落败欠下了5亿的债务，需要5亿元以及完成毕业论文来偿还债务。
@@ -496,7 +487,7 @@ next: gallery.md
                 '24/5/28）<Anchor href="esu">エスターク</Anchor>：无息帮其偿还了10亿的债务。
               </li>
               <li>
-                '24/6/8）<a href="#">酒槻 すん</a>：以30% 的利率贷出了1亿，并之后与其进行チンチロ。然而sun贪心不足，在第二次チンチロ输给了無馬的2ゾロ，总计欠款3.9 亿。
+                '24/6/8）<a>酒槻 すん</a>：以30% 的利率贷出了1亿，并之后与其进行チンチロ。然而sun贪心不足，在第二次チンチロ输给了無馬的2ゾロ，总计欠款3.9 亿。
               </li>
             </ul>
           </div>
@@ -505,7 +496,7 @@ next: gallery.md
   </CollapsableText>
 </div>
 
-### <div class="text-bg-blue"> ▷ 作为帮众的無馬 </div>
+### <div class="text-bg-blue" style="margin-bottom:20px;"> ▷ 作为帮众的無馬 </div>
 
 <div style="margin:15px 0 15px 0">
 与一同建立帮派的初始成员一起担任了组织中核位置的Underboss职位，日后成为了Boss最信任的手下，是实际上的ALLIN No.2。
@@ -548,13 +539,13 @@ next: gallery.md
 <div style="margin-top:5px;">
 <CollapsableText label="> 在组织的职务">
     <div class="collapsed-border">
-    <p class="underline-black">内政 · 外交</p><br>
+    <div class="underline-black">内政 · 外交</div>
     <ul>
         <li>帮派成立初期负责物资管理 · 整理 · 调度，同时还一手担任交涉和外交等职务。</li>
         <li>随着初期UB成员长期休眠的次数增多，开始主动担任协调者的角色。</li>
         <li>随着组织规模的扩大，物资相关事务逐渐交接给后续的成员，转而负责外交应对和下属的咨询。</li>
     </ul>
-    <p class="underline-black">战斗</p><br>
+    <div class="underline-black" style="margin-top:10px;">战斗</div>
     <ul>
         <li>随着组织规模的扩大，物资相关事务逐渐交接给后续的成员，转而负责外交应对和下属的咨询。</li>
         <li>由于只需要很少的交流就可以和Boss配合的很好，所以会在与Boss相近的位置战斗。</li>
@@ -632,7 +623,7 @@ next: gallery.md
   </div>
 </DetailsButton>
 
-### <div class="text-bg-blue"> ▷ 作为私人医生的無馬 </div>
+### <div class="text-bg-blue" style="margin-bottom:20px;"> ▷ 作为私人医生的無馬 </div>
 <ul>
   <li>在辞退了ALLIN专属私人医生职位后的如今，处在逃亡生活的自己又重回了私人医生的职位。</li>
   <li>在考虑返还执照的同时，作为不管是黑市民还是白市民都会予以治疗的中立私人医生进行活动。</li>
@@ -760,7 +751,7 @@ next: gallery.md
   </div>
 </CollapsableText>
 
-### <div class="text-bg-blue"> ▷ 作为白市民的無馬 </div>
+### <div class="text-bg-blue" style="margin-bottom:20px;"> ▷ 作为白市民的無馬 </div>
 <ul>
   <li>退出<Anchor href="allin">ALLIN</Anchor>后，由于一个月没有逮捕记录而获得了白市民证的申请资格。</li>
   <li>
@@ -782,7 +773,7 @@ next: gallery.md
 </ul>
 <img loading="lazy" src="/wiki-assets/banner/kana_CharacterBanner.png" alt="Kana Banner" style="margin-top:10px;width:250px">
 
-### <div class="text-bg-blue"> ▷ 無馬的过去 </div>
+### <div class="text-bg-blue" style="margin-bottom:20px;"> ▷ 無馬的过去 </div>
 <div style="margin-top:10px;">
   <CollapsableText label="> 关于出身">
     <div class="collapsed-border">
@@ -861,3 +852,7 @@ next: gallery.md
     </div>
   </CollapsableText>
 </div>
+
+<script setup>
+  import ImageSlider from "@source/.vuepress/components/ImageSlider.vue"
+</script>

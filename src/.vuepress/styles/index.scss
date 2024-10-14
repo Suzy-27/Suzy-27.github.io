@@ -16,17 +16,28 @@ h2 {
     border: none;
 }
 
-//--- markdown tabs -------------------
-.vp-tabs {
-    max-width: 330px;
-}
 //--- page title div ------------------
 .vp-page-title {
     margin-bottom: 20px;
 }
-//--- outlook options in the mobile nav screen ---------------
-.vp-outlook-wrapper .vp-color-mode {
-    display: none;
+.nav-screen-bottom-slot .vp-action-link {
+    color: var(--vp-c-text-mute);
+}
+.vp-nav-screen-container {
+    height: calc(100% - 6rem);
+}
+.vp-highlight-item {
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 6px var(--vp-c-shadow);
+}
+
+//--- link ----------------------------
+a::after {
+    content: none !important; 
+}
+a [target="_blank"] {
+    text-decoration: none; 
 }
 
 //--- date formatting ------------------
@@ -89,7 +100,6 @@ h2 {
     background-color: var(--main-c-blue);
     color: var(--main-c-grey);
     padding: 3px 3px 3px 3px;
-    margin-bottom: 20px;
 }
 // h2 grey background 
 .text-bg-grey {

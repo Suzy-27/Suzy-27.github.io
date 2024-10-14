@@ -8,7 +8,7 @@ head:
 ---
 ## <div class="text-bg-grey"> 画廊 <i class="fa-solid fa-image" style="color: lightSteelblue"></i></div>
 ::: details Logo、贴纸
-<table class="gallery-table">
+<table class="gallery-table" style="font-size:0.9em">
     <tbody>
     <tr>
         <td><img loading="lazy" style="width:200px;border-radius: 5px;" src="/wiki-assets/gallery/logo/logo_CasinoOwner.png"></td>
@@ -31,7 +31,7 @@ head:
 
 :::
 ::: details TwiX画像
-<table class="gallery-table">
+<table class="gallery-table" style="font-size:0.9em">
     <thead style="font-size:small;">
     <tr>
         <th>'24/03/04 04:41</th>
@@ -60,7 +60,7 @@ head:
 
 :::
 ::: details 周边产品
-<table class="gallery-table">
+<table class="gallery-table" style="font-size:0.9em">
     <thead>
     <tr>
         <th><a href="#" title="Abelia 赌场酒吧">DIAMOND COCKTAIL</a></th>
@@ -70,7 +70,7 @@ head:
         <th><a href="#" title="Abelia 赌场酒吧">NASHIMA COCKTAIL</a></th>
     </tr>
     </thead>
-    <tbody style="font-size:0.9em">
+    <tbody>
     <tr>
         <td><img loading="lazy" style="height:250px;border-radius: 5px;" src="/wiki-assets/gallery/goods/Diamond_Cocktail.png"></td>
         <td><img loading="lazy" style="height:250px;border-radius: 5px;" src="/wiki-assets/gallery/goods/Nashinui.png"></td>
@@ -93,10 +93,10 @@ head:
         装饰着切成無馬面具模样的<br>
         梨的冰沙饮品。<Anchor href="mac">マックさん</Anchor><br>
         一句话促成。</td>
-        <td>赌场酒吧<a href="#" title="Abelia 赌场酒吧">Abelia</a>的商品。<br>
+        <td>赌场酒吧<a href="#" title="Abelia 赌场酒吧">Abelia</a>的商品<br>
         由酒保<Anchor href="toba">鳥羽</Anchor>制作的赌场<br>
         员工原创鸡尾酒。其简<br>
-        单的设计很受喜欢</td>
+        单的设计很受喜欢。</td>
     </tr>
     </tbody>
     <tfoot>

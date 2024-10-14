@@ -98,7 +98,7 @@ export default hopeTheme({
     // },
 
     // This features is enabled for demo, only preserve if you need it
-    markdownTab: true,
+    markdownTab: false,
 
     // These features are enabled for demo, only preserve features you need here
     mdEnhance: {

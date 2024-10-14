@@ -36,6 +36,7 @@ ARCANA下部组织的进口武器贩卖公司 <br>
 ### <div class="text-bg-blue"> ▷ 协力组织 </div>
 
 #### <span class="underline-blue"><i class="fa-solid fa-flask"></i> 麻药集团【DEP】</span>
+<div>
 <CollapsableText label="> 剧情" margin="20px 0 0 0">
   <div class="collapsed-border">
     <div style="margin-bottom:10px">贩卖麻药，开发新药的地下组织。</div>
@@ -47,8 +48,10 @@ ARCANA下部组织的进口武器贩卖公司 <br>
     </ul>
   </div>
 </CollapsableText>
+</div>
 
 #### <span class="underline-blue"><i class="fa-solid fa-cannabis"></i> 麻陀罗组&ensp;</span>
+<div>
 <CollapsableText label="> 剧情" margin="20px 0 0 0">
   <div class="collapsed-border">
     <div style="margin-bottom:10px">
@@ -59,11 +62,11 @@ ARCANA下部组织的进口武器贩卖公司 <br>
     </ul>
   </div>
 </CollapsableText>
-
-<br>
+</div>
 
 ### <div class="text-bg-blue"> ▷ 过去关联组织 </div>
 #### <span class="underline-blue"><i class="fa-solid fa-car"></i> 菖光會&ensp;</span>
+<div>
 <CollapsableText label="> 剧情" margin="20px 0 0 0">
   <div class="collapsed-border">
     <div style="margin-bottom:10px">半灰时代蒙受照顾的出租车公司。</div>
@@ -74,8 +77,10 @@ ARCANA下部组织的进口武器贩卖公司 <br>
     </ul>
   </div>  
 </CollapsableText>
+</div>
 
 #### <span class="underline-blue"><i class="fa-solid fa-mug-hot"></i> Père Noël&ensp;</span>
+<div>
 <CollapsableText label="> 剧情" margin="20px 0 0 0">
   <div class="collapsed-border">
   <div style="margin-bottom:10px">店主为原犯罪者，职场氛围相当自由的咖啡店。</div>
@@ -86,8 +91,10 @@ ARCANA下部组织的进口武器贩卖公司 <br>
     </ul>
   </div>
 </CollapsableText>
+</div>
 
 #### <span class="underline-blue">♠️ ALLIN&ensp;</span>
+<div>
 <CollapsableText label="> 剧情" margin="20px 0 0 0">
   <div class="collapsed-border">
     <div style="margin-bottom:10px">
@@ -99,8 +106,10 @@ ARCANA下部组织的进口武器贩卖公司 <br>
     </ul>
   </div>
 </CollapsableText>
+</div>
 
 #### <span class="underline-blue"><i class="fa-solid fa-face-surprise"></i> 小偷协会&ensp;</span>
+<div>
 <CollapsableText label="> 剧情" margin="20px 0 0 0">
   <div class="collapsed-border">
     <div style="margin-bottom:10px">声称要复兴小偷业界的组织。</div>
@@ -112,8 +121,10 @@ ARCANA下部组织的进口武器贩卖公司 <br>
     </ul>
   </div>
 </CollapsableText>
+</div>
 
 #### <span class="underline-blue"><i class="fa-solid fa-champagne-glasses"></i> ShanaoR&ensp;</span>
+<div>
 <CollapsableText label="> 剧情" margin="20px 0 0 0">
   <div class="collapsed-border">
     <div style="margin-bottom:10px">
@@ -124,8 +135,10 @@ ARCANA下部组织的进口武器贩卖公司 <br>
     </ul>
   </div>
 </CollapsableText>
+</div>
 
 #### <span class="underline-blue"><i class="fa-solid fa-person-rifle"></i> ACADEMY&ensp;</span>
+<div>
 <CollapsableText label="> 剧情" margin="20px 0 0 0">
   <div class="collapsed-border">
     <div style="margin-bottom:10px">
@@ -135,3 +148,6 @@ ARCANA下部组织的进口武器贩卖公司 <br>
     </ul>
   </div>
 </CollapsableText>
+</div>
+
+<br>

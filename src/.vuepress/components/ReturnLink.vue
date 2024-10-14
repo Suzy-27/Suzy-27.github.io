@@ -37,9 +37,10 @@ export default {
     border-radius: 0.5rem;
     font-size: 1em;
     width: fit-content;
-    margin: 0.5rem;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
+    margin: 0 0.5rem 1rem 0.5rem;
+    padding: 1rem 0.5rem;
+    border: 1px solid var(--vp-c-border);
+    box-shadow: 2px 2px 6px var(--vp-c-shadow);
 }
 .return-link:hover {
     background-color: var(--vp-c-control-hover);
@@ -61,6 +62,11 @@ export default {
 @media (max-width: 959px) {
   .return-padding {
         padding-inline: 1rem;
+    }
+}
+@media (max-width: 719px) {
+  .return-padding {
+        padding-inline: 0.5rem;
     }
 }
 </style>

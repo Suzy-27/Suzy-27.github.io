@@ -33,6 +33,7 @@ head:
     </template>
   </DataTable>
 </DetailsButton>
+<br>
 
 <script setup>
   import DataTable from "@DataTable";

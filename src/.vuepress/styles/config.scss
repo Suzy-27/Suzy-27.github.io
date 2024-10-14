@@ -3,7 +3,26 @@ $theme-color: #096dd9;
 $colors: #cf1322, #fa541c, #f39c12, #2ecc71, #25a55b, #10a5a5, #096dd9, #aa6fe9,
   #eb2f96 !default;
 
-$tablet: 959px;
+@media (max-width: 719px) {
+    .theme-hope-content:not(.custom) {
+        padding-inline: 0.5rem;
+    }
+    .hint-container {
+        margin-inline: 0;
+    }
+    .vp-page-nav {
+      padding-inline: 0.5rem;
+    }
+    .vp-page-title {
+      padding-inline: 0.5rem;
+    }
+    .vp-breadcrumb {
+      padding-inline: 0.5rem;
+    }
+}
+.theme-container.sidebar-collapsed .vp-page {
+  padding-inline-start: 0.7rem;
+}
 
 /* Code Block */
 // only available with shiki highlighter
