@@ -94,8 +94,8 @@ export const arcanaLocationData = [
         address: '中央湖泊与制作<br>' +
                 '所中间', 
         called: '', 
-        detail: '拆迁补偿⑥。原址被划为禁止区域后搬迁。是可以选择店铺型内装的特殊<br>' +
-                '房产。现作为<Anchor href="weapon">武器屋</Anchor>交付商品的店铺。附带车库。'
+        detail: '拆迁补偿⑥。原址被划为禁止区域后搬迁。是可以选择店铺型内装的<br>' +
+                '特殊房产。现作为<Anchor href="weapon">武器屋</Anchor>交付商品的店铺。附带车库。'
     },
     {
         addNo: '9096', 
@@ -107,21 +107,20 @@ export const arcanaLocationData = [
         addNo: '8216', 
         address: '<a href="#" title="KoKo七番屋 咖喱店">KoKo七番屋</a>2F', 
         called: '安全屋',
-        detail: '在<Anchor href="arcana">ARCANA</Anchor>成员集合的时候从<Anchor href="raru">麻林</Anchor>处收到了钥匙。'
+        detail: '在<Anchor href="arcana">ARCANA</Anchor>成员集合时从<Anchor href="raru">麻林</Anchor>处收到了钥匙。'
     },
     {
-        addNo: '6069', 
+        addNo: '6069<br>地下', 
         address: '高级住宅区', 
-        called: '無馬家',
-        detail: '海外建造的特殊豪宅。地下为<Anchor href="arcana">ARCANA</Anchor>基地。(MLO)<br>' +
-                '每台电视机上都投影着赌场的logo，对外为赌场老板住宅。<br>' +
-                '地上与地下都各有一个可共用的私人车库。'
+        called: '基地',
+        detail: '位于無馬邸地下的<Anchor href="arcana">ARCANA</Anchor>据点。附带共享个人车库<br>' +
+                '可以通过位于無馬邸悬崖侧面的卷帘门进出。' ,
     },
     {
         addNo: '10108', 
         address: '集装箱码头沿海', 
         called: '叶子房', 
-        detail: '作为收纳药物素材用购入。内装为”叶子“种植场，附近还有药物精炼所，<br>' +
+        detail: '作为收纳药物素材用购入。内装为”叶子“种植场，附近还有药物精炼所<br>' +
                 '是<Anchor href="nene">秘书</Anchor>的梦中情房，还有一个可以直接容纳Rumpo的车库。'
     },
     {
@@ -143,12 +142,12 @@ export const arcanaLocationData = [
         detail: '旧<Anchor href="academy">ACADEMY</Anchor>据点。土地内还带有一间社员仓库用住宅。附带车库。'
     },
     {
-        addNo: '4024\n附近', 
+        addNo: '4024<br>附近', 
         address: '在沙漠区域的<br>' +
                 '一条窄路上', 
         called: '武器工厂',
-        detail: '<Anchor href="weapon">武器商</Anchor>使用的带有可上锁隐藏门扉的武器制作所。现在有无法上锁的扭曲<br>' +
-                '附带车库。'
+        detail: '<Anchor href="weapon">武器商</Anchor>使用的带有可上锁隐藏门扉的武器制作所。<br>' +
+                '现在有无法上锁的扭曲。附带共享个人车库。'
     },
     {
         addNo: '9386', 
@@ -166,7 +165,7 @@ export const hideoutLocationData = [
         detail: '为了在北部区域犯罪用购入的容量为3的藏匿车库。附带车库。'
     },
     {
-        addNo: '7026', 
+        addNo: '9034', 
         address: '旧<Anchor href="allin">ALLIN</Anchor>基地旁', 
         called: '藏匿车库', 
         detail: '为了保存赃车购入的容量为3的藏匿车库。位于旧基地隔壁。'
@@ -178,19 +177,19 @@ export const hideoutLocationData = [
         detail: '容量为10的藏匿车库。附带车库。'
     },
     {
-        addNo: '7276', 
+        addNo: '9128', 
         address: '消防局后门', 
         called: '藏匿车库',
         detail: '<Anchor href="arcana">ARCANA</Anchor>用而购入的容量为1的藏匿车库。'
     },
     {
-        addNo: '7292', 
+        addNo: '8187', 
         address: '<a href="#" title="Glare Gem 地下车行">GG</a>附近', 
         called: '赃车交接所', 
         detail: '委托赃车改装时交接用的车库。'
     },
     {
-        addNo: '1036', 
+        addNo: '7074', 
         address: '高级住宅区南部', 
         called: '藏匿车库', 
         detail: '正在考虑是否能为<Anchor href="arcana">ARCANA</Anchor>佣兵所用而购入的容量为3的藏匿所。'

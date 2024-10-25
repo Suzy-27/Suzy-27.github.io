@@ -5,6 +5,7 @@ head:
     - - style
       - type: text/css
       - .vp-page-title h1 { display:none; }
+article: false
 ---
 ## <div class="text-bg-grey"> 交友关系 <i class="fa-solid fa-users" style="color: lightSteelblue"></i></div>
 

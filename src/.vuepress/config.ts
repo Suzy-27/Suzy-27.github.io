@@ -11,7 +11,7 @@ export default defineUserConfig({
   lang: "zh-CN",
   title: "無馬 かな wiki",
   description: "無馬 かな wiki 个人搬运翻译",
-    
+
   theme,
 
   alias: {
@@ -20,7 +20,7 @@ export default defineUserConfig({
         __dirname,
         "./components/NormalPage.vue",
       ),
-      "@theme-hope/modules/info/components/AuthorInfo": path.resolve(
+      "@theme-hope/modules/info/components/DateInfo": path.resolve(
         __dirname,
         "./components/PageHeader.vue",
       ),
@@ -36,6 +36,15 @@ export default defineUserConfig({
         __dirname,
         "./components/RepoLink.vue",
       ),
+      // vuepress hope theme blog components resolved
+      "@theme-hope/modules/blog/components/BloggerInfo": path.resolve(
+        __dirname,
+        "./components/EmptyNode.vue"
+      ),
+      // "@theme-hope/modules/blog/components/TimelineList": path.resolve(
+      //   __dirname,
+      //   "./components/EmptyNode.vue"
+      // ),
       // Components
       "@DataTable": path.resolve(
         __dirname,
@@ -45,7 +54,15 @@ export default defineUserConfig({
         __dirname,
         "./components/DataTableVertical.vue",
       ),
+      "@EpisodeButton": path.resolve(
+        __dirname,
+        "./components/EpisodeButton.vue"
+      ),
       // Data path 
+      "@GalleryData": path.resolve(
+        __dirname,
+        "./table-data/galleryData.js"
+      ),
       "@ClothesData": path.resolve(
         __dirname,
         "./table-data/clothesData.js"

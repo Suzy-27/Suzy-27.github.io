@@ -9,12 +9,17 @@
       </div>
   
       <!-- Label rendering when content is collapsed -->
-      <div v-if="computedIsCollapsed" style="margin-left: 5px">{{ label }}</div>
+      <div v-if="computedIsCollapsed" style="margin-left: 5px">
+        {{ label }}
+        <span v-if="isBadge">
+          <Badge :text="badge" :type="badgeType" />
+        </span>
+      </div>
       
       <!-- Collapsible content -->
-      <div :class="['collapsed-content', { 'div-scrollable': isScrollable }, { 'div-invisible': computedIsCollapsed }]">
+      <component is="div" :class="['collapsed-content', { 'div-scrollable': isScrollable }, { 'div-invisible': computedIsCollapsed }]">
         <slot></slot>
-      </div>
+      </component>
     </div>
   </template>
   
@@ -35,14 +40,19 @@
       },
       margin: {
         type: String,
-        default: '0px',
+        default: '0',
       },
+      badge: {
+        type: String,
+        default: 'none',
+      }
     },
   
     data() {
       return {
-        collapsed: this.isCollapsed 
+        collapsed: this.isCollapsed,
         // || (typeof localStorage !== 'undefined' && localStorage.getItem('collapsibleButtonState') === 'collapsed'),
+        badge: this.badge
       };
     },
   
@@ -58,6 +68,18 @@
           // }
         },
       },
+      isBadge() {
+        return this.badge !== 'none';
+      },
+      badgeType() {
+        if (this.badge == '施工中') {
+          return 'warning'
+        } else if (this.badge == '最新') {
+          return 'tip'
+        } else {
+          return null
+        }
+      }
     },
   
     // created() {

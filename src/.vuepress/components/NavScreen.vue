@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import CommonWrapper from "vuepress-theme-hope/components/CommonWrapper.js";
 import NavScreen from "vuepress-theme-hope/navbar/components/NavScreen.js";
 import RepoLink from "vuepress-theme-hope/navbar/components/RepoLink.js"
 </script>

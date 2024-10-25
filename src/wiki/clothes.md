@@ -5,8 +5,10 @@ head:
     - - style
       - type: text/css
       - .vp-page-title h1 { display:none; }
+article: false
 ---
 ## <div class="text-bg-grey"> 服装情报 <i class="fa-solid fa-user-tie" style="color: lightSteelblue"></i></div>
+
 #### <span class="underline-blue">◆ 衣柜&ensp; </span>
 
 ::: details 衣服
@@ -23,7 +25,11 @@ head:
 <DataTableVertical :data="pretenseClothesData" :colStyle="colStyle" />
 
 :::
+
+<br>
+
 ---
+
 <br>
 
 #### <span class="underline-blue">◆ 过去一览&ensp; </span>

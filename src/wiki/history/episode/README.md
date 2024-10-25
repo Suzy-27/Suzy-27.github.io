@@ -1,10 +1,18 @@
 ---
-title: 剧情故事
+title: 剧情故事（最新）
+date: 2024-10
 head:
     - - style
       - type: text/css
       - .vp-page-title h1 { display:none; }
 prev:  ../
+category:
+  - 剧情故事
+tag:
+  - 施工中
+excerpt: 最新的故事剧情
+sticky: true
+star: 100
 ---
 
 ### <div class="text-bg-white"> 剧情故事 </div>
@@ -31,3 +39,20 @@ prev:  ../
 </div>
 
 #### <span class="underline-blue">2024年 10月 </span>
+<div style="font-size:50%"><br></div>
+
+<EpisodeButton label="10/3　#279" badge="施工中">
+
+</EpisodeButton>
+<br>
+<EpisodeButton label="10/15　#280" badge="施工中"> 
+
+</EpisodeButton>
+<br>
+<EpisodeButton label="10/18　#281" badge="施工中"> 
+
+</EpisodeButton>
+
+<script setup>
+  import EpisodeButton from "@EpisodeButton"
+</script>

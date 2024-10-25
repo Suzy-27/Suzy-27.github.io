@@ -6,11 +6,16 @@ head:
       - type: text/css
       - .vp-page-title h1 { display:none; }
 next: ./episode/
+excerpt: 历史年表
+article: false
 ---
 ## <div class="text-bg-grey"> 历史 <i class="fa-solid fa-calendar" style="color: lightSteelblue"></i></div>
 
 ### <div class="text-bg-white"> 年表 </div>
 #### <span class="underline-blue">◆ 第 1 部&emsp; </span>
+<div style="font-size:50%">
+<br>
+</div>
 <div class="history-header header-highlight1">&emsp;序章&emsp;出租车司机篇</div>
 <DetailsButton :isScrollable="true">
   <DataTable :headers="headers" :headersInitState="headersInitState" :data="part1PrologueData"/>
@@ -37,6 +42,9 @@ next: ./episode/
 </DetailsButton>
 
 #### <span class="underline-blue">◆ 第 2 部&emsp; </span>
+<div style="font-size:50%">
+<br>
+</div>
 <div class="history-header header-highlight1">&emsp;1 章&emsp;退出帮派 · 逃亡生活篇</div>
 <DetailsButton :isScrollable="true">
   <DataTable :headers="headers" :headersInitState="headersInitState" :data="part2Chapter1Data" />
@@ -53,8 +61,13 @@ next: ./episode/
 </DetailsButton>
 
 <div class="history-header header-highlight4">&emsp;4 章&emsp;狩猎篇</div>
-<DetailsButton :isCollapsed="false" :isScrollable="true">
+<DetailsButton :isScrollable="true">
   <DataTable :headers="headers" :headersInitState="headersInitState" :data="part2Chapter4Data" />
+</DetailsButton>
+
+<div class="history-header header-highlight5">&emsp;终章</div>
+<DetailsButton :isCollapsed="false" :isScrollable="true">
+  <DataTable :headers="headers" :headersInitState="headersInitState" :data="part2LastChapterData" />
 </DetailsButton>
 
 <script setup>
@@ -69,6 +82,7 @@ next: ./episode/
     part2Chapter2Data, 
     part2Chapter3Data, 
     part2Chapter4Data, 
+    part2LastChapterData,
     headers,
     headersInitState,
     } from "@HistoryData";

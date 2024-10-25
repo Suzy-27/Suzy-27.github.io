@@ -7,12 +7,13 @@ head:
     - - style
       - type: text/css
       - h1 {display:none;}
+article: false
 ---
 ## <span class="underline-blue"><i class="fa-solid fa-heart-pulse"></i> 急救队</span>
 
 #### <span style="font-weight:bold;">世風天 みにゃ（Sebuten Minya）</span>
 ::: details
-- 找無馬相谈本人在急救队的人际关系的烦恼的时候，最终变成了两人在游乐园约会。结果这次“约会”卷入了命田 守，ノビー ラング，导致两人的关系变得尴尬。
+- 找無馬相谈本人在急救队的人际关系的烦恼的时候，最终变成了两人在游乐园约会。结果这次“约会”卷入了[命田 守](# "急救队队长")，[ノビー ラング](# "急救队队员")，导致两人的关系变得尴尬。
 - 無馬认为自己的黑市民的身份会给对方带来麻烦，最终两人不再互相联系。
 
 {.list-double-space}
@@ -33,6 +34,7 @@ head:
 
 {.list-double-space}
 :::
+
 <br>
 <br>
 

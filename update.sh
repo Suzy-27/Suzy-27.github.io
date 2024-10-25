@@ -33,7 +33,7 @@ if [ -n "$(git status --porcelain)" ]; then
     git commit -m "$commitMessage"
 
     # Push the changes to the remote repository
-    git push
+    git push wiki main
 	echo "Changes have been pushed."
 else
     echo "No changes to commit."

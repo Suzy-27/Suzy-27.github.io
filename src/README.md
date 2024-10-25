@@ -37,6 +37,13 @@ highlights:
       - title: 原wiki地址
         icon: link
         link: https://w.atwiki.jp/streamergta5/pages/522.html
+      - title: 近期更新
+        icon: star
+        details: 最近更新的剧情内容
+        link: /tag/最近更新/
+      - title: 剧情归档
+        icon: box-archive
+        link: /article/
 
 copyright: false
 ---

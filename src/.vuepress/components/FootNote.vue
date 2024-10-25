@@ -91,4 +91,7 @@ export default {
   color:var(--vp-c-text);
   text-decoration: none;
 }
+p {
+  margin-block: 20px;
+}
 </style>

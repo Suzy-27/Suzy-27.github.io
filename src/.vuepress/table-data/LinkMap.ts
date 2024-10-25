@@ -71,6 +71,10 @@ export interface LinkData {
       link: "/wiki/friendship/self/arcana.html#加藤-圧-katou-atsu",
       title: "加藤 圧（Katou Atsu）",
     },
+    nukuo: {
+      link: "/wiki/friendship/self/arcana.html#ぬくお-nukuo",
+      title: "ぬくお（Nukuo）",
+    },
     fujiko: {
       link: "/wiki/friendship/self/femme-fatale.html#不二子-キャスパー-fujiko-kyasupa",
       title: "不二子 キャスパー（fujiko kyasupa）",
@@ -202,6 +206,10 @@ export interface LinkData {
     reda: {
       link: "/wiki/friendship/gang/868.html#レダー-ヨージロー-reda-youjirou",
       title: "レダー ヨージロー（Reda Youjirou）",
+    },
+    kentsu: {
+      link: "/wiki/friendship/gang/topgear.html#飯田-けんつ-Iida-Kentsu",
+      title: "飯田 けんつ（Iida Kentsu）原车行9055的机械师，帮派TOPGEAR的Boss"
     },
     mary: {
       link: "/wiki/friendship/gang/topgear.html#チョコラータ-メアリー-chocolata-mary",
@@ -449,10 +457,6 @@ export interface LinkData {
       link: "#",
       title: "パキ ち（Paki Chi）一般车销售员兼车行PYC的机械师"
     },
-    kentsu: {
-      link: "#",
-      title: "飯田 けんつ（Iida Kentsu）原车行9055的机械师，帮派TOPGEAR的Boss"
-    },
     saitou: {
       link: "#",
       title: "斎藤 まさのり（Saitou Masanori）高级车销售员兼车行JTS的机械师"
@@ -532,6 +536,10 @@ export interface LinkData {
     amachika: {
       link: "#",
       title: "天近 くるみ（Amachika Kurumi）魔女咖啡店主，很擅长装修"
+    },
+    horon: {
+      link: "#",
+      title: "高橋 滅論（Takahashi Horon）原DEP成员，曾私自调查nashima周边情报，在屡次违反DEP规矩并背叛加藤さん后，最终被加藤さん开除"
     },
     // external links
     chunk_5: {

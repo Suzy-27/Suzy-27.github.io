@@ -583,6 +583,43 @@ export const part2Chapter4Data = [
         event: '举办無馬CUP',
         episode: '突发举办的有赏金的足球杯。第一届为<Anchor href="mozu">MOZU</Anchor> vs <Anchor href="anbrella">Anbrella</Anchor>',
     },
+    {
+        date: `'24/09/14`,
+        event: '前往ALLIN牛郎活动',
+        episode: '与许久未起的令人怀念的面孔一起杂谈。赊账100亿',
+    },
+    {
+        date: `'24/09/22`,
+        event: '武器商情报操作',
+        episode: '向<Anchor href="cap">警察</Anchor>泄露<Anchor href="weapon">武器店</Anchor>的情报',
+    },
+    {
+        date: `'24/09/22`,
+        event: 'MOZU私人医生事件',
+        episode: '介入<Anchor href="mozu">MOZU</Anchor>与<Anchor href="doctor">私人医生</Anchor>组合之间的纠纷。' +
+                '<CollapsableText label="＞概要"> <br>&ensp;' +
+                '無馬通过<Anchor href="komine">小峯</Anchor>的报告掌握了事件的情况。此次纠纷发展成了涉及整个私人医生团体的事件，<br>&ensp;' +
+                '無馬巧妙利用这一点，作为关系者听取双方的意见。<br>&ensp;' +
+                'MOZU方面从<Anchor href="zenigata">銭形</Anchor>和竹森那里了解情况，私人医生方面则从柳瀬那里得知。在迅速察觉到<br>&ensp;' +
+                '私人医生组合的过失后，無馬留下信息给<Anchor href="van">ヴァン</Anchor>さん，表明自己与组合立场不同。<br>&ensp;' +
+                '在听取了组合与MOZU之间会议的内容后，無馬带着鬼野和柳瀬与ヴァンさん谈话，<br>&ensp;' +
+                '明确了所属<Anchor href="arcana">ARCANA</Anchor>的私人医生的立场。<br>&ensp;' +
+                '同时，从MOZU那里听到了关于组合的动向和春春的情况后，与<Anchor href="yucha">姐さん</Anchor>进行了谈话，<br>&ensp;' +
+                '以确认组合的立场并考虑双方今后的关系。<br>&ensp;' +
+                '此外，得知前帮派成员春春似乎与MOZU有宿怨，对其动机进行调查。<br>&ensp;' +
+                '如果春春是因私怨将私人医生卷入其中的话，<Anchor href="sosu">师傅</Anchor>所托付的私人医生组织的立场会变得危险，<br>&ensp;' +
+                '为了能让他为自己的行动负责，無馬展开了调查。<br>&ensp;' +
+                '调查结束后，無馬与已经进入反思模式的春春，讨论了他应该如何为自己的行为负责，<br>&ensp;' +
+                '并以此为契机，借到了失落的科技产物——狙击步枪作为谢礼。' +
+                '</CollapsableText>',
+    },
+];
+export const part2LastChapterData = [
+    {
+        date: `'24/10/18`,
+        event: '目的达成',
+        episode: '实现了曾经在这座城市中的生存目标。现将收拾身边物品作为活动的主轴',
+    },
 ];
 export const headers = 
     {

@@ -5,10 +5,6 @@ import { wikiSidebar } from "./sidebar/index.js";
 
 
 export default hopeTheme({
-  author: {
-    name: "芷依",
-    url: "https://space.bilibili.com/5384565?spm_id_from=333.1007.0.0",
-  },
   darkmode: "toggle",
 
   iconAssets: "fontawesome-with-brands",
@@ -39,9 +35,11 @@ export default hopeTheme({
 
   editLink: false,
 
-  lastUpdated: false,
+  lastUpdated: true,
 
   contributors: false,
+
+  breadcrumb: true,
 
   //page meta
    metaLocales: {
@@ -50,19 +48,21 @@ export default hopeTheme({
     // editLink: "在 GitHub 上编辑此页",
    },
 
-  //encrypt: {
-  //  config: {
-  //    "/demo/encrypt.html": ["1234"],
-  //    "/zh/demo/encrypt.html": ["1234"],
-  //  },
-  //},
+  // encrypt: {
+  //   config: {
+  //   "/article/": "0627",
+  //   "/category/": "0627",
+  //   },
+  // },
 
-  // hotReload: true,
+  hotReload: true,
 
   plugins: {
-    // git: true,
+    git: true,
     readingTime: false,
-    
+    blog: {
+      excerptLength: 0,
+    },
     // comment: {
     //   provider: "Giscus",
     //   repo: "Suzy-27/Comments",

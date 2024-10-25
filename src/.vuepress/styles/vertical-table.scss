@@ -5,7 +5,6 @@
 }
 .horizontal-table td {
     white-space: nowrap;
-    vertical-align: top;
     font-size: 0.9em;
     line-height: 150%;
     border: 1px solid var(--table-border);
@@ -20,8 +19,31 @@
     color: var(--vp-c-text-mute);
     font-size: small;
 }
+.text-row {
+    vertical-align: top;
+}
+.clothes-img {
+    text-align: center; 
+    vertical-align: middle;
+}
 .clothes-img img {
     width: 130px;
     height: 300px;
     border-radius: 3px;
+}
+.gallery-img {
+    text-align: center; 
+    vertical-align: middle;
+}
+.gallery-img img {
+    height:200px;
+    border-radius: 5px;
+}
+.goods-img {
+    text-align: center; 
+    vertical-align: middle;
+}
+.goods-img img {
+    height:250px;
+    border-radius: 5px;
 }

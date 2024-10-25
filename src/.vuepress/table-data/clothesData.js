@@ -51,7 +51,7 @@ export const ownedClothesData = [
     {
         image: '<img loading="lazy" src="/wiki-assets/clothes/kana_TOPGEAR.png">', 
         name: 'TOPGEAR', 
-        detail: '<a title="TOPGEAR">TOPGEAR</a>佣兵服', 
+        detail: '<Anchor href"TOPGEAR">TOPGEAR</Anchor>佣兵服', 
         date: `'24/09/05～`
     },
     {
@@ -63,7 +63,7 @@ export const ownedClothesData = [
     {
         image: '<img loading="lazy" src="/wiki-assets/clothes/kana_anbrella.png">', 
         name: 'Anbrella', 
-        detail: '<a title="anbrella">Anbrella</a>佣兵服', 
+        detail: '<Anchor href="anbrella">Anbrella</Anchor>佣兵服', 
         date: `'24/09/13～`
     },
     {
@@ -77,6 +77,18 @@ export const ownedClothesData = [
         name: '私人医生', 
         detail: '<Anchor href="doctor">私人医生</Anchor>用服装。<br>令人安心的白T。',
         date: `'24/09/25～`
+    },
+    {
+        image: '<img loading="lazy" src="/wiki-assets/clothes/kana_MOZU-like.png">', 
+        name: 'MOZU Like', 
+        detail: '借鉴了<Anchor href="mozu">MOZU</Anchor>制服的<br>黑色西装。',
+        date: `'24/10/18～`
+    },
+    {
+        image: '<img loading="lazy" src="/wiki-assets/clothes/kana_MOZU.png">', 
+        name: 'MOZU', 
+        detail: '<Anchor href="mozu">MOZU</Anchor>佣兵服',
+        date: `'24/10/18～`
     },
 ];
 
@@ -250,10 +262,10 @@ export const pastClothesData = [
         date: `'23/11/29～`
     },
     {
-        image: '', 
+        image: '<img loading="lazy" src="/wiki-assets/clothes/past/kana_mitsuami.png">', 
         name: '常服', 
         detail: '梳着麻花辫的<br>常服装扮', 
-        date: ''
+        date: `'23/09/10～`
     },
     {
         image: '<img loading="lazy" src="/wiki-assets/clothes/past/kana_Dr.K.png">', 
@@ -271,10 +283,10 @@ export const pastClothesData = [
         image: '<img loading="lazy" src="/wiki-assets/clothes/past/kana_Office.png">', 
         name: '职业装', 
         detail: '刚成为帮众没多久时<br>穿着的正装', 
-        date: ''
+        date: `'23/08/31～`
     },
     {
-        image: '', 
+        image: '<img loading="lazy" src="/wiki-assets/clothes/past/kana_China.png">', 
         name: '中华服', 
         detail: '黑色的中华风服饰<br>蓝色面具初次亮相', 
         date: `'23/08/31～`
@@ -282,14 +294,14 @@ export const pastClothesData = [
     {
         image: '<img loading="lazy" src="/wiki-assets/clothes/past/kana_Père_Noël.png">', 
         name: 'Père Noël 制服', 
-        detail: '店员服。原先为全身黑色<br>头发则全部梳成了团子头', 
-        date: `'23/08/23～`
+        detail: '店员服。原先为全身<br>黑色头发则全部梳成<br>了团子头', 
+        date: `'23/08/23～'23/09/16`
     },
     {
         image: '<img loading="lazy" src="/wiki-assets/clothes/past/kana_burger_T-shirt.png">', 
         name: '常服', 
         detail: '刚来洛圣都没多久时<br>的常服，無馬汉堡', 
-        date: `'23/08/16～`
+        date: `'23/08/16～'23/08/24`
     },
 ];
 
@@ -364,10 +376,10 @@ export const pastPretenseClothesData = [
         image: '<img loading="lazy" src="/wiki-assets/clothes/past/pretense/kana_burger.png">', 
         name: '觉悟 汉堡', 
         detail: '常服+汉堡头。<br>很擅长摩托追逐战', 
-        date: `～'23/11/03`
+        date: `'23/08/24～'23/11/03`
     },
     {
-        image: '', 
+        image: '<img loading="lazy" src="/wiki-assets/clothes/past/pretense/kana_Shotaro.png">', 
         name: 'Shoutarou', 
         detail: '还未实装的摩托的<br>专用服装，结果没<br>等来实装而被抛弃',
         date: `'23/08/24～`
@@ -376,10 +388,10 @@ export const pastPretenseClothesData = [
         image: '<img loading="lazy" src="/wiki-assets/clothes/past/pretense/kana_CrimeHelmet.png">', 
         name: '犯罪头盔', 
         detail: '全身黑色的犯罪用<br>变装', 
-        date: ''
+        date: `'23/08/23～`
     },
     {
-        image: '', 
+        image: '<img loading="lazy" src="/wiki-assets/clothes/past/pretense/kana_police_1.png">', 
         name: '警察风', 
         detail: '看起来像警察的<br>变装', 
         date: `'23/08/24～'23/08/28`
@@ -391,25 +403,25 @@ export const pastPretenseClothesData = [
         date: `'23/08/18～'23/08/24`
     },
     {
-        image: '<img loading="lazy" src="/wiki-assets/clothes/past/pretense/kanakura_kojuurou.png">', 
+        image: '<img loading="lazy" src="/wiki-assets/clothes/past/pretense/kana_Kanakura.png">', 
         name: 'Kanakura Kojuurou', 
         detail: '倒幕派的武士<br>历史背景和说话方式<br>都很假', 
         date: `'23/08/20～'23/08/21`
     },
     {
-        image: '<img loading="lazy" src="/wiki-assets/clothes/past/pretense/john_kanar.png">', 
+        image: '<img loading="lazy" src="/wiki-assets/clothes/past/pretense/kana_J.Kannor.png">', 
         name: 'John Kanar', 
         detail: '某电影童星的伪装<br>正在找妈妈', 
         date: `'23/08/18～'23/08/20`
     },
     {
-        image: '<img loading="lazy" src="/wiki-assets/clothes/past/pretense/dareyorimohayaku_Y.png">', 
+        image: '<img loading="lazy" src="/wiki-assets/clothes/past/pretense/kana_ChaseMan.png">', 
         name: '比谁都要快 Y', 
         detail: '别名Chase Man<br>Y是警官<Anchor href="chiyoda">千代田ヨウ</Anchor><br>的Y',
         date: `'23/08/18～'23/08/20`
     },
     {
-        image: '<img loading="lazy" src="/wiki-assets/clothes/past/pretense/tonakai_tokanai.png">', 
+        image: '<img loading="lazy" src="/wiki-assets/clothes/past/pretense/kana_tonakai.png">', 
         name: '驯鹿 Tokanai', 
         detail: '为了变装暴露而准备<br>的驯鹿玩偶服', 
         date: `'23/08/17～'23/08/20`
@@ -427,5 +439,6 @@ export const colStyle =
 {
     image: 'clothes-img',
     name: 'title-row',
-    date: 'date-row'
+    detail: 'text-row',
+    date: 'date-row',
 }

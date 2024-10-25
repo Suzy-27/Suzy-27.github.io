@@ -2,7 +2,8 @@
 icon: triangle-exclamation
 prev: false
 next: ./wiki/
-comment: false
+article: false
+timeline: false
 ---
 
 # Wiki 使用说明
@@ -17,9 +18,9 @@ comment: false
 
 ## 注意事项
 ::: warning
-1. 原wiki的所有内容都由观测者整理而来。<p><span class="highlight-red">不是STGR官方wiki，也不是無馬 かな官方wiki。</span></p>内容仅供参考，不具备绝对性，一切以主播RP为准。
+1. 原wiki的所有内容都由观测者整理而来。<span style="margin-block: 10px" class="highlight-red">不是STGR官方wiki，也不是無馬 かな官方wiki。</span>内容仅供参考，不具备绝对性，一切以主播RP为准。
 2. 基于上条，wiki的翻译内容也<b>仅供参考</b>，请理智阅读。
-3. Wiki所有内容仅与<b>無馬 かな</b>有关。<p><span class="highlight-red">请不要代入任何叶本人的信息，同样也不要使用wiki内容去代入叶本人。</span></p>
+3. Wiki所有内容仅与<b>無馬 かな</b>有关。<span style="margin-block: 10px" class="highlight-red">请不要代入任何叶本人的信息，同样也不要使用wiki内容去代入叶本人。</span>
 4. 再次强调，wiki有且仅有角色（PC）相关，请不要过度绑定角色（PC）与玩家（PL）。RP新手请自行百度相关内容，本wiki不会作详细解释。
     > 如果有新手实在是分不清楚，那么请直接将無馬 かな和叶看作两个独立的人。
 5. Wiki内容以<b>無馬 かな</b>为主视角撰写，只整理<b>無馬 かな</b>的行为和想法。不同的视角必然导致事情看待方式的不同，所以<span class="highlight-red">请谨慎评论任何事件，尊重参与RP的所有人，不要攻击任何角色和主播。</span>
@@ -34,9 +35,9 @@ comment: false
 
 ## 使用说明
 
-1. 使用电脑大屏查看时，左边的折叠侧边栏可以看到页面。
-2. 使用手机或是小屏查看时，点击左上角可以看到页面，点击右上角则是相关导航。
-3. 标注为蓝色的词基本为相关组织或人物，可以点击打开链接，跳转到相关条目，查看更多相关内容。
+1. 使用**电脑大屏**查看时，左边的折叠侧边栏可以看到页面。
+2. 使用**手机小屏**查看时，点击左上角可以看到页面，点击右上角则是相关导航。
+3. 标注为<span style="color:var(--vp-c-accent)">**蓝色**</span>的词基本为相关组织或人物，可以点击打开链接，跳转到相关条目，查看更多相关内容。
 
 
 [atWiki]: https://w.atwiki.jp/streamergta5/pages/522.html

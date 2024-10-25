@@ -7,15 +7,17 @@ head:
     - - style
       - type: text/css
       - h1 {display:none;}
+article: false
 ---
 ## <span class="underline-blue"><i class="fa-solid fa-stethoscope"></i> 私人医生</span>
 
 #### <span style="font-weight:bold;">ゆちゃ めろでぃ（Yucha Melody）</span>
 ::: details
 - 原黑医生时候有着大姐头气质的同事。由于在菖光会 · 黑医生两个组织都是前辈，被無馬称呼为“大姐”。
-- 在無馬刚退出ALLIN的时候就得知了情况的人之一。在無馬复职私人医生的时候，负责重新培训他。
+- 在無馬刚退出<Anchor href="allin">ALLIN</Anchor>的时候就得知了情况的人之一。在無馬复职私人医生的时候，负责重新培训他。
 - 在这之后，与变装后并自称为Doctor BONGORE的無馬见面后，自己也作为助手并自称Doctor PASTA。
   - 正在寻找可以让無馬失去的右眼恢复的方法。
+- 在<Anchor href="sosu">そす</Anchor>さん辞去私人医生职位后，作为被托付的人，开始负责私人医生的管理。与同样被そすさん托付了私人医生的無馬，成为了在困难时刻可以依赖的伙伴的关系。
 
 {.list-double-space}
 :::

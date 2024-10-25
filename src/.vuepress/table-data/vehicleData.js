@@ -14,17 +14,6 @@ export const favoriteVehicleData = [
                 '<Anchor href="ruu">ルウ</Anchor>'
   },
   { 
-    image: '<img loading="lazy" src="/wiki-assets/vehicle/kana_car_Virtue.png">', 
-    type: '🏎<br>超跑', 
-    maker: 'Ocelot', 
-    name: 'Virtue<br>✎', 
-    date: `'23/10/05`, 
-    detail: '出售时价值6亿（现价值10亿）的新型电动汽车。<br>' +
-            '舍弟<Anchor href="esu">エスターク</Anchor>的赠礼。', 
-    purchase: '购买：<Anchor href="chiyoda">千代田</Anchor><br>' +
-                '改装：<Anchor href="saburou">安保</Anchor>'
-  },
-  { 
     image: '<img loading="lazy" src="/wiki-assets/vehicle/kana_car_Shinobi.png">', 
     type: '🏍', 
     maker: 'Nagasaki', 
@@ -76,7 +65,7 @@ export const favoriteVehicleData = [
     name: 'Swinger<br>✎', 
     date: `'24/02/03`, 
     detail: '白/黑市民各限购1辆的最高级经典跑车。令人震惊的<b>30亿</b>售价。<br>' +
-            '白市民的持有者为麻林ラル。無馬曾言道”这是和我凑了一对“', 
+            '白市民的持有者为麻林ラル。無馬曾言道『这是和我凑了一对』', 
     purchase: '购买：<Anchor href="kawaue">川上</Anchor><br>' +
                 '改装：<Anchor href="chenmayo">チェン マヨ</Anchor>，' +
                     '<Anchor href="yabushita">ヤブ下</Anchor>'
@@ -174,16 +163,6 @@ export const resaleVehicleData = [
                 '使用<Anchor href="allin">ALLIN</Anchor>帮派资金购入。', 
         purchase: '购买：<Anchor href="bigsuzuki">BIG SUZUKI</Anchor><br>' +
                     '改装：<Anchor href="tenouji">天王寺</Anchor>'
-    },
-    { 
-        image: '', 
-        type: '🏎️<br>跑车', 
-        maker: 'Pfister', 
-        name: 'Neon<br>✎ 4座', 
-        date: `'23/10/10`, 
-        detail: '作为赌场专用车而购入的四座车。', 
-        purchase: '购买：<Anchor href="tetsuo">てつお</Anchor><br>' +
-                    '改装：'
     },
     { 
         image: '', 
@@ -345,7 +324,7 @@ export const resaleVehicleData = [
         image: '', 
         type: '🚙<br>SUV', 
         maker: 'Bravado', 
-        name: 'Gresley<br>✎ 这是什么', 
+        name: 'Gresley<br>✎ 这是什么车', 
         date: `'24/03/19`, 
         detail: '为了逃亡生活而购入的朴素SUV。', 
         purchase: '购买：<Anchor href="ookawa">大川</Anchor><br>' +
@@ -448,7 +427,7 @@ export const lendVehicleData = [
         maker: 'Vysser', 
         name: 'Neo', 
         date: `'23/09/07`, 
-        detail: '为了参加A带赛车比赛而购入。性能比较依赖赛手的实力，中意其“正脸”而选择购入。耿鬼。<br>' +
+        detail: '为了参加A带赛车比赛而购入。性能比较依赖赛手的实力，中意其『正脸』而选择购入。耿鬼。<br>' +
                 '→为了给<Anchor href="nene">鬼野 ねね</Anchor>练车而无期限出借。', 
         purchase: '购买：<Anchor href="tenouji">天王寺</Anchor><br>' +
                     '改装：<Anchor href="tenouji">天王寺</Anchor>，' +
@@ -692,6 +671,29 @@ export const pastVehicleData = [
         purchase: '购买：<Anchor href="sosu">そす</Anchor><br>' +
                     '改装：-'
     },
+    { 
+      image: '<img loading="lazy" src="/wiki-assets/vehicle/kana_car_Virtue.png">', 
+      type: '🏎<br>超跑', 
+      maker: 'Ocelot', 
+      name: 'Virtue<br>✎', 
+      date: `'23/10/05`, 
+      detail: '出售时价值6亿（现价值10亿）的新型电动汽车。<br>' +
+              '舍弟<Anchor href="esu">エスターク</Anchor>的赠礼。<br>' +
+              `→'24/10/18` + '收拾身边物品时送回给了エスターク。虽然在递交之前删除了，但最后的名称是『再见』', 
+      purchase: '购买：<Anchor href="chiyoda">千代田</Anchor><br>' +
+                '改装：<Anchor href="saburou">安保</Anchor>'
+    },
+    { 
+        image: '', 
+        type: '🏎️<br>跑车', 
+        maker: 'Pfister', 
+        name: 'Neon<br>✎ 4座', 
+        date: `'23/10/10`, 
+        detail: '作为赌场专用车而再度购入的四座车。<br>' +
+                `→'24/10/18` + '收拾身边物品时送给了<Anchor href="uni">生雲丹</Anchor>', 
+        purchase: '购买：<Anchor href="tetsuo">てつお</Anchor><br>' +
+                  '改装：'
+    },
 ];
 
 export const prizeVehicleData = [
@@ -713,7 +715,7 @@ export const prizeVehicleData = [
         name: 'Brioso 300<br>✎ 软软白云车', 
         date: `'23/08/19`, 
         detail: '作为私人用泛用车购入。由于其可爱的外形而决定购入。<br>' +
-                '在咖啡店就职后委托<Anchor href="bigsuzuki">BIG SUZUKI</Anchor>重新涂装为了“软软白云车”。<br>' +
+                '在咖啡店就职后委托<Anchor href="bigsuzuki">BIG SUZUKI</Anchor>重新涂装为了『软软白云车』。<br>' +
                 '已经成为了赌场景品。', 
         purchase: '购买：<Anchor href="saitou">斎藤</Anchor><br>' +
                     '改装：<Anchor href="marii">まりー</Anchor>，' +

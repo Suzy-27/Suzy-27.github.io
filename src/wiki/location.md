@@ -5,6 +5,7 @@ head:
     - - style
       - type: text/css
       - .vp-page-title h1 { display:none; }
+article: false
 ---
 ## <div class="text-bg-grey"> 据点情报 <i class="fa-solid fa-house" style="color: lightSteelblue"></i></div>
 
@@ -23,9 +24,11 @@ head:
 <DetailsButton label="其他" :isScrollable="true">
   <DataTable :isTogglable="true" :headers="headers" :headersInitState="headersInitState" :data="otherLocationData" />
 </DetailsButton>
+<br>
 
---- {.margin-top-bot}
+--- 
 
+<br>
 <DetailsButton label="过去房产" :isScrollable="true">
   <DataTable :isTogglable="true" :headers="headers" :headersInitState="headersInitState" :data="pastLocationData">
     <template #footer>
