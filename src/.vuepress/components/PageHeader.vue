@@ -1,5 +1,5 @@
 <template>
-    <div class="lastUpdated">
+    <div v-if="lastUpdated" class="lastUpdated">
       最后更新：{{ lastUpdated || '' }}
     </div>
 </template>
@@ -7,7 +7,6 @@
 <script>
 import { defineComponent, computed } from "vue";
 import { useUpdateTime } from "@theme-hope/modules/info/composables/index";
-import { usePageData } from "vuepress/client";
 
 export default defineComponent({
   setup() {

@@ -3,8 +3,9 @@ icon: triangle-exclamation
 date: 9999-99-99
 prev: 
   text: 剧情归档
+  icon: box-archive
   link: /article/
-next: ./episode/
+next: false
 comment: false
 sticky: true
 star: 100

@@ -26,13 +26,16 @@ h2 {
 .vp-nav-screen-container {
     height: calc(100% - 6rem);
 }
-.vp-highlight-item {
+a.vp-highlight-item {
     padding: 10px;
     border-radius: 6px;
     box-shadow: 2px 2px 6px var(--vp-c-shadow);
 }
 .hint-container.warning {
     font-size: 1rem;
+}
+.vp-tag-list {
+    margin-block: 1rem;
 }
 
 //--- link ----------------------------
@@ -237,8 +240,8 @@ ol li {
 //--- history css ------------------------
 .history-header {
     font-weight: bold;
-    padding: 3px 0 3px 10px;
-    width: 100%;
+    padding: 3px 10px;
+    width: 95%;
     max-width: 500px;
 }
 .header-highlight1 {

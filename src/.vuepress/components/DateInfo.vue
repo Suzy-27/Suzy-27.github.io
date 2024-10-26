@@ -1,5 +1,5 @@
 <template>
-    <div class="lastUpdated">
+    <div v-if="lastUpdated" class="lastUpdated">
       最后更新：{{ lastUpdated || '' }}
     </div>
   </template>

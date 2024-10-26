@@ -26,9 +26,6 @@ highlights:
     description: 本 wiki 旨在为新入坑叶哥的 STGR 直播但日语苦手的观众提供对無馬 かな这个角色一个了解的途径。如有条件，建议直接查看原wiki。
     bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
-    bgImageStyle:
-      background-repeat: repeat
-      background-size: initial
     highlights:
       - title: wiki文档
         icon: book
@@ -37,6 +34,13 @@ highlights:
       - title: 原wiki地址
         icon: link
         link: https://w.atwiki.jp/streamergta5/pages/522.html
+
+  - header: 剧情更新归档
+    description: 此处可前往查看剧情归档以及最新更新的剧情内容
+    image: /assets/image/box.svg
+    bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
+    bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
+    highlights:
       - title: 近期更新
         icon: star
         details: 最近更新的剧情内容
@@ -48,8 +52,3 @@ highlights:
 copyright: false
 ---
 
-<!--This is an example of a project homepage. You can place your main content here.
-
-To use this layout, you need to set `home: true` in the page front matter.
-
-For related descriptions of configuration items, please see [Project HomePage Layout Config](https://theme-hope.vuejs.press/guide/layout/home/).-->
