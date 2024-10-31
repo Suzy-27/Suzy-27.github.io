@@ -1,5 +1,6 @@
 import { getDirname, path } from "vuepress/utils";
 import { defineUserConfig } from "vuepress";
+import { commentPlugin } from '@vuepress/plugin-comment';
 
 import theme from "./theme.js";
 
@@ -11,6 +12,13 @@ export default defineUserConfig({
   lang: "zh-CN",
   title: "無馬 かな wiki",
   description: "無馬 かな wiki 个人搬运翻译",
+
+  plugins: [
+    commentPlugin({
+      provider: 'Waline',
+      metaIcon: false,
+    }),
+  ],
 
   theme,
 

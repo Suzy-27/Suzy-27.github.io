@@ -6,7 +6,6 @@ prev:
   icon: box-archive
   link: /article/
 next: false
-comment: false
 sticky: true
 star: 100
 category:

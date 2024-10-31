@@ -34,7 +34,7 @@ export const part1Chapter1Data = [
     {
         date: `<b>'23/08/16</b>`,
         event: '<b>加入帮派<Anchor href="allin">ALLIN</Anchor></b>',
-        episode: '拒绝了<Anchor href="taxi">菖光会</Anchor>背后的<Anchor href="iRIS">帮派</Anchor>的劝诱，加入了紅一行人为首的新兴帮派',
+        episode: '拒绝了<Anchor href="taxi">菖光会</Anchor>背后的<Anchor href="iris">帮派</Anchor>的劝诱，加入了紅一行人为首的新兴帮派',
     },
     {
         date: `'23/08/21`,

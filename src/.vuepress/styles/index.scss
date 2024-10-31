@@ -283,6 +283,23 @@ ol li {
     color:var(--vp-c-text-mute);
 }
 
+// ------------comment-------------
+.wl-meta {
+    display: none;
+}
+.wl-header input {
+    font-size: .75em !important
+}
+.wl-c-badge {
+    display: inline-block;
+    margin-inline: 0.3em;
+    padding: 0.3em;
+    border: 1px solid var(--waline-badge-color);
+    border-radius: 4px;
+    color: var(--waline-badge-color);
+    font-size: var(--waline-badge-font-size);
+}
+
 // highlight styles
 // .highlight {
 //     background-color: grey;

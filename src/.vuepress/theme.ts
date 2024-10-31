@@ -1,5 +1,4 @@
 import { hopeTheme } from "vuepress-theme-hope";
-
 import { wikiNavbar } from "./navbar/index.js";
 import { wikiSidebar } from "./sidebar/index.js";
 
@@ -70,10 +69,12 @@ export default hopeTheme({
     //   category: "General",
     //   categoryId: "DIC_kwDOM3tRMc4Ci0of",
     // },
-
+    
     // comment: {
     //   provider: "Waline",
-    //   serverURL: "https://waline-comments-e70x8hiqk-suzy-27s-projects.vercel.app", // your server url
+    //   serverURL: "https://waline-comments-pearl.vercel.app/", // your server url
+    //   meta: ['nick'],
+    //   dark: 'auto',
     // },
 
     components: {
